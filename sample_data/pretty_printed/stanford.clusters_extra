@@ -1,0 +1,331 @@
+# Time of run:
+# Tue Sep  3 11:16:04 2013
+# Command:
+# ./print_errors.py data/pretty_printed/stanford data/gold/ data/homogenised/stanford.homogenised.out F
+#
+# Clusters that consist entirely of mentions that are not present in the
+# gold standard.
+
+# nw/wsj/00/wsj_0020 000
+
+(1, 6, 7)      Extra:  [38;5;1mChina[0m
+(1, 6, 15)     Extra:  [38;5;1mChina , Thailand , India , Brazil and [4mMexico[0m
+(1, 8, 9)      Extra:  [38;5;1mThailand[0m
+(1, 8, 15)     Extra:  [38;5;1mThailand , India , Brazil and Mexico[0m
+
+(8, 31, 33)    Extra:  [38;5;1mtheir [4mfilms[0m
+(9, 20, 22)    Extra:  [38;5;1mtheir [4mfilms[0m
+
+(13, 4, 5)     Extra:  [38;5;1mJapan[0m
+(13, 4, 13)    Extra:  [38;5;1mJapan , Italy , Canada , Greece and [4mSpain[0m
+
+(13, 27, 37)   Extra:  [38;5;1mless - serious problems for American patent and copyright owners[0m
+(15, 4, 5)     Extra:  [38;5;1mus[0m
+
+(4, 6, 35)     Extra:  [38;5;1mrealization '' around the world that denial of intellectual - property rights harms all trading nations , and particularly the `` creativity and inventiveness of an -LCB- offending -RCB-[0m
+(4, 25, 35)    Extra:  [38;5;1mthe `` creativity and inventiveness of an -LCB- offending -RCB-[0m
+
+(0, 41, 43)    Extra:  [38;5;1mproperty rights[0m
+(4, 16, 18)    Extra:  [38;5;1mproperty rights[0m
+(5, 12, 14)    Extra:  [38;5;1mproperty rights[0m
+
+(4, 14, 18)    Extra:  [38;5;1mintellectual - property [4mrights[0m
+(5, 10, 14)    Extra:  [38;5;1mintellectual - property [4mrights[0m
+
+(0, 13, 18)    Extra:  [38;5;1mKorea , Taiwan and Saudi[0m
+(14, 43, 48)   Extra:  [38;5;1mKorea , Taiwan and Saudi[0m
+
+(0, 33, 35)    Extra:  [38;5;1mU.S. patents[0m
+(0, 33, 43)    Extra:  [38;5;1mU.S. patents , copyrights and other intellectual - property [4mrights[0m
+(0, 36, 37)    Extra:  [38;5;1mcopyrights[0m
+
+
+# nw/wsj/00/wsj_0089 000
+
+(40, 10, 13)   Extra:  [38;5;1mseveral [4mof[0m[38;5;1m whom[0m
+(40, 14, 18)   Extra:  [38;5;1m[4mmembers[0m[38;5;1m of the congregation[0m
+
+(60, 29, 40)   Extra:  [38;5;1m`` The Ringing World , '' a weekly [4mnewspaper[0m[38;5;1m for ringers[0m
+(60, 30, 33)   Extra:  [38;5;1mThe Ringing [4mWorld[0m
+(60, 35, 40)   Extra:  [38;5;1ma weekly [4mnewspaper[0m[38;5;1m for ringers[0m
+
+(3, 25, 39)    Extra:  [38;5;1mthe sound of bells cascading from its tower , [4mcalling[0m[38;5;1m the faithful to evensong[0m
+(47, 1, 5)     Extra:  [38;5;1mThe [4msound[0m[38;5;1m of bells[0m
+(47, 6, 14)    Extra:  [38;5;1ma [4mnet[0m[38;5;1m to draw people into the church[0m
+
+(59, 26, 37)   Extra:  [38;5;1ma fact that 's particularly galling to women because the group[0m
+(59, 38, 57)   Extra:  [38;5;1mthe sole [4msource[0m[38;5;1m of ringers for Britain 's most prestigious churches , St. Paul 's Cathedral and Westminster Abbey[0m
+
+(25, 7, 9)     Extra:  [38;5;1ma [4mcircle[0m
+(25, 7, 42)    Extra:  [38;5;1ma circle , one foot ahead of the other in a prize - fighter 's stance , each pulling a rope that disappears through a small hole in the high ceiling of the ringing chamber[0m
+
+(22, 8, 15)    Extra:  [38;5;1m`` methods , '' which have odd[0m
+(22, 9, 10)    Extra:  [38;5;1mmethods[0m
+
+(18, 2, 6)     Extra:  [38;5;1mringing , a mind[0m
+(18, 4, 6)     Extra:  [38;5;1ma mind[0m
+(30, 18, 19)   Extra:  [38;5;1mringing[0m
+
+(7, 30, 31)    Extra:  [38;5;1mSunday[0m
+(10, 21, 22)   Extra:  [38;5;1mSunday[0m
+(15, 23, 24)   Extra:  [38;5;1mSundays[0m
+
+(30, 1, 11)    Extra:  [38;5;1ma well - known detective - [4mstory[0m[38;5;1m involving church bells[0m
+(30, 27, 28)   Extra:  [38;5;1mits[0m
+
+(24, 8, 12)    Extra:  [38;5;1mSt. Mary Abbot [4mchurch[0m
+(34, 8, 10)    Extra:  [38;5;1mthe [4mchurch[0m
+(47, 12, 14)   Extra:  [38;5;1mthe [4mchurch[0m
+
+(37, 12, 14)   Extra:  [38;5;1mwilled vicars[0m
+(49, 21, 22)   Extra:  [38;5;1mvicars[0m
+
+(32, 12, 14)   Extra:  [38;5;1mStephanie [4mPattenden[0m
+(32, 12, 31)   Extra:  [38;5;1mStephanie Pattenden , [4mmaster[0m[38;5;1m of the band at St. Mary Abbot and one of England 's best female ringers[0m
+(32, 15, 31)   Extra:  [38;5;1m[4mmaster[0m[38;5;1m of the band at St. Mary Abbot and one of England 's best female ringers[0m
+
+(21, 8, 10)    Extra:  [38;5;1m[4monly[0m[38;5;1m once[0m
+(21, 8, 14)    Extra:  [38;5;1monly once , the rules state[0m
+
+(8, 0, 1)      Extra:  [38;5;1mNow[0m
+(56, 1, 3)     Extra:  [38;5;1m[4mRight[0m[38;5;1m now[0m
+
+(59, 42, 49)   Extra:  [38;5;1mringers for Britain 's most prestigious churches[0m
+(59, 42, 57)   Extra:  [38;5;1mringers for Britain 's most prestigious churches , St. Paul 's Cathedral and Westminster Abbey[0m
+
+(5, 4, 5)      Extra:  [38;5;1mfive[0m
+(5, 16, 17)    Extra:  [38;5;1mfive[0m
+(56, 9, 10)    Extra:  [38;5;1mfive[0m
+
+(61, 0, 2)     Extra:  [38;5;1mOne [4mwriter[0m
+(61, 4, 5)     Extra:  [38;5;1mhis[0m
+
+(22, 4, 5)     Extra:  [38;5;1mchanges[0m
+(22, 4, 15)    Extra:  [38;5;1mchanges , known as `` methods , '' which have odd[0m
+
+(52, 5, 12)    Extra:  [38;5;1mthe greater problem : [4mlack[0m[38;5;1m of ringers[0m
+(60, 18, 20)   Extra:  [38;5;1mthe [4mproblem[0m
+
+(25, 3, 5)     Extra:  [38;5;1msleeved ringers[0m
+(26, 19, 20)   Extra:  [38;5;1mthemselves[0m
+
+(50, 25, 35)   Extra:  [38;5;1mthe country entitled , `` The Bells in Your Care[0m
+(59, 7, 9)     Extra:  [38;5;1mthe [4mcountry[0m
+
+(7, 12, 13)    Extra:  [38;5;1mbells[0m
+(17, 8, 9)     Extra:  [38;5;1mbells[0m
+(17, 8, 18)    Extra:  [38;5;1mbells , as do the carillons of continental Europe ,[0m
+(47, 4, 5)     Extra:  [38;5;1mbells[0m
+
+(28, 3, 5)     Extra:  [38;5;1mthe [4mbelfry[0m
+(34, 17, 19)   Extra:  [38;5;1mthe [4mbelfry[0m
+(63, 25, 27)   Extra:  [38;5;1mthe [4mbelfry[0m
+
+(40, 16, 18)   Extra:  [38;5;1mthe [4mcongregation[0m
+(45, 27, 29)   Extra:  [38;5;1mthe [4mcongregation[0m
+
+(5, 11, 24)    Extra:  [38;5;1m[4mropes[0m[38;5;1m attached to the same five bells that first sounded here in 1614[0m
+(16, 11, 13)   Extra:  [38;5;1mthe [4mropes[0m
+(26, 8, 10)    Extra:  [38;5;1mthe [4mropes[0m
+
+(28, 6, 10)    Extra:  [38;5;1mthe huge bronze [4mbells[0m
+(28, 6, 15)    Extra:  [38;5;1mthe huge bronze [4mbells[0m[38;5;1m , mounted on wheels ,[0m
+
+(3, 22, 24)    Extra:  [38;5;1mthe [4mfields[0m
+(3, 22, 39)    Extra:  [38;5;1mthe fields , the sound of bells cascading from its tower , calling the faithful to evensong[0m
+
+(10, 10, 11)   Extra:  [38;5;1mtwo[0m
+(64, 5, 6)     Extra:  [38;5;1mtwo[0m
+
+(6, 19, 32)    Extra:  [38;5;1mthe church - [4mgoers[0m[38;5;1m enjoying the peal of bells this cool autumn evening[0m
+(10, 25, 29)   Extra:  [38;5;1mchurch in a sometimes[0m
+
+(19, 0, 3)     Extra:  [38;5;1mProper English [4mbells[0m
+(20, 14, 16)   Extra:  [38;5;1mthe [4mbells[0m
+(42, 10, 12)   Extra:  [38;5;1mthe [4mbells[0m
+(54, 8, 10)    Extra:  [38;5;1mthe [4mbells[0m
+
+(26, 0, 2)     Extra:  [38;5;1mNo [4mone[0m
+(27, 15, 16)   Extra:  [38;5;1mit[0m
+
+(25, 35, 42)   Extra:  [38;5;1mthe high [4mceiling[0m[38;5;1m of the ringing chamber[0m
+(26, 23, 25)   Extra:  [38;5;1mthe [4mceiling[0m
+
+(6, 28, 32)    Extra:  [38;5;1mthis cool autumn [4mevening[0m
+(7, 33, 34)    Extra:  [38;5;1mevening[0m
+
+(43, 0, 2)     Extra:  [38;5;1mThe [4mvicar[0m
+(43, 0, 6)     Extra:  [38;5;1mThe vicar , W.D. [4mJones[0m[38;5;1m ,[0m
+(43, 3, 5)     Extra:  [38;5;1mW.D. [4mJones[0m
+
+(61, 25, 26)   Extra:  [38;5;1mpeals[0m
+(62, 47, 48)   Extra:  [38;5;1mpeals[0m
+
+(23, 3, 7)     Extra:  [38;5;1m5,000 or so [4mchanges[0m
+(35, 1, 3)     Extra:  [38;5;1mtheir [4mchanges[0m
+
+(7, 16, 17)    Extra:  [38;5;1monce[0m
+(21, 9, 10)    Extra:  [38;5;1monce[0m
+(21, 11, 14)   Extra:  [38;5;1mthe rules state[0m
+(57, 13, 14)   Extra:  [38;5;1monce[0m
+
+
+# nw/wsj/00/wsj_0037 000
+
+(39, 8, 9)     Extra:  [38;5;1mbuses[0m
+(39, 10, 12)   Extra:  [38;5;1mpublic [4melevators[0m
+(39, 13, 14)   Extra:  [38;5;1mhospitals[0m
+
+(52, 10, 11)   Extra:  [38;5;1mfirst[0m
+(54, 9, 10)    Extra:  [38;5;1mfirst[0m
+
+(27, 13, 15)   Extra:  [38;5;1ma [4myear[0m
+(53, 14, 17)   Extra:  [38;5;1mearlier this [4myear[0m
+
+(28, 30, 33)   Extra:  [38;5;1mthe regimented [4moffice[0m
+(28, 30, 40)   Extra:  [38;5;1mthe regimented [4moffice[0m[38;5;1m , where employees are assigned lunch partners[0m
+
+(62, 1, 2)     Extra:  [38;5;1mNagymaros[0m
+(66, 13, 14)   Extra:  [38;5;1mNagymaros[0m
+
+(27, 6, 9)     Extra:  [38;5;1man impudent [4mAmerican[0m
+(27, 16, 17)   Extra:  [38;5;1mhe[0m
+
+(37, 15, 16)   Extra:  [38;5;1mrestaurants[0m
+(37, 15, 22)   Extra:  [38;5;1mrestaurants , department stores and sports [4mcenters[0m
+(37, 17, 19)   Extra:  [38;5;1mdepartment [4mstores[0m
+(37, 20, 22)   Extra:  [38;5;1msports [4mcenters[0m
+
+(48, 23, 26)   Extra:  [38;5;1mthe World [4mBank[0m
+(48, 24, 26)   Extra:  [38;5;1mWorld Bank[0m
+
+(22, 3, 8)     Extra:  [38;5;1mTokyo Giants star Tatsunori [4mHara[0m
+(22, 3, 25)    Extra:  [38;5;1mTokyo Giants star Tatsunori Hara , a `` humble , uncomplaining , obedient soul , '' as the male symbol of Japan[0m
+(22, 6, 8)     Extra:  [38;5;1mTatsunori Hara[0m
+
+(6, 5, 13)     Extra:  [38;5;1m[4mpart[0m[38;5;1m of the charm of this engaging novel[0m
+(7, 0, 1)      Extra:  [38;5;1mIt[0m
+
+(18, 5, 6)     Extra:  [38;5;1mYou[0m
+(18, 31, 32)   Extra:  [38;5;1mwe[0m
+
+(49, 0, 2)     Extra:  [38;5;1mThe [4mmeeting[0m
+(49, 0, 12)    Extra:  [38;5;1mThe [4mmeeting[0m[38;5;1m , which is expected to draw 20,000 to Bangkok ,[0m
+
+(40, 3, 6)     Extra:  [38;5;1mSiti Zaharah [4mSulaiman[0m
+(40, 3, 17)    Extra:  [38;5;1mSiti Zaharah Sulaiman , a deputy [4mminister[0m[38;5;1m in the prime minister 's office ,[0m
+(40, 7, 16)    Extra:  [38;5;1ma deputy [4mminister[0m[38;5;1m in the prime minister 's office[0m
+(40, 11, 15)   Extra:  [38;5;1mthe prime minister [4m's[0m
+
+(29, 10, 12)   Extra:  [38;5;1mthe [4mmark[0m
+(30, 0, 1)     Extra:  [38;5;1mIt[0m
+
+(22, 1, 2)     Extra:  [38;5;1monce[0m
+(56, 0, 1)     Extra:  [38;5;1mOnce[0m
+
+(12, 4, 7)     Extra:  [38;5;1mhis prescient [4mgirlfriend[0m
+(12, 4, 19)    Extra:  [38;5;1mhis prescient [4mgirlfriend[0m[38;5;1m , whose sassy retorts mark her as anything but a docile butterfly[0m
+(12, 12, 13)   Extra:  [38;5;1mher[0m
+
+(45, 24, 28)   Extra:  [38;5;1mthe other surveyed [4mmarkets[0m
+(45, 24, 35)   Extra:  [38;5;1mthe other surveyed [4mmarkets[0m[38;5;1m , which include the U.S. and Japan[0m
+
+(18, 29, 30)   Extra:  [38;5;1mNipponese[0m
+(19, 6, 7)     Extra:  [38;5;1mNipponese[0m
+
+(24, 18, 25)   Extra:  [38;5;1mtwo per team , fare in Japan[0m
+(47, 25, 26)   Extra:  [38;5;1mtwo[0m
+
+(14, 0, 4)     Extra:  [38;5;1mThe 40 - year[0m
+(15, 13, 14)   Extra:  [38;5;1m40[0m
+
+(30, 5, 7)     Extra:  [38;5;1mmany [4msalarymen[0m
+(33, 4, 5)     Extra:  [38;5;1mtheir[0m
+
+(24, 14, 15)   Extra:  [38;5;1mballplayers[0m
+(24, 14, 25)   Extra:  [38;5;1mballplayers , rationed to two per team , fare in Japan[0m
+
+(0, 2, 23)     Extra:  [38;5;1mthe [4mAmericana[0m[38;5;1m in Haruki Murakami 's `` A Wild Sheep Chase '' -LRB- Kodansha , 320 pages , $ 18.95 -RRB-[0m
+(17, 15, 16)   Extra:  [38;5;1mAmericana[0m
+
+(53, 21, 25)   Extra:  [38;5;1mthe World Health [4mOrganization[0m
+(53, 22, 25)   Extra:  [38;5;1mWorld Health Organization[0m
+
+(13, 20, 23)   Extra:  [38;5;1mthe Sheep [4mMan[0m
+(13, 20, 37)   Extra:  [38;5;1mthe Sheep Man , a sweet , roughhewn [4mfigure[0m[38;5;1m who wears -- what else -- a sheepskin[0m
+(13, 21, 23)   Extra:  [38;5;1mSheep Man[0m
+
+(24, 20, 25)   Extra:  [38;5;1mteam , fare in Japan[0m
+(24, 22, 25)   Extra:  [38;5;1m[4mfare[0m[38;5;1m in Japan[0m
+
+(11, 0, 6)     Extra:  [38;5;1mA disaffected , hard - drinking[0m
+(11, 26, 27)   Extra:  [38;5;1mits[0m
+
+
+# nw/wsj/00/wsj_0049 000
+
+(12, 22, 25)   Extra:  [38;5;1mcriminal defense [4mlawyers[0m
+(14, 0, 4)     Extra:  [38;5;1mThe defense lawyers [4m'[0m
+
+(48, 2, 4)     Extra:  [38;5;1mdisciplinary [4mproceedings[0m
+(51, 12, 14)   Extra:  [38;5;1mthe [4mproceedings[0m
+
+(30, 21, 22)   Extra:  [38;5;1mSacramento[0m
+(39, 14, 15)   Extra:  [38;5;1mSacramento[0m
+
+(2, 49, 50)    Extra:  [38;5;1m8300[0m
+(26, 4, 5)     Extra:  [38;5;1m8300[0m
+
+(49, 15, 25)   Extra:  [38;5;1mthe guild 's year - long [4mthreats[0m[38;5;1m of disciplinary action[0m
+(69, 8, 11)    Extra:  [38;5;1mearlier this [4myear[0m
+
+(3, 4, 27)     Extra:  [38;5;1msuch [4mdetails[0m[38;5;1m as the client 's name , Social Security number , passport number and details about the services provided for the payment[0m
+(3, 19, 27)    Extra:  [38;5;1m[4mdetails[0m[38;5;1m about the services provided for the payment[0m
+
+(38, 3, 6)     Extra:  [38;5;1ma federal [4mjudge[0m
+(38, 3, 11)    Extra:  [38;5;1ma federal judge , all of a sudden[0m
+
+(25, 2, 4)     Extra:  [38;5;1mcourt [4mpermission[0m
+(26, 7, 9)     Extra:  [38;5;1mcourt [4mpermission[0m
+
+(65, 7, 13)    Extra:  [38;5;1mthe State [4mCommission[0m[38;5;1m on Judicial Conduct[0m
+(65, 8, 10)    Extra:  [38;5;1mState Commission[0m
+
+(68, 1, 6)     Extra:  [38;5;1man eight - count [4mindictment[0m
+(68, 23, 24)   Extra:  [38;5;1mits[0m
+
+(54, 28, 30)   Extra:  [38;5;1mrelated services[0m
+(57, 15, 16)   Extra:  [38;5;1mservices[0m
+
+(1, 41, 43)    Extra:  [38;5;1mclient privilege[0m
+(6, 16, 18)    Extra:  [38;5;1mclient privilege[0m
+
+(17, 6, 10)    Extra:  [38;5;1mofficials of the IRS[0m
+(17, 6, 23)    Extra:  [38;5;1mofficials of the IRS and the Justice Department , which would bring any enforcement actions against taxpayers[0m
+(19, 3, 5)     Extra:  [38;5;1mIRS [4mofficials[0m
+(23, 10, 12)   Extra:  [38;5;1mJustice [4mofficials[0m
+
+(9, 36, 38)    Extra:  [38;5;1mrecent [4mdays[0m
+(20, 6, 8)     Extra:  [38;5;1mrecent [4mdays[0m
+(20, 6, 19)    Extra:  [38;5;1mrecent days , Christopher J. Lezovich of the IRS computing center in Detroit[0m
+
+(3, 12, 15)    Extra:  [38;5;1mSocial Security [4mnumber[0m
+(3, 16, 18)    Extra:  [38;5;1mpassport [4mnumber[0m
+
+(33, 13, 14)   Extra:  [38;5;1mthree[0m
+(66, 5, 6)     Extra:  [38;5;1mthree[0m
+(73, 10, 12)   Extra:  [38;5;1mthe three[0m
+
+(1, 28, 31)    Extra:  [38;5;1mthe organized [4mbar[0m
+(1, 28, 43)    Extra:  [38;5;1mthe organized bar , who claim the information is protected by attorney - client privilege[0m
+
+(60, 21, 22)   Extra:  [38;5;1mtwo[0m
+(60, 40, 41)   Extra:  [38;5;1mtwo[0m
+(69, 2, 3)     Extra:  [38;5;1mtwo[0m
+
+(6, 10, 12)    Extra:  [38;5;1mrecent [4myears[0m
+(33, 16, 17)   Extra:  [38;5;1myears[0m
+
+(0, 6, 8)      Extra:  [38;5;1mcriminal [4msanctions[0m
+(65, 19, 20)   Extra:  [38;5;1msanctions[0m
+
