@@ -1,0 +1,22 @@
+# Time of run:
+# Tue Sep  3 11:16:09 2013
+# Command:
+# ./classify_coreference_errors.py data/classified/stanford data/gold/ data/homogenised/stanford.homogenised.out T
+#
+Operations:
+    16   Correct Span
+   166   Introduce Mention
+   518   Split from Cluster
+   292   Merge into Cluster
+   381   Remove Mention
+
+Errors:
+    16   Span Error
+
+   101   Conflated Entities
+    94   Extra Mention
+    93   Extra Entity
+
+    90   Divided Entity
+    35   Missing Mention
+    34   Missing Entity
