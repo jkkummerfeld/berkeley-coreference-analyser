@@ -18,7 +18,6 @@ If you use my code in your own work, please cite the following paper:
   address   = {Seattle, WA, USA},
   month     = {October},
   year      = {2013},
-  pages     = {},
   software  = {http://code.google.com/p/berkeley-coreference-analyser/},
 }
 
