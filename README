@@ -5,8 +5,8 @@ This software classifies errors in the output of coreference resolution
 systems.  For a full description of the method, and discussion of results when
 applied to the systems from the 2011 CoNLL Shared Task, see:
 
-   Error-Driven Analysis of Challenges in Coreference Resolution 
-   Jonathan K. Kummerfeld and Dan Klein 
+   Error-Driven Analysis of Challenges in Coreference Resolution
+   Jonathan K. Kummerfeld and Dan Klein
    EMNLP 2013
 
 If you use my code in your own work, please cite the following paper:
@@ -54,9 +54,14 @@ For the error analysis runs the files produced are:
  - stanford.classified.detailed
    Same as the previous file, but with extra output describing properties of
    each error
+ - stanford.classified.properties
+	 Every error gets a single line, with a list of properties (see the top of
+	 the file for an explanation of properties)
 
  The rest of the files are output in the CoNLL format that has some of the
  errors corrected, for use in measuring the impact of each error type:
+ - stanford.gold
+ - stanford.system
  - stanford.corrected.none
  - stanford.corrected.span_errors
  - stanford.corrected.confused_entities
@@ -75,14 +80,29 @@ For the error analysis runs the files produced are:
  - stanford.corrected.missing_entity_prog
 
 
-
-
 Running the commands with an invalid number of arguments will give you the
 following execution information:
 
-  ./classify_coreference_errors.py <output_prefix> <gold_dir> <test_file> [remove singletons? T | F]
+  ./classify_coreference_errors.py <output_prefix> <gold_dir> <test_file> [remove singletons? T | F (default is True)]
 
   ./print_errors.py <prefix> <gold_dir> <test> [resolve span errors first? T | F]
 
   ./coreference_format_conversion.py <prefix> <[cherrypicker,ims,bart,conll,stanford_xml,stanford,uiuc,reconcile]> <dir | file> <gold dir>
+
+
+
+------------------------------------------------------------------------------
+  Questions and Answers
+------------------------------------------------------------------------------
+
+Q: I'm getting errors such as "SyntaxError: invalid syntax", "ValueError: zero
+length field name in format", what's broken?
+A: Check your version of Python.  This code was designed for Python 2.7.x, it
+will not work with Python 3 or with Python 2.6.x and earlier.
+
+Q: What about languages other than English?
+A: In principle the code is fairly language agnostic, the main thing that would
+need to be altered is the head finder.  I do not plan to add support for other
+languages in the near future, but am happy to incorporate proposals of code
+amendments!
 

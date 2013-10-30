@@ -193,7 +193,7 @@ def read_uiuc_coref(filename, gold_text):
 						unmatched_mentions.append((word, sentence))
 					else:
 						break
-				
+
 				# Ends
 				regex = '[*][_][0-9]+'
 				for end in re.findall(regex, token):
@@ -460,6 +460,9 @@ def read_conll_doc(filename, ans=None, rtext=True, rparses=True, rheads=True, rc
 				desc = line.split()
 				location = desc[2].strip('();')
 				keys = (location, desc[-1])
+				if "tc/ch/00/ch" in keys[0] and '9' not in keys[0]:
+					val = int(keys[0].split('_')[-1]) * 10 - 1
+					keys = ("tc/ch/00/ch_%04d" % val, keys[1])
 			if len(cur) > 0:
 				if keys is None:
 					print >> sys.stderr, "Error reading conll file - invalid #begin statemen\n", line
@@ -522,47 +525,47 @@ def read_conll_all(dir_prefix, suffix="auto_conll"):
 
 def read_conll_scorer_output(text):
 	'''
-	
+
 	>>> text = """version: 1.07
-	... 
+	...
 	... METRIC muc:
-	... 
+	...
 	... ====== TOTALS =======
 	... Identification of Mentions: Recall: (10049 / 14291) 70.31%	Precision: (10049 / 12968) 77.49%	F1: 73.72%
 	... --------------------------------------------------------------------------
 	... Coreference: Recall: (6891 / 10539) 65.38%	Precision: (6891 / 9671) 71.25%	F1: 68.19%
 	... --------------------------------------------------------------------------
-	... 
+	...
 	... METRIC bcub:
-	... 
+	...
 	... ====== TOTALS =======
 	... Identification of Mentions: Recall: (10049 / 14291) 70.31%	Precision: (10049 / 12968) 77.49%	F1: 73.72%
 	... --------------------------------------------------------------------------
 	... Coreference: Recall: (9445.16162068698 / 14291) 66.09%	Precision: (13366.8103055043 / 17210) 77.66%	F1: 71.41%
 	... --------------------------------------------------------------------------
-	... 
+	...
 	... METRIC ceafm:
-	... 
+	...
 	... ====== TOTALS =======
 	... Identification of Mentions: Recall: (10049 / 14291) 70.31%	Precision: (10049 / 12968) 77.49%	F1: 73.72%
 	... --------------------------------------------------------------------------
 	... Coreference: Recall: (10046 / 14291) 70.29%	Precision: (11103 / 17210) 64.51%	F1: 67.28%
 	... --------------------------------------------------------------------------
-	... 
+	...
 	... METRIC ceafe:
-	... 
+	...
 	... ====== TOTALS =======
 	... Identification of Mentions: Recall: (10049 / 14291) 70.31%	Precision: (10049 / 12968) 77.49%	F1: 73.72%
 	... --------------------------------------------------------------------------
 	... Coreference: Recall: (3490.14880751078 / 6671) 52.31%	Precision: (3490.14880751078 / 7539) 46.29%	F1: 49.12%
 	... --------------------------------------------------------------------------
-	... 
+	...
 	... METRIC blanc:
-	... 
+	...
 	... ====== TOTALS =======
 	... Identification of Mentions: Recall: (10049 / 14291) 70.31%	Precision: (10049 / 12968) 77.49%	F1: 73.72%
 	... --------------------------------------------------------------------------
-	... 
+	...
 	... Coreference:
 	... Coreference links: Recall: (33214 / 54427) 61.02%	Precision: (33214 / 51699) 64.24%	F1: 62.59%
 	... --------------------------------------------------------------------------

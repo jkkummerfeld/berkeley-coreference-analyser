@@ -1,5 +1,5 @@
 # Time of run:
-# Tue Sep  3 11:16:04 2013
+# Wed Oct 30 11:20:23 2013
 # Command:
 # ./print_errors.py data/pretty_printed/stanford data/gold/ data/homogenised/stanford.homogenised.out F
 #
@@ -197,405 +197,6 @@ Extra:
 (0, 33, 35)      watching for allegedly failing to honor  [38;5;1mU.S. patents[0m  , copyrights and other intellectual -
 (0, 33, 43)      watching for allegedly failing to honor  [38;5;1mU.S. patents , copyrights and other intellectual - property [4mrights[0m  . However , five other countries --
 (0, 36, 37)              failing to honor U.S. patents ,  [38;5;1mcopyrights[0m  and other intellectual - property
-
-------------------------------------------------------------
-
-
-# nw/wsj/00/wsj_0089 000
-
-(7, 24, 25)       Michael once had its own `` band '' of  [38;5;1mringers[0m  , who would herald every Sunday morning
-(7, 24, 35)       Michael once had its own `` band '' of  [38;5;1mringers , who would herald every Sunday morning and evening service[0m  . Now , only one local ringer remains :
-(20, 6, 8)       many as 12 bells . Then , at a signal ,  [38;5;1mthe [4mringers[0m  begin varying the order in which the
-(22, 0, 1)       can occur only once , the rules state .  [38;5;1mRingers[0m  memorize patterns of changes , known as
-(27, 3, 5)           by the ceiling . Totally absorbed ,  [38;5;3mthe [4mringers[0m  stare straight ahead , using peripheral
-(27, 13, 14)       ahead , using peripheral vision -LRB-  [38;5;3mthey[0m  call it `` rope - sight '' -RRB- to
-(27, 30, 31)      to watch the other ropes and thus time  [38;5;3mtheir[0m  pulls . Far above in the belfry , the
-(31, 0, 1)                and mechanical perfection . ''  [38;5;1mRingers[0m  , she added , are `` filled with the
-(34, 5, 6)       tower , however . More often than not ,  [38;5;4mringers[0m  think of the church as something stuck
-(35, 1, 2)            on the bottom of the belfry . When  [38;5;4mtheir[0m  changes are completed , and after they
-(35, 8, 9)       their changes are completed , and after  [38;5;4mthey[0m  have worked up a sweat , ringers often
-(35, 15, 16)     and after they have worked up a sweat ,  [38;5;4mringers[0m  often skip off to the local pub ,
-(38, 21, 27)     Torrington , Devon , got so fed up with  [38;5;1m[4mringers[0m[38;5;1m who did n't attend service[0m  he sacked the entire band ; the ringers
-(38, 33, 35)         service he sacked the entire band ;  [38;5;5mthe [4mringers[0m  promptly set up a picket line in
-(39, 1, 2)          set up a picket line in protest . ``  [38;5;5mThey[0m  were a self - perpetuating club that
-(40, 12, 13)      today at Great Torrington , several of  [38;5;1mwhom[0m  are members of the congregation . But
-(45, 16, 18)           , bang , bang , bang -- here come  [38;5;1mthe [4mringers[0m  from above , making a very obvious exit
-(48, 6, 8)        , '' he says . `` I live in hopes that  [38;5;1mthe [4mringers[0m  themselves will be drawn into that
-(48, 8, 9)         . `` I live in hopes that the ringers  [38;5;1mthemselves[0m  will be drawn into that fuller life .
-(52, 11, 12)     attacking the greater problem : lack of  [38;5;1mringers[0m  . One survey says that of the 100,000
-(54, 2, 3)       only 40,000 of them still ring . Also ,  [38;5;1mringers[0m  do n't always live where the bells need
-(55, 9, 10)      council 's program to attract and train  [38;5;1mringers[0m  is only partly successful , says Mr.
-(56, 4, 5)           , says Mr. Baldwin . `` Right now ,  [38;5;6mwe[0m  're lucky if after five years we keep
-(56, 11, 12)      now , we 're lucky if after five years  [38;5;6mwe[0m  keep one new ringer out of 10 , '' he
-(60, 39, 40)           World , '' a weekly newspaper for  [38;5;1mringers[0m  . One writer , signing his letter as ``
-
-(49, 1, 7)       be drawn into that fuller life . '' The  [38;5;1mCentral Council of Church Bell Ringers[0m  , a sort of parliament of ringing
-(50, 0, 1)          , says John C. Baldwin , president .  [38;5;6mIt[0m  hopes to speak to students at
-(55, 1, 4)               and inner - city churches . But  [38;5;6mthe council [4m's[0m  program to attract and train ringers is
-
-(50, 5, 9)            , president . It hopes to speak to  [38;5;1m[4mstudents[0m[38;5;1m at theological colleges[0m  about the joys of bell ringing and will
-(51, 5, 6)       in Your Care . '' Says Mr. Baldwin , ``  [38;5;6mWe[0m  recognize that we may no longer have as
-(51, 8, 9)       Says Mr. Baldwin , `` We recognize that  [38;5;6mwe[0m  may no longer have as high a priority
-
-Missing:
-(49, 0, 16)          be drawn into that fuller life . ''  [38;5;6mThe Central Council of Church Bell Ringers , a [4msort[0m[38;5;6m of parliament of ringing groups ,[0m  aims to improve relations with vicars ,
-(38, 29, 32)        who did n't attend service he sacked  [38;5;5mthe entire [4mband[0m  ; the ringers promptly set up a picket
-
-------------------------------------------------------------
-
-(3, 16, 20)             , this is one of the loveliest :  [38;5;3mAn ancient stone [4mchurch[0m  stands amid the fields , the sound of
-(3, 31, 32)          , the sound of bells cascading from  [38;5;3mits[0m  tower , calling the faithful to
-
-(4, 3, 8)              to evensong . The parishioners of  [38;5;3mSt. Michael and All [4mAngels[0m  stop to chat at the church door , as
-(7, 14, 16)              in Britain with sets of bells ,  [38;5;3mSt. [4mMichael[0m  once had its own `` band '' of ringers
-
-(7, 5, 6)        autumn evening . Like most of the other  [38;5;1m6,000[0m  churches in Britain with sets of bells
-(7, 18, 19)         sets of bells , St. Michael once had  [38;5;3mits[0m  own `` band '' of ringers , who would
-
-Missing:
-(4, 18, 19)      to chat at the church door , as members  [38;5;3mhere[0m  always have . In the tower , five men
-
-------------------------------------------------------------
-
-(0, 9, 11)        art of change - ringing is peculiar to  [38;5;1mthe [4mEnglish[0m  , and , like most English peculiarities
-(2, 2, 3)            , `` The Nine Tailors '' ASLACTON ,  [38;5;3mEngland[0m  -- Of all scenes that evoke rural
-(3, 6, 8)          , England -- Of all scenes that evoke  [38;5;1mrural [4mEngland[0m  , this is one of the loveliest : An
-(3, 7, 8)              -- Of all scenes that evoke rural  [38;5;1mEngland[0m  , this is one of the loveliest : An
-(15, 14, 16)        taken a year ago , nearly a third of  [38;5;3mEngland [4m's[0m  church bells are no longer rung on
-(17, 21, 23)       continental Europe , is considered by  [38;5;1mthe [4mEnglish[0m  to be childish , fit only for
-(18, 9, 11)       - ringing , a mind - boggling exercise  [38;5;1mthe [4mEnglish[0m  invented 380 years ago , requires
-(37, 6, 7)            . With membership of the Church of  [38;5;3mEngland[0m  steadily dwindling , strong - willed
-(53, 10, 11)       of the 100,000 trained bellringers in  [38;5;3mEngland[0m  today , only 40,000 of them still ring
-
-(7, 8, 13)           most of the other 6,000 churches in  [38;5;1mBritain with sets of bells[0m  , St. Michael once had its own `` band
-(59, 44, 46)     group is the sole source of ringers for  [38;5;3mBritain [4m's[0m  most prestigious churches , St. Paul 's
-(60, 2, 3)            and Westminster Abbey . This being  [38;5;3mBritain[0m  , no woman has filed an equal -
-
-Missing:
-(7, 8, 9)            most of the other 6,000 churches in  [38;5;3mBritain[0m  with sets of bells , St. Michael once
-(32, 26, 28)       the band at St. Mary Abbot and one of  [38;5;3mEngland [4m's[0m  best female ringers . It is a passion
-(50, 25, 27)        publish a booklet for every vicar in  [38;5;3mthe [4mcountry[0m  entitled , `` The Bells in Your Care .
-
-------------------------------------------------------------
-
-(9, 0, 2)              : 64 - year - old Derek Hammond .  [38;5;1mThe [4mothers[0m  here today live elsewhere . They belong
-(10, 0, 1)        The others here today live elsewhere .  [38;5;3mThey[0m  belong to a group of 15 ringers --
-(11, 11, 12)        for even one service at this tower ,  [38;5;4mwe[0m  have to scrape , '' says Mr. Hammond ,
-(12, 1, 2)       a retired water - authority worker . ``  [38;5;4mWe[0m  've tried to train the youngsters , but
-(15, 31, 32)     Sundays because there is no one to ring  [38;5;5mthem[0m  . It is easy to see why the ancient art
-
-(15, 14, 18)        taken a year ago , nearly a third of  [38;5;5mEngland 's church [4mbells[0m  are no longer rung on Sundays because
-(30, 9, 11)          - known detective - story involving  [38;5;1mchurch [4mbells[0m  , English novelist Dorothy L. Sayers
-
-Missing:
-(10, 3, 44)        today live elsewhere . They belong to  [38;5;4ma [4mgroup[0m[38;5;4m of 15 ringers -- including two octogenarians and four youngsters in training -- who drive every Sunday from church to church in a sometimes - exhausting effort to keep the bells sounding in the many belfries of East Anglia[0m  . `` To ring for even one service at
-(5, 4, 8)              here always have . In the tower ,  [38;5;3mfive men and [4mwomen[0m  pull rhythmically on ropes attached to
-(9, 0, 3)              : 64 - year - old Derek Hammond .  [38;5;3mThe [4mothers[0m[38;5;3m here[0m  today live elsewhere . They belong to a
-
-------------------------------------------------------------
-
-(8, 2, 6)            morning and evening service . Now ,  [38;5;3monly one local [4mringer[0m  remains : 64 - year - old Derek Hammond
-(46, 21, 23)     he is both a vicar and an active bell -  [38;5;1mringer himself[0m  . `` The sound of bells is a net to
-
-(8, 12, 15)       one local ringer remains : 64 - year -  [38;5;1mold Derek Hammond[0m  . The others here today live elsewhere
-(11, 18, 20)         tower , we have to scrape , '' says  [38;5;1mMr. [4mHammond[0m  , a retired water - authority worker .
-(11, 18, 27)         tower , we have to scrape , '' says  [38;5;3mMr. Hammond , a retired water - authority [4mworker[0m  . `` We 've tried to train the
-(11, 19, 20)     tower , we have to scrape , '' says Mr.  [38;5;1mHammond[0m  , a retired water - authority worker .
-(13, 0, 2)        dances , and they just drift away . ''  [38;5;3mMr. [4mHammond[0m  worries that old age and the
-(14, 8, 9)             . History , after all , is not on  [38;5;3mhis[0m  side . According to a nationwide survey
-
-Missing:
-(8, 8, 15)       . Now , only one local ringer remains :  [38;5;3m64 - year - old Derek [4mHammond[0m  . The others here today live elsewhere
-
-------------------------------------------------------------
-
-(44, 1, 3)         it would `` reopen the wound . '' But  [38;5;1mC.J.B. [4mMarshall[0m  , vicar of a nearby church , feels the
-(44, 1, 10)        it would `` reopen the wound . '' But  [38;5;3mC.J.B. Marshall , [4mvicar[0m[38;5;3m of a nearby church ,[0m  feels the fault is in the stairs from
-(44, 4, 9)          the wound . '' But C.J.B. Marshall ,  [38;5;1m[4mvicar[0m[38;5;1m of a nearby church[0m  , feels the fault is in the stairs from
-(45, 34, 35)          the congregation is at prayer , ''  [38;5;3mhe[0m  says . Vicar Marshall admits to mixed
-(46, 0, 2)                   is at prayer , '' he says .  [38;5;3mVicar [4mMarshall[0m  admits to mixed feelings about this
-(46, 11, 12)     mixed feelings about this issue , since  [38;5;3mhe[0m  is both a vicar and an active bell -
-(46, 14, 16)         about this issue , since he is both  [38;5;1ma [4mvicar[0m  and an active bell - ringer himself .
-(46, 22, 23)         a vicar and an active bell - ringer  [38;5;3mhimself[0m  . `` The sound of bells is a net to
-(47, 16, 17)     net to draw people into the church , ''  [38;5;3mhe[0m  says . `` I live in hopes that the
-(48, 1, 2)             into the church , '' he says . ``  [38;5;3mI[0m  live in hopes that the ringers
-(50, 33, 34)      the country entitled , `` The Bells in  [38;5;1mYour[0m  Care . '' Says Mr. Baldwin , `` We
-
-------------------------------------------------------------
-
-(5, 7, 8)             have . In the tower , five men and  [38;5;1mwomen[0m  pull rhythmically on ropes attached to
-(57, 28, 29)       than a third of the ringers today are  [38;5;3mwomen[0m  . They are n't accepted everywhere ,
-(58, 0, 1)        third of the ringers today are women .  [38;5;3mThey[0m  are n't accepted everywhere , however .
-(59, 33, 34)      a fact that 's particularly galling to  [38;5;1mwomen[0m  because the group is the sole source of
-(61, 22, 23)        , '' remarked on the `` frequency of  [38;5;1mwomen[0m  fainting in peals , '' and suggested
-(61, 31, 32)            in peals , '' and suggested that  [38;5;4mthey[0m  `` settle back into their traditional
-(61, 36, 37)     suggested that they `` settle back into  [38;5;4mtheir[0m  traditional role of making tea at
-
-Missing:
-(61, 22, 26)        , '' remarked on the `` frequency of  [38;5;4m[4mwomen[0m[38;5;4m fainting in peals[0m  , '' and suggested that they `` settle
-
-------------------------------------------------------------
-
-(49, 24, 27)     to improve relations with vicars , says  [38;5;1mJohn C. [4mBaldwin[0m  , president . It hopes to speak to
-(49, 24, 29)     to improve relations with vicars , says  [38;5;3mJohn C. Baldwin , [4mpresident[0m  . It hopes to speak to students at
-(51, 1, 3)         , `` The Bells in Your Care . '' Says  [38;5;3mMr. [4mBaldwin[0m  , `` We recognize that we may no longer
-(51, 2, 3)       `` The Bells in Your Care . '' Says Mr.  [38;5;1mBaldwin[0m  , `` We recognize that we may no longer
-(52, 0, 2)            in church life and experience . ''  [38;5;3mMr. [4mBaldwin[0m  is also attacking the greater problem :
-(55, 16, 18)            is only partly successful , says  [38;5;3mMr. [4mBaldwin[0m  . `` Right now , we 're lucky if after
-(56, 21, 22)       we keep one new ringer out of 10 , ''  [38;5;3mhe[0m  adds . One bright sign is that a
-
-------------------------------------------------------------
-
-(10, 13, 17)          -- including two octogenarians and  [38;5;1mfour [4myoungsters[0m[38;5;1m in training[0m  -- who drive every Sunday from church
-(12, 6, 8)             worker . `` We 've tried to train  [38;5;3mthe [4myoungsters[0m  , but they have their discos and their
-(12, 10, 11)     've tried to train the youngsters , but  [38;5;3mthey[0m  have their discos and their dances ,
-(12, 12, 13)     to train the youngsters , but they have  [38;5;3mtheir[0m  discos and their dances , and they just
-(12, 15, 16)            , but they have their discos and  [38;5;3mtheir[0m  dances , and they just drift away . ''
-(12, 19, 20)         their discos and their dances , and  [38;5;3mthey[0m  just drift away . '' Mr. Hammond
-
-------------------------------------------------------------
-
-(38, 4, 8)          to attend services . Two years ago ,  [38;5;1mthe Rev. Jeremy [4mHummerstone[0m  , vicar of Great Torrington , Devon ,
-(38, 4, 16)         to attend services . Two years ago ,  [38;5;3mthe Rev. Jeremy Hummerstone , [4mvicar[0m[38;5;3m of Great Torrington , Devon ,[0m  got so fed up with ringers who did n't
-(38, 6, 8)           services . Two years ago , the Rev.  [38;5;1mJeremy Hummerstone[0m  , vicar of Great Torrington , Devon ,
-(38, 9, 13)          ago , the Rev. Jeremy Hummerstone ,  [38;5;1mvicar of Great Torrington[0m  , Devon , got so fed up with ringers
-(38, 27, 28)     with ringers who did n't attend service  [38;5;3mhe[0m  sacked the entire band ; the ringers
-(39, 20, 23)         as sort of a separate premises , ''  [38;5;3mthe Vicar [4mHummerstone[0m  says . An entirely new band rings today
-
-------------------------------------------------------------
-
-(60, 4, 6)                  Abbey . This being Britain ,  [38;5;1mno [4mwoman[0m  has filed an equal - opportunity suit ,
-(63, 9, 10)          wrote from Sheffield to say that in  [38;5;3mher[0m  60 years of ringing , `` I have never
-(63, 16, 17)        that in her 60 years of ringing , ``  [38;5;3mI[0m  have never known a lady to faint in the
-(64, 0, 1)         known a lady to faint in the belfry .  [38;5;3mI[0m  have seen one or two men die , bless
-
-Missing:
-(63, 0, 2)        and unbearably flatulent in peals . ''  [38;5;3mAnother [4mwomen[0m  wrote from Sheffield to say that in her
-
-------------------------------------------------------------
-
-(3, 31, 33)          , the sound of bells cascading from  [38;5;3mits [4mtower[0m  , calling the faithful to evensong .
-(5, 1, 3)        door , as members here always have . In  [38;5;3mthe [4mtower[0m  , five men and women pull rhythmically
-(11, 8, 10)         . `` To ring for even one service at  [38;5;3mthis [4mtower[0m  , we have to scrape , '' says Mr.
-(33, 8, 10)      . It is a passion that usually stays in  [38;5;1mthe [4mtower[0m  , however . More often than not ,
-(39, 10, 12)     a self - perpetuating club that treated  [38;5;1mthe [4mtower[0m  as sort of a separate premises , '' the
-
-------------------------------------------------------------
-
-(42, 1, 9)         more than six of the eight bells . At  [38;5;1mSt. Mary 's [4mChurch[0m[38;5;1m in Ilminster , Somerset[0m  , the bells have fallen silent
-(43, 10, 11)        , W.D. Jones , refuses to talk about  [38;5;3mit[0m  , saying it would `` reopen the wound .
-(43, 13, 14)         , refuses to talk about it , saying  [38;5;4mit[0m  would `` reopen the wound . '' But
-
-Missing:
-(42, 13, 14)       Ilminster , Somerset , the bells have  [38;5;3mfallen[0m  silent following a dust - up over
-(43, 8, 9)         . The vicar , W.D. Jones , refuses to  [38;5;4mtalk[0m  about it , saying it would `` reopen
-
-------------------------------------------------------------
-
-(2, 0, 1)             L. Sayers , `` The Nine Tailors ''  [38;5;1mASLACTON[0m  , England -- Of all scenes that evoke
-(2, 0, 3)             L. Sayers , `` The Nine Tailors ''  [38;5;3mASLACTON , [4mEngland[0m  -- Of all scenes that evoke rural
-(6, 10, 11)        is also a discordant , modern note in  [38;5;3mAslacton[0m  , though it ca n't be heard by the
-(13, 23, 24)       the East Anglian group that keeps the  [38;5;3mAslacton[0m  bells pealing . History , after all ,
-
-------------------------------------------------------------
-
-(59, 4, 9)                 , however . The oldest bell -  [38;5;1mringing group in the country[0m  , the Ancient Society of College Youths
-(59, 10, 16)       bell - ringing group in the country ,  [38;5;1mthe Ancient [4mSociety[0m[38;5;1m of College Youths[0m  , founded in 1637 , remains male - only
-(59, 11, 16)        - ringing group in the country , the  [38;5;1mAncient Society of College Youths[0m  , founded in 1637 , remains male - only
-(59, 35, 37)       particularly galling to women because  [38;5;3mthe [4mgroup[0m  is the sole source of ringers for
-
-Missing:
-(59, 10, 13)       bell - ringing group in the country ,  [38;5;3mthe Ancient [4mSociety[0m  of College Youths , founded in 1637 ,
-
-------------------------------------------------------------
-
-(1, 1, 4)                  to the rest of the world . --  [38;5;1mDorothy L. [4mSayers[0m  , `` The Nine Tailors '' ASLACTON ,
-(1, 1, 10)                 to the rest of the world . --  [38;5;1mDorothy L. Sayers , `` The Nine Tailors ''[0m  ASLACTON , England -- Of all scenes
-(30, 12, 17)            - story involving church bells ,  [38;5;3mEnglish novelist Dorothy L. [4mSayers[0m  described ringing as a `` passion -LCB-
-
-Missing:
-(1, 0, 10)                    to the rest of the world .  [38;5;3m-- Dorothy L. Sayers , `` The Nine [4mTailors[0m[38;5;3m ''[0m  ASLACTON , England -- Of all scenes
-(31, 2, 3)          mechanical perfection . '' Ringers ,  [38;5;3mshe[0m  added , are `` filled with the solemn
-
-------------------------------------------------------------
-
-(64, 5, 7)            in the belfry . I have seen one or  [38;5;1mtwo men[0m  die , bless them .
-(64, 10, 11)      I have seen one or two men die , bless  [38;5;3mthem[0m  .
-
-Missing:
-(64, 3, 7)          to faint in the belfry . I have seen  [38;5;3mone or two [4mmen[0m  die , bless them .
-
-------------------------------------------------------------
-
-(53, 5, 11)         of ringers . One survey says that of  [38;5;1mthe 100,000 trained bellringers in England[0m  today , only 40,000 of them still ring
-(53, 16, 17)           in England today , only 40,000 of  [38;5;3mthem[0m  still ring . Also , ringers do n't
-
-Missing:
-(53, 5, 12)         of ringers . One survey says that of  [38;5;3mthe 100,000 trained bellringers in England [4mtoday[0m  , only 40,000 of them still ring . Also
-
-------------------------------------------------------------
-
-(38, 11, 13)      the Rev. Jeremy Hummerstone , vicar of  [38;5;1mGreat [4mTorrington[0m  , Devon , got so fed up with ringers
-(40, 7, 9)         . An entirely new band rings today at  [38;5;3mGreat [4mTorrington[0m  , several of whom are members of the
-
-Missing:
-(38, 11, 15)      the Rev. Jeremy Hummerstone , vicar of  [38;5;3mGreat Torrington , [4mDevon[0m  , got so fed up with ringers who did
-
-------------------------------------------------------------
-
-(29, 0, 2)       the inverted , or mouth - up position .  [38;5;3mSkilled [4mringers[0m  use their wrists to advance or retard
-(29, 3, 4)           - up position . Skilled ringers use  [38;5;3mtheir[0m  wrists to advance or retard the next
-
-------------------------------------------------------------
-
-(6, 4, 11)              here in 1614 . But there is also  [38;5;1ma discordant , modern note in Aslacton[0m  , though it ca n't be heard by the
-(6, 13, 14)           , modern note in Aslacton , though  [38;5;3mit[0m  ca n't be heard by the church - goers
-
-Missing:
-(6, 4, 9)               here in 1614 . But there is also  [38;5;3ma discordant , modern [4mnote[0m  in Aslacton , though it ca n't be heard
-
-------------------------------------------------------------
-
-Entirely missing or extra
-
-Missing:
-(0, 0, 6)                                                 [38;5;3mThe [4mart[0m[38;5;3m of change - ringing[0m  is peculiar to the English , and , like
-(16, 6, 9)          to ring them . It is easy to see why  [38;5;3mthe ancient [4mart[0m  is on the ropes . The less complicated
-(18, 0, 16)      be childish , fit only for foreigners .  [38;5;3mChange - ringing , a mind - boggling [4mexercise[0m[38;5;3m the English invented 380 years ago ,[0m  requires physical dexterity -- some
-
-(32, 1, 2)          ritual faultlessly performed . '' ``  [38;5;3mRinging[0m  does become a bit of an obsession , ''
-(33, 0, 1)       one of England 's best female ringers .  [38;5;3mIt[0m  is a passion that usually stays in the
-
-(59, 21, 22)       of College Youths , founded in 1637 ,  [38;5;3mremains[0m  male - only , a fact that 's
-(59, 26, 57)     founded in 1637 , remains male - only ,  [38;5;3ma [4mfact[0m[38;5;3m that 's particularly galling to women because the group is the sole source of ringers for Britain 's most prestigious churches , St. Paul 's Cathedral and Westminster Abbey[0m  . This being Britain , no woman has
-
-Extra:
-(40, 10, 13)      band rings today at Great Torrington ,  [38;5;1mseveral [4mof[0m[38;5;1m whom[0m  are members of the congregation . But
-(40, 14, 18)      Great Torrington , several of whom are  [38;5;1m[4mmembers[0m[38;5;1m of the congregation[0m  . But there still are n't enough
-
-(60, 29, 40)       this summer in a series of letters to  [38;5;1m`` The Ringing World , '' a weekly [4mnewspaper[0m[38;5;1m for ringers[0m  . One writer , signing his letter as ``
-(60, 30, 33)         summer in a series of letters to ``  [38;5;1mThe Ringing [4mWorld[0m  , '' a weekly newspaper for ringers .
-(60, 35, 40)     of letters to `` The Ringing World , ''  [38;5;1ma weekly [4mnewspaper[0m[38;5;1m for ringers[0m  . One writer , signing his letter as ``
-
-(3, 25, 39)        stone church stands amid the fields ,  [38;5;1mthe sound of bells cascading from its tower , [4mcalling[0m[38;5;1m the faithful to evensong[0m  . The parishioners of St. Michael and
-(47, 1, 5)          an active bell - ringer himself . ``  [38;5;1mThe [4msound[0m[38;5;1m of bells[0m  is a net to draw people into the church
-(47, 6, 14)           himself . `` The sound of bells is  [38;5;1ma [4mnet[0m[38;5;1m to draw people into the church[0m  , '' he says . `` I live in hopes that
-
-(59, 26, 37)     founded in 1637 , remains male - only ,  [38;5;1ma fact that 's particularly galling to women because the group[0m  is the sole source of ringers for
-(59, 38, 57)       galling to women because the group is  [38;5;1mthe sole [4msource[0m[38;5;1m of ringers for Britain 's most prestigious churches , St. Paul 's Cathedral and Westminster Abbey[0m  . This being Britain , no woman has
-
-(25, 7, 9)        . Ten shirt - sleeved ringers stand in  [38;5;1ma [4mcircle[0m  , one foot ahead of the other in a
-(25, 7, 42)       . Ten shirt - sleeved ringers stand in  [38;5;1ma circle , one foot ahead of the other in a prize - fighter 's stance , each pulling a rope that disappears through a small hole in the high ceiling of the ringing chamber[0m  . No one speaks , and the snaking of
-
-(22, 8, 15)      memorize patterns of changes , known as  [38;5;1m`` methods , '' which have odd[0m  - sounding names like Kent Treble Bob
-(22, 9, 10)            patterns of changes , known as ``  [38;5;1mmethods[0m  , '' which have odd - sounding names
-
-(18, 2, 6)          , fit only for foreigners . Change -  [38;5;1mringing , a mind[0m  - boggling exercise the English
-(18, 4, 6)           for foreigners . Change - ringing ,  [38;5;1ma mind[0m  - boggling exercise the English
-(30, 18, 19)        novelist Dorothy L. Sayers described  [38;5;1mringing[0m  as a `` passion -LCB- that -RCB- finds
-
-(7, 30, 31)       '' of ringers , who would herald every  [38;5;1mSunday[0m  morning and evening service . Now ,
-(10, 21, 22)              in training -- who drive every  [38;5;1mSunday[0m  from church to church in a sometimes -
-(15, 23, 24)       's church bells are no longer rung on  [38;5;1mSundays[0m  because there is no one to ring them .
-
-(30, 1, 11)         another in the following change . In  [38;5;1ma well - known detective - [4mstory[0m[38;5;1m involving church bells[0m  , English novelist Dorothy L. Sayers
-(30, 27, 28)      as a `` passion -LCB- that -RCB- finds  [38;5;1mits[0m  satisfaction in mathematical
-
-(24, 8, 12)       A look at a Thursday night practice at  [38;5;1mSt. Mary Abbot [4mchurch[0m  in the Kensington district of London
-(34, 8, 10)       More often than not , ringers think of  [38;5;1mthe [4mchurch[0m  as something stuck on the bottom of the
-(47, 12, 14)       of bells is a net to draw people into  [38;5;1mthe [4mchurch[0m  , '' he says . `` I live in hopes that
-
-(37, 12, 14)       England steadily dwindling , strong -  [38;5;1mwilled vicars[0m  are pressing equally strong - willed
-(49, 21, 22)     groups , aims to improve relations with  [38;5;1mvicars[0m  , says John C. Baldwin , president . It
-
-(32, 12, 14)           a bit of an obsession , '' admits  [38;5;1mStephanie [4mPattenden[0m  , master of the band at St. Mary Abbot
-(32, 12, 31)           a bit of an obsession , '' admits  [38;5;1mStephanie Pattenden , [4mmaster[0m[38;5;1m of the band at St. Mary Abbot and one of England 's best female ringers[0m  . It is a passion that usually stays in
-(32, 15, 31)           , '' admits Stephanie Pattenden ,  [38;5;1m[4mmaster[0m[38;5;1m of the band at St. Mary Abbot and one of England 's best female ringers[0m  . It is a passion that usually stays in
-
-(21, 8, 10)       Each variation , or change , can occur  [38;5;1m[4monly[0m[38;5;1m once[0m  , the rules state . Ringers memorize
-(21, 8, 14)       Each variation , or change , can occur  [38;5;1monly once , the rules state[0m  . Ringers memorize patterns of changes
-
-(8, 0, 1)           Sunday morning and evening service .  [38;5;1mNow[0m  , only one local ringer remains : 64 -
-(56, 1, 3)            successful , says Mr. Baldwin . ``  [38;5;1m[4mRight[0m[38;5;1m now[0m  , we 're lucky if after five years we
-
-(59, 42, 49)     because the group is the sole source of  [38;5;1mringers for Britain 's most prestigious churches[0m  , St. Paul 's Cathedral and Westminster
-(59, 42, 57)     because the group is the sole source of  [38;5;1mringers for Britain 's most prestigious churches , St. Paul 's Cathedral and Westminster Abbey[0m  . This being Britain , no woman has
-
-(5, 4, 5)              here always have . In the tower ,  [38;5;1mfive[0m  men and women pull rhythmically on
-(5, 16, 17)                on ropes attached to the same  [38;5;1mfive[0m  bells that first sounded here in 1614 .
-(56, 9, 10)       . `` Right now , we 're lucky if after  [38;5;1mfive[0m  years we keep one new ringer out of 10
-
-(61, 0, 2)         , '' a weekly newspaper for ringers .  [38;5;1mOne [4mwriter[0m  , signing his letter as `` Red -
-(61, 4, 5)            for ringers . One writer , signing  [38;5;1mhis[0m  letter as `` Red - blooded , balanced
-
-(22, 4, 5)          state . Ringers memorize patterns of  [38;5;1mchanges[0m  , known as `` methods , '' which have
-(22, 4, 15)         state . Ringers memorize patterns of  [38;5;1mchanges , known as `` methods , '' which have odd[0m  - sounding names like Kent Treble Bob
-
-(52, 5, 12)           . '' Mr. Baldwin is also attacking  [38;5;1mthe greater problem : [4mlack[0m[38;5;1m of ringers[0m  . One survey says that of the 100,000
-(60, 18, 20)      - opportunity suit , but the extent of  [38;5;1mthe [4mproblem[0m  surfaced this summer in a series of
-
-(25, 3, 5)       idea of the work involved . Ten shirt -  [38;5;1msleeved ringers[0m  stand in a circle , one foot ahead of
-(26, 19, 20)          to make as much sound as the bells  [38;5;1mthemselves[0m  , muffled by the ceiling . Totally
-
-(50, 25, 35)        publish a booklet for every vicar in  [38;5;1mthe country entitled , `` The Bells in Your Care[0m  . '' Says Mr. Baldwin , `` We recognize
-(59, 7, 9)          . The oldest bell - ringing group in  [38;5;1mthe [4mcountry[0m  , the Ancient Society of College Youths
-
-(7, 12, 13)       6,000 churches in Britain with sets of  [38;5;1mbells[0m  , St. Michael once had its own `` band
-(17, 8, 9)       complicated version of playing tunes on  [38;5;1mbells[0m  , as do the carillons of continental
-(17, 8, 18)      complicated version of playing tunes on  [38;5;1mbells , as do the carillons of continental Europe ,[0m  is considered by the English to be
-(47, 4, 5)       bell - ringer himself . `` The sound of  [38;5;1mbells[0m  is a net to draw people into the church
-
-(28, 3, 5)          thus time their pulls . Far above in  [38;5;1mthe [4mbelfry[0m  , the huge bronze bells , mounted on
-(34, 17, 19)         as something stuck on the bottom of  [38;5;1mthe [4mbelfry[0m  . When their changes are completed ,
-(63, 25, 27)       I have never known a lady to faint in  [38;5;1mthe [4mbelfry[0m  . I have seen one or two men die ,
-
-(40, 16, 18)            , several of whom are members of  [38;5;1mthe [4mcongregation[0m  . But there still are n't enough
-(45, 27, 29)          , making a very obvious exit while  [38;5;1mthe [4mcongregation[0m  is at prayer , '' he says . Vicar
-
-(5, 11, 24)      five men and women pull rhythmically on  [38;5;1m[4mropes[0m[38;5;1m attached to the same five bells that first sounded here in 1614[0m  . But there is also a discordant ,
-(16, 11, 13)       easy to see why the ancient art is on  [38;5;1mthe [4mropes[0m  . The less complicated version of
-(26, 8, 10)         . No one speaks , and the snaking of  [38;5;1mthe [4mropes[0m  seems to make as much sound as the
-
-(28, 6, 10)      their pulls . Far above in the belfry ,  [38;5;1mthe huge bronze [4mbells[0m  , mounted on wheels , swing madly
-(28, 6, 15)      their pulls . Far above in the belfry ,  [38;5;1mthe huge bronze [4mbells[0m[38;5;1m , mounted on wheels ,[0m  swing madly through a full 360 degrees
-
-(3, 22, 24)        : An ancient stone church stands amid  [38;5;1mthe [4mfields[0m  , the sound of bells cascading from its
-(3, 22, 39)        : An ancient stone church stands amid  [38;5;1mthe fields , the sound of bells cascading from its tower , calling the faithful to evensong[0m  . The parishioners of St. Michael and
-
-(10, 10, 11)       to a group of 15 ringers -- including  [38;5;1mtwo[0m  octogenarians and four youngsters in
-(64, 5, 6)            in the belfry . I have seen one or  [38;5;1mtwo[0m  men die , bless them .
-
-(6, 19, 32)      Aslacton , though it ca n't be heard by  [38;5;1mthe church - [4mgoers[0m[38;5;1m enjoying the peal of bells this cool autumn evening[0m  . Like most of the other 6,000 churches
-(10, 25, 29)       who drive every Sunday from church to  [38;5;1mchurch in a sometimes[0m  - exhausting effort to keep the bells
-
-(19, 0, 3)           with intense mental concentration .  [38;5;1mProper English [4mbells[0m  are started off in `` rounds , '' from
-(20, 14, 16)            begin varying the order in which  [38;5;1mthe [4mbells[0m  sound without altering the steady
-(42, 10, 12)         's Church in Ilminster , Somerset ,  [38;5;1mthe [4mbells[0m  have fallen silent following a dust -
-(54, 8, 10)      Also , ringers do n't always live where  [38;5;1mthe [4mbells[0m  need to be rung -- like in small ,
-
-(26, 0, 2)         high ceiling of the ringing chamber .  [38;5;1mNo [4mone[0m  speaks , and the snaking of the ropes
-(27, 15, 16)     using peripheral vision -LRB- they call  [38;5;1mit[0m  `` rope - sight '' -RRB- to watch the
-
-(25, 35, 42)     that disappears through a small hole in  [38;5;1mthe high [4mceiling[0m[38;5;1m of the ringing chamber[0m  . No one speaks , and the snaking of
-(26, 23, 25)        as the bells themselves , muffled by  [38;5;1mthe [4mceiling[0m  . Totally absorbed , the ringers stare
-
-(6, 28, 32)           - goers enjoying the peal of bells  [38;5;1mthis cool autumn [4mevening[0m  . Like most of the other 6,000 churches
-(7, 33, 34)        would herald every Sunday morning and  [38;5;1mevening[0m  service . Now , only one local ringer
-
-(43, 0, 2)          a dust - up over church attendance .  [38;5;1mThe [4mvicar[0m  , W.D. Jones , refuses to talk about it
-(43, 0, 6)          a dust - up over church attendance .  [38;5;1mThe vicar , W.D. [4mJones[0m[38;5;1m ,[0m  refuses to talk about it , saying it
-(43, 3, 5)       up over church attendance . The vicar ,  [38;5;1mW.D. [4mJones[0m  , refuses to talk about it , saying it
-
-(61, 25, 26)       the `` frequency of women fainting in  [38;5;1mpeals[0m  , '' and suggested that they `` settle
-(62, 47, 48)        unwashed and unbearably flatulent in  [38;5;1mpeals[0m  . '' Another women wrote from Sheffield
-
-(23, 3, 7)       Major or Grandsire Caters . A series of  [38;5;1m5,000 or so [4mchanges[0m  is a `` peal '' and takes about three
-(35, 1, 3)            on the bottom of the belfry . When  [38;5;1mtheir [4mchanges[0m  are completed , and after they have
-
-(7, 16, 17)             with sets of bells , St. Michael  [38;5;1monce[0m  had its own `` band '' of ringers , who
-(21, 9, 10)       variation , or change , can occur only  [38;5;1monce[0m  , the rules state . Ringers memorize
-(21, 11, 14)         , or change , can occur only once ,  [38;5;1mthe rules state[0m  . Ringers memorize patterns of changes
-(57, 13, 14)            number of women have entered the  [38;5;1monce[0m  male - dominated field ; more than a
 
 ------------------------------------------------------------
 
@@ -1696,6 +1297,405 @@ Extra:
 
 (0, 6, 8)        Internal Revenue Service has threatened  [38;5;1mcriminal [4msanctions[0m  against lawyers who fail to report
 (65, 19, 20)      Conduct , which is empowered to impose  [38;5;1msanctions[0m  . GAF TRIAL goes to round three .
+
+------------------------------------------------------------
+
+
+# nw/wsj/00/wsj_0089 000
+
+(7, 24, 25)       Michael once had its own `` band '' of  [38;5;1mringers[0m  , who would herald every Sunday morning
+(7, 24, 35)       Michael once had its own `` band '' of  [38;5;1mringers , who would herald every Sunday morning and evening service[0m  . Now , only one local ringer remains :
+(20, 6, 8)       many as 12 bells . Then , at a signal ,  [38;5;1mthe [4mringers[0m  begin varying the order in which the
+(22, 0, 1)       can occur only once , the rules state .  [38;5;1mRingers[0m  memorize patterns of changes , known as
+(27, 3, 5)           by the ceiling . Totally absorbed ,  [38;5;3mthe [4mringers[0m  stare straight ahead , using peripheral
+(27, 13, 14)       ahead , using peripheral vision -LRB-  [38;5;3mthey[0m  call it `` rope - sight '' -RRB- to
+(27, 30, 31)      to watch the other ropes and thus time  [38;5;3mtheir[0m  pulls . Far above in the belfry , the
+(31, 0, 1)                and mechanical perfection . ''  [38;5;1mRingers[0m  , she added , are `` filled with the
+(34, 5, 6)       tower , however . More often than not ,  [38;5;4mringers[0m  think of the church as something stuck
+(35, 1, 2)            on the bottom of the belfry . When  [38;5;4mtheir[0m  changes are completed , and after they
+(35, 8, 9)       their changes are completed , and after  [38;5;4mthey[0m  have worked up a sweat , ringers often
+(35, 15, 16)     and after they have worked up a sweat ,  [38;5;4mringers[0m  often skip off to the local pub ,
+(38, 21, 27)     Torrington , Devon , got so fed up with  [38;5;1m[4mringers[0m[38;5;1m who did n't attend service[0m  he sacked the entire band ; the ringers
+(38, 33, 35)         service he sacked the entire band ;  [38;5;5mthe [4mringers[0m  promptly set up a picket line in
+(39, 1, 2)          set up a picket line in protest . ``  [38;5;5mThey[0m  were a self - perpetuating club that
+(40, 12, 13)      today at Great Torrington , several of  [38;5;1mwhom[0m  are members of the congregation . But
+(45, 16, 18)           , bang , bang , bang -- here come  [38;5;1mthe [4mringers[0m  from above , making a very obvious exit
+(48, 6, 8)        , '' he says . `` I live in hopes that  [38;5;1mthe [4mringers[0m  themselves will be drawn into that
+(48, 8, 9)         . `` I live in hopes that the ringers  [38;5;1mthemselves[0m  will be drawn into that fuller life .
+(52, 11, 12)     attacking the greater problem : lack of  [38;5;1mringers[0m  . One survey says that of the 100,000
+(54, 2, 3)       only 40,000 of them still ring . Also ,  [38;5;1mringers[0m  do n't always live where the bells need
+(55, 9, 10)      council 's program to attract and train  [38;5;1mringers[0m  is only partly successful , says Mr.
+(56, 4, 5)           , says Mr. Baldwin . `` Right now ,  [38;5;6mwe[0m  're lucky if after five years we keep
+(56, 11, 12)      now , we 're lucky if after five years  [38;5;6mwe[0m  keep one new ringer out of 10 , '' he
+(60, 39, 40)           World , '' a weekly newspaper for  [38;5;1mringers[0m  . One writer , signing his letter as ``
+
+(49, 1, 7)       be drawn into that fuller life . '' The  [38;5;1mCentral Council of Church Bell Ringers[0m  , a sort of parliament of ringing
+(50, 0, 1)          , says John C. Baldwin , president .  [38;5;6mIt[0m  hopes to speak to students at
+(55, 1, 4)               and inner - city churches . But  [38;5;6mthe council [4m's[0m  program to attract and train ringers is
+
+(50, 5, 9)            , president . It hopes to speak to  [38;5;1m[4mstudents[0m[38;5;1m at theological colleges[0m  about the joys of bell ringing and will
+(51, 5, 6)       in Your Care . '' Says Mr. Baldwin , ``  [38;5;6mWe[0m  recognize that we may no longer have as
+(51, 8, 9)       Says Mr. Baldwin , `` We recognize that  [38;5;6mwe[0m  may no longer have as high a priority
+
+Missing:
+(49, 0, 16)          be drawn into that fuller life . ''  [38;5;6mThe Central Council of Church Bell Ringers , a [4msort[0m[38;5;6m of parliament of ringing groups ,[0m  aims to improve relations with vicars ,
+(38, 29, 32)        who did n't attend service he sacked  [38;5;5mthe entire [4mband[0m  ; the ringers promptly set up a picket
+
+------------------------------------------------------------
+
+(3, 16, 20)             , this is one of the loveliest :  [38;5;3mAn ancient stone [4mchurch[0m  stands amid the fields , the sound of
+(3, 31, 32)          , the sound of bells cascading from  [38;5;3mits[0m  tower , calling the faithful to
+
+(4, 3, 8)              to evensong . The parishioners of  [38;5;3mSt. Michael and All [4mAngels[0m  stop to chat at the church door , as
+(7, 14, 16)              in Britain with sets of bells ,  [38;5;3mSt. [4mMichael[0m  once had its own `` band '' of ringers
+
+(7, 5, 6)        autumn evening . Like most of the other  [38;5;1m6,000[0m  churches in Britain with sets of bells
+(7, 18, 19)         sets of bells , St. Michael once had  [38;5;3mits[0m  own `` band '' of ringers , who would
+
+Missing:
+(4, 18, 19)      to chat at the church door , as members  [38;5;3mhere[0m  always have . In the tower , five men
+
+------------------------------------------------------------
+
+(0, 9, 11)        art of change - ringing is peculiar to  [38;5;1mthe [4mEnglish[0m  , and , like most English peculiarities
+(2, 2, 3)            , `` The Nine Tailors '' ASLACTON ,  [38;5;3mEngland[0m  -- Of all scenes that evoke rural
+(3, 6, 8)          , England -- Of all scenes that evoke  [38;5;1mrural [4mEngland[0m  , this is one of the loveliest : An
+(3, 7, 8)              -- Of all scenes that evoke rural  [38;5;1mEngland[0m  , this is one of the loveliest : An
+(15, 14, 16)        taken a year ago , nearly a third of  [38;5;3mEngland [4m's[0m  church bells are no longer rung on
+(17, 21, 23)       continental Europe , is considered by  [38;5;1mthe [4mEnglish[0m  to be childish , fit only for
+(18, 9, 11)       - ringing , a mind - boggling exercise  [38;5;1mthe [4mEnglish[0m  invented 380 years ago , requires
+(37, 6, 7)            . With membership of the Church of  [38;5;3mEngland[0m  steadily dwindling , strong - willed
+(53, 10, 11)       of the 100,000 trained bellringers in  [38;5;3mEngland[0m  today , only 40,000 of them still ring
+
+(7, 8, 13)           most of the other 6,000 churches in  [38;5;1mBritain with sets of bells[0m  , St. Michael once had its own `` band
+(59, 44, 46)     group is the sole source of ringers for  [38;5;3mBritain [4m's[0m  most prestigious churches , St. Paul 's
+(60, 2, 3)            and Westminster Abbey . This being  [38;5;3mBritain[0m  , no woman has filed an equal -
+
+Missing:
+(7, 8, 9)            most of the other 6,000 churches in  [38;5;3mBritain[0m  with sets of bells , St. Michael once
+(32, 26, 28)       the band at St. Mary Abbot and one of  [38;5;3mEngland [4m's[0m  best female ringers . It is a passion
+(50, 25, 27)        publish a booklet for every vicar in  [38;5;3mthe [4mcountry[0m  entitled , `` The Bells in Your Care .
+
+------------------------------------------------------------
+
+(9, 0, 2)              : 64 - year - old Derek Hammond .  [38;5;1mThe [4mothers[0m  here today live elsewhere . They belong
+(10, 0, 1)        The others here today live elsewhere .  [38;5;3mThey[0m  belong to a group of 15 ringers --
+(11, 11, 12)        for even one service at this tower ,  [38;5;4mwe[0m  have to scrape , '' says Mr. Hammond ,
+(12, 1, 2)       a retired water - authority worker . ``  [38;5;4mWe[0m  've tried to train the youngsters , but
+(15, 31, 32)     Sundays because there is no one to ring  [38;5;5mthem[0m  . It is easy to see why the ancient art
+
+(15, 14, 18)        taken a year ago , nearly a third of  [38;5;5mEngland 's church [4mbells[0m  are no longer rung on Sundays because
+(30, 9, 11)          - known detective - story involving  [38;5;1mchurch [4mbells[0m  , English novelist Dorothy L. Sayers
+
+Missing:
+(10, 3, 44)        today live elsewhere . They belong to  [38;5;4ma [4mgroup[0m[38;5;4m of 15 ringers -- including two octogenarians and four youngsters in training -- who drive every Sunday from church to church in a sometimes - exhausting effort to keep the bells sounding in the many belfries of East Anglia[0m  . `` To ring for even one service at
+(5, 4, 8)              here always have . In the tower ,  [38;5;3mfive men and [4mwomen[0m  pull rhythmically on ropes attached to
+(9, 0, 3)              : 64 - year - old Derek Hammond .  [38;5;3mThe [4mothers[0m[38;5;3m here[0m  today live elsewhere . They belong to a
+
+------------------------------------------------------------
+
+(8, 2, 6)            morning and evening service . Now ,  [38;5;3monly one local [4mringer[0m  remains : 64 - year - old Derek Hammond
+(46, 21, 23)     he is both a vicar and an active bell -  [38;5;1mringer himself[0m  . `` The sound of bells is a net to
+
+(8, 12, 15)       one local ringer remains : 64 - year -  [38;5;1mold Derek Hammond[0m  . The others here today live elsewhere
+(11, 18, 20)         tower , we have to scrape , '' says  [38;5;1mMr. [4mHammond[0m  , a retired water - authority worker .
+(11, 18, 27)         tower , we have to scrape , '' says  [38;5;3mMr. Hammond , a retired water - authority [4mworker[0m  . `` We 've tried to train the
+(11, 19, 20)     tower , we have to scrape , '' says Mr.  [38;5;1mHammond[0m  , a retired water - authority worker .
+(13, 0, 2)        dances , and they just drift away . ''  [38;5;3mMr. [4mHammond[0m  worries that old age and the
+(14, 8, 9)             . History , after all , is not on  [38;5;3mhis[0m  side . According to a nationwide survey
+
+Missing:
+(8, 8, 15)       . Now , only one local ringer remains :  [38;5;3m64 - year - old Derek [4mHammond[0m  . The others here today live elsewhere
+
+------------------------------------------------------------
+
+(44, 1, 3)         it would `` reopen the wound . '' But  [38;5;1mC.J.B. [4mMarshall[0m  , vicar of a nearby church , feels the
+(44, 1, 10)        it would `` reopen the wound . '' But  [38;5;3mC.J.B. Marshall , [4mvicar[0m[38;5;3m of a nearby church ,[0m  feels the fault is in the stairs from
+(44, 4, 9)          the wound . '' But C.J.B. Marshall ,  [38;5;1m[4mvicar[0m[38;5;1m of a nearby church[0m  , feels the fault is in the stairs from
+(45, 34, 35)          the congregation is at prayer , ''  [38;5;3mhe[0m  says . Vicar Marshall admits to mixed
+(46, 0, 2)                   is at prayer , '' he says .  [38;5;3mVicar [4mMarshall[0m  admits to mixed feelings about this
+(46, 11, 12)     mixed feelings about this issue , since  [38;5;3mhe[0m  is both a vicar and an active bell -
+(46, 14, 16)         about this issue , since he is both  [38;5;1ma [4mvicar[0m  and an active bell - ringer himself .
+(46, 22, 23)         a vicar and an active bell - ringer  [38;5;3mhimself[0m  . `` The sound of bells is a net to
+(47, 16, 17)     net to draw people into the church , ''  [38;5;3mhe[0m  says . `` I live in hopes that the
+(48, 1, 2)             into the church , '' he says . ``  [38;5;3mI[0m  live in hopes that the ringers
+(50, 33, 34)      the country entitled , `` The Bells in  [38;5;1mYour[0m  Care . '' Says Mr. Baldwin , `` We
+
+------------------------------------------------------------
+
+(5, 7, 8)             have . In the tower , five men and  [38;5;1mwomen[0m  pull rhythmically on ropes attached to
+(57, 28, 29)       than a third of the ringers today are  [38;5;3mwomen[0m  . They are n't accepted everywhere ,
+(58, 0, 1)        third of the ringers today are women .  [38;5;3mThey[0m  are n't accepted everywhere , however .
+(59, 33, 34)      a fact that 's particularly galling to  [38;5;1mwomen[0m  because the group is the sole source of
+(61, 22, 23)        , '' remarked on the `` frequency of  [38;5;1mwomen[0m  fainting in peals , '' and suggested
+(61, 31, 32)            in peals , '' and suggested that  [38;5;4mthey[0m  `` settle back into their traditional
+(61, 36, 37)     suggested that they `` settle back into  [38;5;4mtheir[0m  traditional role of making tea at
+
+Missing:
+(61, 22, 26)        , '' remarked on the `` frequency of  [38;5;4m[4mwomen[0m[38;5;4m fainting in peals[0m  , '' and suggested that they `` settle
+
+------------------------------------------------------------
+
+(49, 24, 27)     to improve relations with vicars , says  [38;5;1mJohn C. [4mBaldwin[0m  , president . It hopes to speak to
+(49, 24, 29)     to improve relations with vicars , says  [38;5;3mJohn C. Baldwin , [4mpresident[0m  . It hopes to speak to students at
+(51, 1, 3)         , `` The Bells in Your Care . '' Says  [38;5;3mMr. [4mBaldwin[0m  , `` We recognize that we may no longer
+(51, 2, 3)       `` The Bells in Your Care . '' Says Mr.  [38;5;1mBaldwin[0m  , `` We recognize that we may no longer
+(52, 0, 2)            in church life and experience . ''  [38;5;3mMr. [4mBaldwin[0m  is also attacking the greater problem :
+(55, 16, 18)            is only partly successful , says  [38;5;3mMr. [4mBaldwin[0m  . `` Right now , we 're lucky if after
+(56, 21, 22)       we keep one new ringer out of 10 , ''  [38;5;3mhe[0m  adds . One bright sign is that a
+
+------------------------------------------------------------
+
+(10, 13, 17)          -- including two octogenarians and  [38;5;1mfour [4myoungsters[0m[38;5;1m in training[0m  -- who drive every Sunday from church
+(12, 6, 8)             worker . `` We 've tried to train  [38;5;3mthe [4myoungsters[0m  , but they have their discos and their
+(12, 10, 11)     've tried to train the youngsters , but  [38;5;3mthey[0m  have their discos and their dances ,
+(12, 12, 13)     to train the youngsters , but they have  [38;5;3mtheir[0m  discos and their dances , and they just
+(12, 15, 16)            , but they have their discos and  [38;5;3mtheir[0m  dances , and they just drift away . ''
+(12, 19, 20)         their discos and their dances , and  [38;5;3mthey[0m  just drift away . '' Mr. Hammond
+
+------------------------------------------------------------
+
+(38, 4, 8)          to attend services . Two years ago ,  [38;5;1mthe Rev. Jeremy [4mHummerstone[0m  , vicar of Great Torrington , Devon ,
+(38, 4, 16)         to attend services . Two years ago ,  [38;5;3mthe Rev. Jeremy Hummerstone , [4mvicar[0m[38;5;3m of Great Torrington , Devon ,[0m  got so fed up with ringers who did n't
+(38, 6, 8)           services . Two years ago , the Rev.  [38;5;1mJeremy Hummerstone[0m  , vicar of Great Torrington , Devon ,
+(38, 9, 13)          ago , the Rev. Jeremy Hummerstone ,  [38;5;1mvicar of Great Torrington[0m  , Devon , got so fed up with ringers
+(38, 27, 28)     with ringers who did n't attend service  [38;5;3mhe[0m  sacked the entire band ; the ringers
+(39, 20, 23)         as sort of a separate premises , ''  [38;5;3mthe Vicar [4mHummerstone[0m  says . An entirely new band rings today
+
+------------------------------------------------------------
+
+(60, 4, 6)                  Abbey . This being Britain ,  [38;5;1mno [4mwoman[0m  has filed an equal - opportunity suit ,
+(63, 9, 10)          wrote from Sheffield to say that in  [38;5;3mher[0m  60 years of ringing , `` I have never
+(63, 16, 17)        that in her 60 years of ringing , ``  [38;5;3mI[0m  have never known a lady to faint in the
+(64, 0, 1)         known a lady to faint in the belfry .  [38;5;3mI[0m  have seen one or two men die , bless
+
+Missing:
+(63, 0, 2)        and unbearably flatulent in peals . ''  [38;5;3mAnother [4mwomen[0m  wrote from Sheffield to say that in her
+
+------------------------------------------------------------
+
+(3, 31, 33)          , the sound of bells cascading from  [38;5;3mits [4mtower[0m  , calling the faithful to evensong .
+(5, 1, 3)        door , as members here always have . In  [38;5;3mthe [4mtower[0m  , five men and women pull rhythmically
+(11, 8, 10)         . `` To ring for even one service at  [38;5;3mthis [4mtower[0m  , we have to scrape , '' says Mr.
+(33, 8, 10)      . It is a passion that usually stays in  [38;5;1mthe [4mtower[0m  , however . More often than not ,
+(39, 10, 12)     a self - perpetuating club that treated  [38;5;1mthe [4mtower[0m  as sort of a separate premises , '' the
+
+------------------------------------------------------------
+
+(42, 1, 9)         more than six of the eight bells . At  [38;5;1mSt. Mary 's [4mChurch[0m[38;5;1m in Ilminster , Somerset[0m  , the bells have fallen silent
+(43, 10, 11)        , W.D. Jones , refuses to talk about  [38;5;3mit[0m  , saying it would `` reopen the wound .
+(43, 13, 14)         , refuses to talk about it , saying  [38;5;4mit[0m  would `` reopen the wound . '' But
+
+Missing:
+(42, 13, 14)       Ilminster , Somerset , the bells have  [38;5;3mfallen[0m  silent following a dust - up over
+(43, 8, 9)         . The vicar , W.D. Jones , refuses to  [38;5;4mtalk[0m  about it , saying it would `` reopen
+
+------------------------------------------------------------
+
+(2, 0, 1)             L. Sayers , `` The Nine Tailors ''  [38;5;1mASLACTON[0m  , England -- Of all scenes that evoke
+(2, 0, 3)             L. Sayers , `` The Nine Tailors ''  [38;5;3mASLACTON , [4mEngland[0m  -- Of all scenes that evoke rural
+(6, 10, 11)        is also a discordant , modern note in  [38;5;3mAslacton[0m  , though it ca n't be heard by the
+(13, 23, 24)       the East Anglian group that keeps the  [38;5;3mAslacton[0m  bells pealing . History , after all ,
+
+------------------------------------------------------------
+
+(59, 4, 9)                 , however . The oldest bell -  [38;5;1mringing group in the country[0m  , the Ancient Society of College Youths
+(59, 10, 16)       bell - ringing group in the country ,  [38;5;1mthe Ancient [4mSociety[0m[38;5;1m of College Youths[0m  , founded in 1637 , remains male - only
+(59, 11, 16)        - ringing group in the country , the  [38;5;1mAncient Society of College Youths[0m  , founded in 1637 , remains male - only
+(59, 35, 37)       particularly galling to women because  [38;5;3mthe [4mgroup[0m  is the sole source of ringers for
+
+Missing:
+(59, 10, 13)       bell - ringing group in the country ,  [38;5;3mthe Ancient [4mSociety[0m  of College Youths , founded in 1637 ,
+
+------------------------------------------------------------
+
+(1, 1, 4)                  to the rest of the world . --  [38;5;1mDorothy L. [4mSayers[0m  , `` The Nine Tailors '' ASLACTON ,
+(1, 1, 10)                 to the rest of the world . --  [38;5;1mDorothy L. Sayers , `` The Nine Tailors ''[0m  ASLACTON , England -- Of all scenes
+(30, 12, 17)            - story involving church bells ,  [38;5;3mEnglish novelist Dorothy L. [4mSayers[0m  described ringing as a `` passion -LCB-
+
+Missing:
+(1, 0, 10)                    to the rest of the world .  [38;5;3m-- Dorothy L. Sayers , `` The Nine [4mTailors[0m[38;5;3m ''[0m  ASLACTON , England -- Of all scenes
+(31, 2, 3)          mechanical perfection . '' Ringers ,  [38;5;3mshe[0m  added , are `` filled with the solemn
+
+------------------------------------------------------------
+
+(64, 5, 7)            in the belfry . I have seen one or  [38;5;1mtwo men[0m  die , bless them .
+(64, 10, 11)      I have seen one or two men die , bless  [38;5;3mthem[0m  .
+
+Missing:
+(64, 3, 7)          to faint in the belfry . I have seen  [38;5;3mone or two [4mmen[0m  die , bless them .
+
+------------------------------------------------------------
+
+(53, 5, 11)         of ringers . One survey says that of  [38;5;1mthe 100,000 trained bellringers in England[0m  today , only 40,000 of them still ring
+(53, 16, 17)           in England today , only 40,000 of  [38;5;3mthem[0m  still ring . Also , ringers do n't
+
+Missing:
+(53, 5, 12)         of ringers . One survey says that of  [38;5;3mthe 100,000 trained bellringers in England [4mtoday[0m  , only 40,000 of them still ring . Also
+
+------------------------------------------------------------
+
+(38, 11, 13)      the Rev. Jeremy Hummerstone , vicar of  [38;5;1mGreat [4mTorrington[0m  , Devon , got so fed up with ringers
+(40, 7, 9)         . An entirely new band rings today at  [38;5;3mGreat [4mTorrington[0m  , several of whom are members of the
+
+Missing:
+(38, 11, 15)      the Rev. Jeremy Hummerstone , vicar of  [38;5;3mGreat Torrington , [4mDevon[0m  , got so fed up with ringers who did
+
+------------------------------------------------------------
+
+(29, 0, 2)       the inverted , or mouth - up position .  [38;5;3mSkilled [4mringers[0m  use their wrists to advance or retard
+(29, 3, 4)           - up position . Skilled ringers use  [38;5;3mtheir[0m  wrists to advance or retard the next
+
+------------------------------------------------------------
+
+(6, 4, 11)              here in 1614 . But there is also  [38;5;1ma discordant , modern note in Aslacton[0m  , though it ca n't be heard by the
+(6, 13, 14)           , modern note in Aslacton , though  [38;5;3mit[0m  ca n't be heard by the church - goers
+
+Missing:
+(6, 4, 9)               here in 1614 . But there is also  [38;5;3ma discordant , modern [4mnote[0m  in Aslacton , though it ca n't be heard
+
+------------------------------------------------------------
+
+Entirely missing or extra
+
+Missing:
+(0, 0, 6)                                                 [38;5;3mThe [4mart[0m[38;5;3m of change - ringing[0m  is peculiar to the English , and , like
+(16, 6, 9)          to ring them . It is easy to see why  [38;5;3mthe ancient [4mart[0m  is on the ropes . The less complicated
+(18, 0, 16)      be childish , fit only for foreigners .  [38;5;3mChange - ringing , a mind - boggling [4mexercise[0m[38;5;3m the English invented 380 years ago ,[0m  requires physical dexterity -- some
+
+(32, 1, 2)          ritual faultlessly performed . '' ``  [38;5;3mRinging[0m  does become a bit of an obsession , ''
+(33, 0, 1)       one of England 's best female ringers .  [38;5;3mIt[0m  is a passion that usually stays in the
+
+(59, 21, 22)       of College Youths , founded in 1637 ,  [38;5;3mremains[0m  male - only , a fact that 's
+(59, 26, 57)     founded in 1637 , remains male - only ,  [38;5;3ma [4mfact[0m[38;5;3m that 's particularly galling to women because the group is the sole source of ringers for Britain 's most prestigious churches , St. Paul 's Cathedral and Westminster Abbey[0m  . This being Britain , no woman has
+
+Extra:
+(40, 10, 13)      band rings today at Great Torrington ,  [38;5;1mseveral [4mof[0m[38;5;1m whom[0m  are members of the congregation . But
+(40, 14, 18)      Great Torrington , several of whom are  [38;5;1m[4mmembers[0m[38;5;1m of the congregation[0m  . But there still are n't enough
+
+(60, 29, 40)       this summer in a series of letters to  [38;5;1m`` The Ringing World , '' a weekly [4mnewspaper[0m[38;5;1m for ringers[0m  . One writer , signing his letter as ``
+(60, 30, 33)         summer in a series of letters to ``  [38;5;1mThe Ringing [4mWorld[0m  , '' a weekly newspaper for ringers .
+(60, 35, 40)     of letters to `` The Ringing World , ''  [38;5;1ma weekly [4mnewspaper[0m[38;5;1m for ringers[0m  . One writer , signing his letter as ``
+
+(3, 25, 39)        stone church stands amid the fields ,  [38;5;1mthe sound of bells cascading from its tower , [4mcalling[0m[38;5;1m the faithful to evensong[0m  . The parishioners of St. Michael and
+(47, 1, 5)          an active bell - ringer himself . ``  [38;5;1mThe [4msound[0m[38;5;1m of bells[0m  is a net to draw people into the church
+(47, 6, 14)           himself . `` The sound of bells is  [38;5;1ma [4mnet[0m[38;5;1m to draw people into the church[0m  , '' he says . `` I live in hopes that
+
+(59, 26, 37)     founded in 1637 , remains male - only ,  [38;5;1ma fact that 's particularly galling to women because the group[0m  is the sole source of ringers for
+(59, 38, 57)       galling to women because the group is  [38;5;1mthe sole [4msource[0m[38;5;1m of ringers for Britain 's most prestigious churches , St. Paul 's Cathedral and Westminster Abbey[0m  . This being Britain , no woman has
+
+(25, 7, 9)        . Ten shirt - sleeved ringers stand in  [38;5;1ma [4mcircle[0m  , one foot ahead of the other in a
+(25, 7, 42)       . Ten shirt - sleeved ringers stand in  [38;5;1ma circle , one foot ahead of the other in a prize - fighter 's stance , each pulling a rope that disappears through a small hole in the high ceiling of the ringing chamber[0m  . No one speaks , and the snaking of
+
+(22, 8, 15)      memorize patterns of changes , known as  [38;5;1m`` methods , '' which have odd[0m  - sounding names like Kent Treble Bob
+(22, 9, 10)            patterns of changes , known as ``  [38;5;1mmethods[0m  , '' which have odd - sounding names
+
+(18, 2, 6)          , fit only for foreigners . Change -  [38;5;1mringing , a mind[0m  - boggling exercise the English
+(18, 4, 6)           for foreigners . Change - ringing ,  [38;5;1ma mind[0m  - boggling exercise the English
+(30, 18, 19)        novelist Dorothy L. Sayers described  [38;5;1mringing[0m  as a `` passion -LCB- that -RCB- finds
+
+(7, 30, 31)       '' of ringers , who would herald every  [38;5;1mSunday[0m  morning and evening service . Now ,
+(10, 21, 22)              in training -- who drive every  [38;5;1mSunday[0m  from church to church in a sometimes -
+(15, 23, 24)       's church bells are no longer rung on  [38;5;1mSundays[0m  because there is no one to ring them .
+
+(30, 1, 11)         another in the following change . In  [38;5;1ma well - known detective - [4mstory[0m[38;5;1m involving church bells[0m  , English novelist Dorothy L. Sayers
+(30, 27, 28)      as a `` passion -LCB- that -RCB- finds  [38;5;1mits[0m  satisfaction in mathematical
+
+(24, 8, 12)       A look at a Thursday night practice at  [38;5;1mSt. Mary Abbot [4mchurch[0m  in the Kensington district of London
+(34, 8, 10)       More often than not , ringers think of  [38;5;1mthe [4mchurch[0m  as something stuck on the bottom of the
+(47, 12, 14)       of bells is a net to draw people into  [38;5;1mthe [4mchurch[0m  , '' he says . `` I live in hopes that
+
+(37, 12, 14)       England steadily dwindling , strong -  [38;5;1mwilled vicars[0m  are pressing equally strong - willed
+(49, 21, 22)     groups , aims to improve relations with  [38;5;1mvicars[0m  , says John C. Baldwin , president . It
+
+(32, 12, 14)           a bit of an obsession , '' admits  [38;5;1mStephanie [4mPattenden[0m  , master of the band at St. Mary Abbot
+(32, 12, 31)           a bit of an obsession , '' admits  [38;5;1mStephanie Pattenden , [4mmaster[0m[38;5;1m of the band at St. Mary Abbot and one of England 's best female ringers[0m  . It is a passion that usually stays in
+(32, 15, 31)           , '' admits Stephanie Pattenden ,  [38;5;1m[4mmaster[0m[38;5;1m of the band at St. Mary Abbot and one of England 's best female ringers[0m  . It is a passion that usually stays in
+
+(21, 8, 10)       Each variation , or change , can occur  [38;5;1m[4monly[0m[38;5;1m once[0m  , the rules state . Ringers memorize
+(21, 8, 14)       Each variation , or change , can occur  [38;5;1monly once , the rules state[0m  . Ringers memorize patterns of changes
+
+(8, 0, 1)           Sunday morning and evening service .  [38;5;1mNow[0m  , only one local ringer remains : 64 -
+(56, 1, 3)            successful , says Mr. Baldwin . ``  [38;5;1m[4mRight[0m[38;5;1m now[0m  , we 're lucky if after five years we
+
+(59, 42, 49)     because the group is the sole source of  [38;5;1mringers for Britain 's most prestigious churches[0m  , St. Paul 's Cathedral and Westminster
+(59, 42, 57)     because the group is the sole source of  [38;5;1mringers for Britain 's most prestigious churches , St. Paul 's Cathedral and Westminster Abbey[0m  . This being Britain , no woman has
+
+(5, 4, 5)              here always have . In the tower ,  [38;5;1mfive[0m  men and women pull rhythmically on
+(5, 16, 17)                on ropes attached to the same  [38;5;1mfive[0m  bells that first sounded here in 1614 .
+(56, 9, 10)       . `` Right now , we 're lucky if after  [38;5;1mfive[0m  years we keep one new ringer out of 10
+
+(61, 0, 2)         , '' a weekly newspaper for ringers .  [38;5;1mOne [4mwriter[0m  , signing his letter as `` Red -
+(61, 4, 5)            for ringers . One writer , signing  [38;5;1mhis[0m  letter as `` Red - blooded , balanced
+
+(22, 4, 5)          state . Ringers memorize patterns of  [38;5;1mchanges[0m  , known as `` methods , '' which have
+(22, 4, 15)         state . Ringers memorize patterns of  [38;5;1mchanges , known as `` methods , '' which have odd[0m  - sounding names like Kent Treble Bob
+
+(52, 5, 12)           . '' Mr. Baldwin is also attacking  [38;5;1mthe greater problem : [4mlack[0m[38;5;1m of ringers[0m  . One survey says that of the 100,000
+(60, 18, 20)      - opportunity suit , but the extent of  [38;5;1mthe [4mproblem[0m  surfaced this summer in a series of
+
+(25, 3, 5)       idea of the work involved . Ten shirt -  [38;5;1msleeved ringers[0m  stand in a circle , one foot ahead of
+(26, 19, 20)          to make as much sound as the bells  [38;5;1mthemselves[0m  , muffled by the ceiling . Totally
+
+(50, 25, 35)        publish a booklet for every vicar in  [38;5;1mthe country entitled , `` The Bells in Your Care[0m  . '' Says Mr. Baldwin , `` We recognize
+(59, 7, 9)          . The oldest bell - ringing group in  [38;5;1mthe [4mcountry[0m  , the Ancient Society of College Youths
+
+(7, 12, 13)       6,000 churches in Britain with sets of  [38;5;1mbells[0m  , St. Michael once had its own `` band
+(17, 8, 9)       complicated version of playing tunes on  [38;5;1mbells[0m  , as do the carillons of continental
+(17, 8, 18)      complicated version of playing tunes on  [38;5;1mbells , as do the carillons of continental Europe ,[0m  is considered by the English to be
+(47, 4, 5)       bell - ringer himself . `` The sound of  [38;5;1mbells[0m  is a net to draw people into the church
+
+(28, 3, 5)          thus time their pulls . Far above in  [38;5;1mthe [4mbelfry[0m  , the huge bronze bells , mounted on
+(34, 17, 19)         as something stuck on the bottom of  [38;5;1mthe [4mbelfry[0m  . When their changes are completed ,
+(63, 25, 27)       I have never known a lady to faint in  [38;5;1mthe [4mbelfry[0m  . I have seen one or two men die ,
+
+(40, 16, 18)            , several of whom are members of  [38;5;1mthe [4mcongregation[0m  . But there still are n't enough
+(45, 27, 29)          , making a very obvious exit while  [38;5;1mthe [4mcongregation[0m  is at prayer , '' he says . Vicar
+
+(5, 11, 24)      five men and women pull rhythmically on  [38;5;1m[4mropes[0m[38;5;1m attached to the same five bells that first sounded here in 1614[0m  . But there is also a discordant ,
+(16, 11, 13)       easy to see why the ancient art is on  [38;5;1mthe [4mropes[0m  . The less complicated version of
+(26, 8, 10)         . No one speaks , and the snaking of  [38;5;1mthe [4mropes[0m  seems to make as much sound as the
+
+(28, 6, 10)      their pulls . Far above in the belfry ,  [38;5;1mthe huge bronze [4mbells[0m  , mounted on wheels , swing madly
+(28, 6, 15)      their pulls . Far above in the belfry ,  [38;5;1mthe huge bronze [4mbells[0m[38;5;1m , mounted on wheels ,[0m  swing madly through a full 360 degrees
+
+(3, 22, 24)        : An ancient stone church stands amid  [38;5;1mthe [4mfields[0m  , the sound of bells cascading from its
+(3, 22, 39)        : An ancient stone church stands amid  [38;5;1mthe fields , the sound of bells cascading from its tower , calling the faithful to evensong[0m  . The parishioners of St. Michael and
+
+(10, 10, 11)       to a group of 15 ringers -- including  [38;5;1mtwo[0m  octogenarians and four youngsters in
+(64, 5, 6)            in the belfry . I have seen one or  [38;5;1mtwo[0m  men die , bless them .
+
+(6, 19, 32)      Aslacton , though it ca n't be heard by  [38;5;1mthe church - [4mgoers[0m[38;5;1m enjoying the peal of bells this cool autumn evening[0m  . Like most of the other 6,000 churches
+(10, 25, 29)       who drive every Sunday from church to  [38;5;1mchurch in a sometimes[0m  - exhausting effort to keep the bells
+
+(19, 0, 3)           with intense mental concentration .  [38;5;1mProper English [4mbells[0m  are started off in `` rounds , '' from
+(20, 14, 16)            begin varying the order in which  [38;5;1mthe [4mbells[0m  sound without altering the steady
+(42, 10, 12)         's Church in Ilminster , Somerset ,  [38;5;1mthe [4mbells[0m  have fallen silent following a dust -
+(54, 8, 10)      Also , ringers do n't always live where  [38;5;1mthe [4mbells[0m  need to be rung -- like in small ,
+
+(26, 0, 2)         high ceiling of the ringing chamber .  [38;5;1mNo [4mone[0m  speaks , and the snaking of the ropes
+(27, 15, 16)     using peripheral vision -LRB- they call  [38;5;1mit[0m  `` rope - sight '' -RRB- to watch the
+
+(25, 35, 42)     that disappears through a small hole in  [38;5;1mthe high [4mceiling[0m[38;5;1m of the ringing chamber[0m  . No one speaks , and the snaking of
+(26, 23, 25)        as the bells themselves , muffled by  [38;5;1mthe [4mceiling[0m  . Totally absorbed , the ringers stare
+
+(6, 28, 32)           - goers enjoying the peal of bells  [38;5;1mthis cool autumn [4mevening[0m  . Like most of the other 6,000 churches
+(7, 33, 34)        would herald every Sunday morning and  [38;5;1mevening[0m  service . Now , only one local ringer
+
+(43, 0, 2)          a dust - up over church attendance .  [38;5;1mThe [4mvicar[0m  , W.D. Jones , refuses to talk about it
+(43, 0, 6)          a dust - up over church attendance .  [38;5;1mThe vicar , W.D. [4mJones[0m[38;5;1m ,[0m  refuses to talk about it , saying it
+(43, 3, 5)       up over church attendance . The vicar ,  [38;5;1mW.D. [4mJones[0m  , refuses to talk about it , saying it
+
+(61, 25, 26)       the `` frequency of women fainting in  [38;5;1mpeals[0m  , '' and suggested that they `` settle
+(62, 47, 48)        unwashed and unbearably flatulent in  [38;5;1mpeals[0m  . '' Another women wrote from Sheffield
+
+(23, 3, 7)       Major or Grandsire Caters . A series of  [38;5;1m5,000 or so [4mchanges[0m  is a `` peal '' and takes about three
+(35, 1, 3)            on the bottom of the belfry . When  [38;5;1mtheir [4mchanges[0m  are completed , and after they have
+
+(7, 16, 17)             with sets of bells , St. Michael  [38;5;1monce[0m  had its own `` band '' of ringers , who
+(21, 9, 10)       variation , or change , can occur only  [38;5;1monce[0m  , the rules state . Ringers memorize
+(21, 11, 14)         , or change , can occur only once ,  [38;5;1mthe rules state[0m  . Ringers memorize patterns of changes
+(57, 13, 14)            number of women have entered the  [38;5;1monce[0m  male - dominated field ; more than a
 
 ------------------------------------------------------------
 

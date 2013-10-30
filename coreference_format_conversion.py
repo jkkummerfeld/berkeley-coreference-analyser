@@ -32,7 +32,7 @@ def multifile_process(path, call):
 	gold = defaultdict(lambda: {})
 	for filename in glob.glob(path):
 		name, part = convert_underscored_filename(filename)
-		if "tc/ch/00/ch" in name:
+		if "tc/ch/00/ch" in filename and '9' not in filename:
 			val = int(name.split('_')[-1]) * 10 - 1
 			name = "tc/ch/00/ch_%04d" % val
 		coreference_reading.read_conll_matching_file(gold_src, name, gold)
@@ -119,7 +119,7 @@ if __name__ == '__main__':
 		print '\n'.join(formats.keys())
 		sys.exit(1)
 	auto, gold = formats[sys.argv[2]](auto_src, gold_src)
-	
+
 	for doc in auto:
 		for part in auto[doc]:
 			for mention in auto[doc][part]['mentions']:

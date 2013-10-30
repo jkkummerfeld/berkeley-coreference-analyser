@@ -120,8 +120,8 @@ def match_boundaries(gold_mention_set, auto_mention_set, auto_mentions, auto_clu
 
 def print_conll_style_part(out, text, mentions, doc, part):
 	doc_str = doc
-	if "tc/ch/00/ch" in doc and '9' not in doc:
-		val = int(doc.split('_')[-1]) * 10 - 1
+	if "tc/ch/00/ch" in doc_str and '9' not in doc_str:
+		val = int(doc_str.split('_')[-1]) * 10 - 1
 		doc_str = "tc/ch/00/ch_%04d" % val
 	print >> out, "#begin document (%s); part %s" % (doc_str, part)
 	starts = defaultdict(lambda: [])
@@ -157,9 +157,16 @@ def print_conll_style_part(out, text, mentions, doc, part):
 	print >> out, "#end document"
 
 def print_conll_style(data, gold, out):
+	# Define an order
+	order = []
 	for doc in data:
 		for part in data[doc]:
-			print_conll_style_part(out, gold[doc][part]['text'], data[doc][part]['mentions'], doc, part)
+			order.append((doc, part))
+	order.sort()
+
+	# Work out the errors
+	for doc, part in order:
+		print_conll_style_part(out, gold[doc][part]['text'], data[doc][part]['mentions'], doc, part)
 
 def mention_text(text, mention, parses=None, heads=None, colour=None):
 	sentence, start, end = mention
@@ -454,9 +461,9 @@ for extra, and purple where they overlap.'''
 		mentions_by_sentence[mention[0]][0].append(mention)
 	for mention in auto_mention_set:
 		mentions_by_sentence[mention[0]][1].append(mention)
-	
+
 	# Maps from word locations to tuples of:
-	# ( in missing mention , in extra mention , is a head , 
+	# ( in missing mention , in extra mention , is a head ,
 	#   [(is gold? , end)]
 	#   [(is gold? , start)] )
 	word_colours = {}
@@ -506,7 +513,7 @@ for extra, and purple where they overlap.'''
 					if mention[2] - 1 == word:
 						ends.append((mention[1], mention_dict[mention], mention))
 				ends.sort(reverse=True)
-				
+
 				start = ''
 				for mention in starts:
 					character = ''
@@ -532,7 +539,7 @@ for extra, and purple where they overlap.'''
 					elif inside_extra:
 						colour = '1'
 					start += "\033[38;5;{}m{}\033[0m".format(colour, character)
-				
+
 				end = ''
 				for mention in ends:
 					character = ''
@@ -558,7 +565,7 @@ for extra, and purple where they overlap.'''
 					elif inside_extra:
 						colour = '1'
 					end += "\033[38;5;{}m{}\033[0m".format(colour, character)
-				
+
 				colour = '15'
 				if len(extra) > 0 and len(missing) > 0:
 					colour = '5'

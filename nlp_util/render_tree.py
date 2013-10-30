@@ -149,7 +149,7 @@ def tex_synttree(tree, other_spans=None, depth=0, compressed=True, span=None):
 
 def text_coloured_errors(tree, gold=None, depth=0, single_line=False, missing=None, extra=None, compressed=True, POS=True):
 	'''Pretty print, with errors marked using colour.
-	
+
 	'missing' should contain tuples (or be None):
 		(start, end, label, crossing-T/F)
 	'''
@@ -162,8 +162,6 @@ def text_coloured_errors(tree, gold=None, depth=0, single_line=False, missing=No
 			return "Error - no gold tree and no missing list for colour repr"
 		# look at gold and work out what missing should be
 		errors = parse_errors.get_errors(tree, gold, POS)
-###		for error in errors:
-###			ans += '%s (%d, %d) %s\n' % (error[0], error[1][0], error[1][1], error[2])
 		extra = [e[3] for e in errors if e[0] == 'extra' and e[3].word is None]
 		extra = set(extra)
 		missing = [(e[1][0], e[1][1], e[2], False) for e in errors if e[0] == 'missing' and e[3].word is None]
@@ -173,7 +171,7 @@ def text_coloured_errors(tree, gold=None, depth=0, single_line=False, missing=No
 	start_extra = "\033[01;31m"
 	start_crossing = "\033[01;33m"
 	end_colour = "\033[00m"
-	
+
 	if not single_line:
 		ans += '\n' + depth * '\t'
 
@@ -192,7 +190,7 @@ def text_coloured_errors(tree, gold=None, depth=0, single_line=False, missing=No
 			ans += '(' + tree.label
 	else:
 		ans += '(' + tree.label
-	
+
 	# If we are compressing, check for correctness and then just print words
 	sub_done = False
 	if compressed and tree not in extra and tree.word is None:

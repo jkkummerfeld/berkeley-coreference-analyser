@@ -1,5 +1,5 @@
 # Time of run:
-# Tue Sep  3 11:16:04 2013
+# Wed Oct 30 11:20:23 2013
 # Command:
 # ./print_errors.py data/pretty_printed/stanford data/gold/ data/homogenised/stanford.homogenised.out F
 #
@@ -38,136 +38,6 @@
 (0, 33, 35)    Extra:  [38;5;1mU.S. patents[0m
 (0, 33, 43)    Extra:  [38;5;1mU.S. patents , copyrights and other intellectual - property [4mrights[0m
 (0, 36, 37)    Extra:  [38;5;1mcopyrights[0m
-
-
-# nw/wsj/00/wsj_0089 000
-
-(40, 10, 13)   Extra:  [38;5;1mseveral [4mof[0m[38;5;1m whom[0m
-(40, 14, 18)   Extra:  [38;5;1m[4mmembers[0m[38;5;1m of the congregation[0m
-
-(60, 29, 40)   Extra:  [38;5;1m`` The Ringing World , '' a weekly [4mnewspaper[0m[38;5;1m for ringers[0m
-(60, 30, 33)   Extra:  [38;5;1mThe Ringing [4mWorld[0m
-(60, 35, 40)   Extra:  [38;5;1ma weekly [4mnewspaper[0m[38;5;1m for ringers[0m
-
-(3, 25, 39)    Extra:  [38;5;1mthe sound of bells cascading from its tower , [4mcalling[0m[38;5;1m the faithful to evensong[0m
-(47, 1, 5)     Extra:  [38;5;1mThe [4msound[0m[38;5;1m of bells[0m
-(47, 6, 14)    Extra:  [38;5;1ma [4mnet[0m[38;5;1m to draw people into the church[0m
-
-(59, 26, 37)   Extra:  [38;5;1ma fact that 's particularly galling to women because the group[0m
-(59, 38, 57)   Extra:  [38;5;1mthe sole [4msource[0m[38;5;1m of ringers for Britain 's most prestigious churches , St. Paul 's Cathedral and Westminster Abbey[0m
-
-(25, 7, 9)     Extra:  [38;5;1ma [4mcircle[0m
-(25, 7, 42)    Extra:  [38;5;1ma circle , one foot ahead of the other in a prize - fighter 's stance , each pulling a rope that disappears through a small hole in the high ceiling of the ringing chamber[0m
-
-(22, 8, 15)    Extra:  [38;5;1m`` methods , '' which have odd[0m
-(22, 9, 10)    Extra:  [38;5;1mmethods[0m
-
-(18, 2, 6)     Extra:  [38;5;1mringing , a mind[0m
-(18, 4, 6)     Extra:  [38;5;1ma mind[0m
-(30, 18, 19)   Extra:  [38;5;1mringing[0m
-
-(7, 30, 31)    Extra:  [38;5;1mSunday[0m
-(10, 21, 22)   Extra:  [38;5;1mSunday[0m
-(15, 23, 24)   Extra:  [38;5;1mSundays[0m
-
-(30, 1, 11)    Extra:  [38;5;1ma well - known detective - [4mstory[0m[38;5;1m involving church bells[0m
-(30, 27, 28)   Extra:  [38;5;1mits[0m
-
-(24, 8, 12)    Extra:  [38;5;1mSt. Mary Abbot [4mchurch[0m
-(34, 8, 10)    Extra:  [38;5;1mthe [4mchurch[0m
-(47, 12, 14)   Extra:  [38;5;1mthe [4mchurch[0m
-
-(37, 12, 14)   Extra:  [38;5;1mwilled vicars[0m
-(49, 21, 22)   Extra:  [38;5;1mvicars[0m
-
-(32, 12, 14)   Extra:  [38;5;1mStephanie [4mPattenden[0m
-(32, 12, 31)   Extra:  [38;5;1mStephanie Pattenden , [4mmaster[0m[38;5;1m of the band at St. Mary Abbot and one of England 's best female ringers[0m
-(32, 15, 31)   Extra:  [38;5;1m[4mmaster[0m[38;5;1m of the band at St. Mary Abbot and one of England 's best female ringers[0m
-
-(21, 8, 10)    Extra:  [38;5;1m[4monly[0m[38;5;1m once[0m
-(21, 8, 14)    Extra:  [38;5;1monly once , the rules state[0m
-
-(8, 0, 1)      Extra:  [38;5;1mNow[0m
-(56, 1, 3)     Extra:  [38;5;1m[4mRight[0m[38;5;1m now[0m
-
-(59, 42, 49)   Extra:  [38;5;1mringers for Britain 's most prestigious churches[0m
-(59, 42, 57)   Extra:  [38;5;1mringers for Britain 's most prestigious churches , St. Paul 's Cathedral and Westminster Abbey[0m
-
-(5, 4, 5)      Extra:  [38;5;1mfive[0m
-(5, 16, 17)    Extra:  [38;5;1mfive[0m
-(56, 9, 10)    Extra:  [38;5;1mfive[0m
-
-(61, 0, 2)     Extra:  [38;5;1mOne [4mwriter[0m
-(61, 4, 5)     Extra:  [38;5;1mhis[0m
-
-(22, 4, 5)     Extra:  [38;5;1mchanges[0m
-(22, 4, 15)    Extra:  [38;5;1mchanges , known as `` methods , '' which have odd[0m
-
-(52, 5, 12)    Extra:  [38;5;1mthe greater problem : [4mlack[0m[38;5;1m of ringers[0m
-(60, 18, 20)   Extra:  [38;5;1mthe [4mproblem[0m
-
-(25, 3, 5)     Extra:  [38;5;1msleeved ringers[0m
-(26, 19, 20)   Extra:  [38;5;1mthemselves[0m
-
-(50, 25, 35)   Extra:  [38;5;1mthe country entitled , `` The Bells in Your Care[0m
-(59, 7, 9)     Extra:  [38;5;1mthe [4mcountry[0m
-
-(7, 12, 13)    Extra:  [38;5;1mbells[0m
-(17, 8, 9)     Extra:  [38;5;1mbells[0m
-(17, 8, 18)    Extra:  [38;5;1mbells , as do the carillons of continental Europe ,[0m
-(47, 4, 5)     Extra:  [38;5;1mbells[0m
-
-(28, 3, 5)     Extra:  [38;5;1mthe [4mbelfry[0m
-(34, 17, 19)   Extra:  [38;5;1mthe [4mbelfry[0m
-(63, 25, 27)   Extra:  [38;5;1mthe [4mbelfry[0m
-
-(40, 16, 18)   Extra:  [38;5;1mthe [4mcongregation[0m
-(45, 27, 29)   Extra:  [38;5;1mthe [4mcongregation[0m
-
-(5, 11, 24)    Extra:  [38;5;1m[4mropes[0m[38;5;1m attached to the same five bells that first sounded here in 1614[0m
-(16, 11, 13)   Extra:  [38;5;1mthe [4mropes[0m
-(26, 8, 10)    Extra:  [38;5;1mthe [4mropes[0m
-
-(28, 6, 10)    Extra:  [38;5;1mthe huge bronze [4mbells[0m
-(28, 6, 15)    Extra:  [38;5;1mthe huge bronze [4mbells[0m[38;5;1m , mounted on wheels ,[0m
-
-(3, 22, 24)    Extra:  [38;5;1mthe [4mfields[0m
-(3, 22, 39)    Extra:  [38;5;1mthe fields , the sound of bells cascading from its tower , calling the faithful to evensong[0m
-
-(10, 10, 11)   Extra:  [38;5;1mtwo[0m
-(64, 5, 6)     Extra:  [38;5;1mtwo[0m
-
-(6, 19, 32)    Extra:  [38;5;1mthe church - [4mgoers[0m[38;5;1m enjoying the peal of bells this cool autumn evening[0m
-(10, 25, 29)   Extra:  [38;5;1mchurch in a sometimes[0m
-
-(19, 0, 3)     Extra:  [38;5;1mProper English [4mbells[0m
-(20, 14, 16)   Extra:  [38;5;1mthe [4mbells[0m
-(42, 10, 12)   Extra:  [38;5;1mthe [4mbells[0m
-(54, 8, 10)    Extra:  [38;5;1mthe [4mbells[0m
-
-(26, 0, 2)     Extra:  [38;5;1mNo [4mone[0m
-(27, 15, 16)   Extra:  [38;5;1mit[0m
-
-(25, 35, 42)   Extra:  [38;5;1mthe high [4mceiling[0m[38;5;1m of the ringing chamber[0m
-(26, 23, 25)   Extra:  [38;5;1mthe [4mceiling[0m
-
-(6, 28, 32)    Extra:  [38;5;1mthis cool autumn [4mevening[0m
-(7, 33, 34)    Extra:  [38;5;1mevening[0m
-
-(43, 0, 2)     Extra:  [38;5;1mThe [4mvicar[0m
-(43, 0, 6)     Extra:  [38;5;1mThe vicar , W.D. [4mJones[0m[38;5;1m ,[0m
-(43, 3, 5)     Extra:  [38;5;1mW.D. [4mJones[0m
-
-(61, 25, 26)   Extra:  [38;5;1mpeals[0m
-(62, 47, 48)   Extra:  [38;5;1mpeals[0m
-
-(23, 3, 7)     Extra:  [38;5;1m5,000 or so [4mchanges[0m
-(35, 1, 3)     Extra:  [38;5;1mtheir [4mchanges[0m
-
-(7, 16, 17)    Extra:  [38;5;1monce[0m
-(21, 9, 10)    Extra:  [38;5;1monce[0m
-(21, 11, 14)   Extra:  [38;5;1mthe rules state[0m
-(57, 13, 14)   Extra:  [38;5;1monce[0m
 
 
 # nw/wsj/00/wsj_0037 000
@@ -328,4 +198,134 @@
 
 (0, 6, 8)      Extra:  [38;5;1mcriminal [4msanctions[0m
 (65, 19, 20)   Extra:  [38;5;1msanctions[0m
+
+
+# nw/wsj/00/wsj_0089 000
+
+(40, 10, 13)   Extra:  [38;5;1mseveral [4mof[0m[38;5;1m whom[0m
+(40, 14, 18)   Extra:  [38;5;1m[4mmembers[0m[38;5;1m of the congregation[0m
+
+(60, 29, 40)   Extra:  [38;5;1m`` The Ringing World , '' a weekly [4mnewspaper[0m[38;5;1m for ringers[0m
+(60, 30, 33)   Extra:  [38;5;1mThe Ringing [4mWorld[0m
+(60, 35, 40)   Extra:  [38;5;1ma weekly [4mnewspaper[0m[38;5;1m for ringers[0m
+
+(3, 25, 39)    Extra:  [38;5;1mthe sound of bells cascading from its tower , [4mcalling[0m[38;5;1m the faithful to evensong[0m
+(47, 1, 5)     Extra:  [38;5;1mThe [4msound[0m[38;5;1m of bells[0m
+(47, 6, 14)    Extra:  [38;5;1ma [4mnet[0m[38;5;1m to draw people into the church[0m
+
+(59, 26, 37)   Extra:  [38;5;1ma fact that 's particularly galling to women because the group[0m
+(59, 38, 57)   Extra:  [38;5;1mthe sole [4msource[0m[38;5;1m of ringers for Britain 's most prestigious churches , St. Paul 's Cathedral and Westminster Abbey[0m
+
+(25, 7, 9)     Extra:  [38;5;1ma [4mcircle[0m
+(25, 7, 42)    Extra:  [38;5;1ma circle , one foot ahead of the other in a prize - fighter 's stance , each pulling a rope that disappears through a small hole in the high ceiling of the ringing chamber[0m
+
+(22, 8, 15)    Extra:  [38;5;1m`` methods , '' which have odd[0m
+(22, 9, 10)    Extra:  [38;5;1mmethods[0m
+
+(18, 2, 6)     Extra:  [38;5;1mringing , a mind[0m
+(18, 4, 6)     Extra:  [38;5;1ma mind[0m
+(30, 18, 19)   Extra:  [38;5;1mringing[0m
+
+(7, 30, 31)    Extra:  [38;5;1mSunday[0m
+(10, 21, 22)   Extra:  [38;5;1mSunday[0m
+(15, 23, 24)   Extra:  [38;5;1mSundays[0m
+
+(30, 1, 11)    Extra:  [38;5;1ma well - known detective - [4mstory[0m[38;5;1m involving church bells[0m
+(30, 27, 28)   Extra:  [38;5;1mits[0m
+
+(24, 8, 12)    Extra:  [38;5;1mSt. Mary Abbot [4mchurch[0m
+(34, 8, 10)    Extra:  [38;5;1mthe [4mchurch[0m
+(47, 12, 14)   Extra:  [38;5;1mthe [4mchurch[0m
+
+(37, 12, 14)   Extra:  [38;5;1mwilled vicars[0m
+(49, 21, 22)   Extra:  [38;5;1mvicars[0m
+
+(32, 12, 14)   Extra:  [38;5;1mStephanie [4mPattenden[0m
+(32, 12, 31)   Extra:  [38;5;1mStephanie Pattenden , [4mmaster[0m[38;5;1m of the band at St. Mary Abbot and one of England 's best female ringers[0m
+(32, 15, 31)   Extra:  [38;5;1m[4mmaster[0m[38;5;1m of the band at St. Mary Abbot and one of England 's best female ringers[0m
+
+(21, 8, 10)    Extra:  [38;5;1m[4monly[0m[38;5;1m once[0m
+(21, 8, 14)    Extra:  [38;5;1monly once , the rules state[0m
+
+(8, 0, 1)      Extra:  [38;5;1mNow[0m
+(56, 1, 3)     Extra:  [38;5;1m[4mRight[0m[38;5;1m now[0m
+
+(59, 42, 49)   Extra:  [38;5;1mringers for Britain 's most prestigious churches[0m
+(59, 42, 57)   Extra:  [38;5;1mringers for Britain 's most prestigious churches , St. Paul 's Cathedral and Westminster Abbey[0m
+
+(5, 4, 5)      Extra:  [38;5;1mfive[0m
+(5, 16, 17)    Extra:  [38;5;1mfive[0m
+(56, 9, 10)    Extra:  [38;5;1mfive[0m
+
+(61, 0, 2)     Extra:  [38;5;1mOne [4mwriter[0m
+(61, 4, 5)     Extra:  [38;5;1mhis[0m
+
+(22, 4, 5)     Extra:  [38;5;1mchanges[0m
+(22, 4, 15)    Extra:  [38;5;1mchanges , known as `` methods , '' which have odd[0m
+
+(52, 5, 12)    Extra:  [38;5;1mthe greater problem : [4mlack[0m[38;5;1m of ringers[0m
+(60, 18, 20)   Extra:  [38;5;1mthe [4mproblem[0m
+
+(25, 3, 5)     Extra:  [38;5;1msleeved ringers[0m
+(26, 19, 20)   Extra:  [38;5;1mthemselves[0m
+
+(50, 25, 35)   Extra:  [38;5;1mthe country entitled , `` The Bells in Your Care[0m
+(59, 7, 9)     Extra:  [38;5;1mthe [4mcountry[0m
+
+(7, 12, 13)    Extra:  [38;5;1mbells[0m
+(17, 8, 9)     Extra:  [38;5;1mbells[0m
+(17, 8, 18)    Extra:  [38;5;1mbells , as do the carillons of continental Europe ,[0m
+(47, 4, 5)     Extra:  [38;5;1mbells[0m
+
+(28, 3, 5)     Extra:  [38;5;1mthe [4mbelfry[0m
+(34, 17, 19)   Extra:  [38;5;1mthe [4mbelfry[0m
+(63, 25, 27)   Extra:  [38;5;1mthe [4mbelfry[0m
+
+(40, 16, 18)   Extra:  [38;5;1mthe [4mcongregation[0m
+(45, 27, 29)   Extra:  [38;5;1mthe [4mcongregation[0m
+
+(5, 11, 24)    Extra:  [38;5;1m[4mropes[0m[38;5;1m attached to the same five bells that first sounded here in 1614[0m
+(16, 11, 13)   Extra:  [38;5;1mthe [4mropes[0m
+(26, 8, 10)    Extra:  [38;5;1mthe [4mropes[0m
+
+(28, 6, 10)    Extra:  [38;5;1mthe huge bronze [4mbells[0m
+(28, 6, 15)    Extra:  [38;5;1mthe huge bronze [4mbells[0m[38;5;1m , mounted on wheels ,[0m
+
+(3, 22, 24)    Extra:  [38;5;1mthe [4mfields[0m
+(3, 22, 39)    Extra:  [38;5;1mthe fields , the sound of bells cascading from its tower , calling the faithful to evensong[0m
+
+(10, 10, 11)   Extra:  [38;5;1mtwo[0m
+(64, 5, 6)     Extra:  [38;5;1mtwo[0m
+
+(6, 19, 32)    Extra:  [38;5;1mthe church - [4mgoers[0m[38;5;1m enjoying the peal of bells this cool autumn evening[0m
+(10, 25, 29)   Extra:  [38;5;1mchurch in a sometimes[0m
+
+(19, 0, 3)     Extra:  [38;5;1mProper English [4mbells[0m
+(20, 14, 16)   Extra:  [38;5;1mthe [4mbells[0m
+(42, 10, 12)   Extra:  [38;5;1mthe [4mbells[0m
+(54, 8, 10)    Extra:  [38;5;1mthe [4mbells[0m
+
+(26, 0, 2)     Extra:  [38;5;1mNo [4mone[0m
+(27, 15, 16)   Extra:  [38;5;1mit[0m
+
+(25, 35, 42)   Extra:  [38;5;1mthe high [4mceiling[0m[38;5;1m of the ringing chamber[0m
+(26, 23, 25)   Extra:  [38;5;1mthe [4mceiling[0m
+
+(6, 28, 32)    Extra:  [38;5;1mthis cool autumn [4mevening[0m
+(7, 33, 34)    Extra:  [38;5;1mevening[0m
+
+(43, 0, 2)     Extra:  [38;5;1mThe [4mvicar[0m
+(43, 0, 6)     Extra:  [38;5;1mThe vicar , W.D. [4mJones[0m[38;5;1m ,[0m
+(43, 3, 5)     Extra:  [38;5;1mW.D. [4mJones[0m
+
+(61, 25, 26)   Extra:  [38;5;1mpeals[0m
+(62, 47, 48)   Extra:  [38;5;1mpeals[0m
+
+(23, 3, 7)     Extra:  [38;5;1m5,000 or so [4mchanges[0m
+(35, 1, 3)     Extra:  [38;5;1mtheir [4mchanges[0m
+
+(7, 16, 17)    Extra:  [38;5;1monce[0m
+(21, 9, 10)    Extra:  [38;5;1monce[0m
+(21, 11, 14)   Extra:  [38;5;1mthe rules state[0m
+(57, 13, 14)   Extra:  [38;5;1monce[0m
 

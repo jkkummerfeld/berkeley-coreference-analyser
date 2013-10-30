@@ -8,7 +8,7 @@ TRACE_LABEL = '-NONE-'
 
 class TreeIterator:
 	'''Iterator for traversal of a tree.
-	
+
 	PSTree uses pre-order traversal by default, but this supports post-order too, e.g.:
 	>>> tree = tree_from_text("(ROOT (S (NP-SBJ (NNP Ms.) (NNP Haag) ) (VP (VBZ plays) (NP (NNP Elianti) )) (. .) ))")
 	>>> for node in TreeIterator(tree, 'post'):
@@ -88,10 +88,10 @@ class PSTree:
 			self.subtrees = subtrees
 			for subtree in subtrees:
 				subtree.parent = self
-	
+
 	def __iter__(self):
 		return TreeIterator(self, 'pre')
-	
+
 	def clone(self):
 		ans = PSTree(self.word, self.label, self.span)
 		for subtree in self.subtrees:

@@ -64,9 +64,9 @@ def collins_NP(tree, head_map):
 		collins_find_heads(subtree, head_map)
 	#TODO:todo Extra special cases for NPs
 ###	Ignore the row for NPs -- I use a special set of rules for this. For these
-###	I initially remove ADJPs, QPs, and also NPs which dominate a possesive 
-###	(tagged POS, e.g.  (NP (NP the man 's) telescope ) becomes 
-###	(NP the man 's telescope)). These are recovered as a post-processing stage 
+###	I initially remove ADJPs, QPs, and also NPs which dominate a possesive
+###	(tagged POS, e.g.  (NP (NP the man 's) telescope ) becomes
+###	(NP the man 's telescope)). These are recovered as a post-processing stage
 ###	after parsing. The following rules are then used to recover the NP head:
 
 	#TODO:todo handle NML properly
@@ -97,7 +97,7 @@ def collins_find_heads(tree, head_map=None):
 		head = (tree.span, tree.word, tree.label)
 		add_head(head_map, tree, head)
 		return head_map
-	
+
 	# If the label for this node is not in the table we are either at the bottom,
 	# at an NP, or have an error
 	if tree.label not in collins_mapping_table:
@@ -105,12 +105,12 @@ def collins_find_heads(tree, head_map=None):
 			collins_NP(tree, head_map)
 		else:
 			# TODO: Consider alternative error announcement means
-			if tree.label not in ['ROOT', 'TOP', 'S1', '']:
-				print >> sys.stderr, "Unknown Label: %s" % tree.label
-				print >> sys.stderr, "In tree:", tree.root()
+###			if tree.label not in ['ROOT', 'TOP', 'S1', '']:
+###				print >> sys.stderr, "Unknown Label: %s" % tree.label
+###				print >> sys.stderr, "In tree:", tree.root()
 			add_head(head_map, tree, get_head(head_map, tree.subtrees[-1]))
 		return head_map
-	
+
 	# Look through and take the first/last occurrence that matches
 	info = collins_mapping_table[tree.label]
 	for label in info[1]:
@@ -158,9 +158,9 @@ Message-Id: <199505251748.NAA02892@thane.bbn.com>
 To: mcollins@gradient.cis.upenn.edu, robertm@unagi.cis.upenn.edu,
         mitch@linc.cis.upenn.edu
 Cc: magerman@bbn.com
-Subject: Re: Head words table 
+Subject: Re: Head words table
 In-Reply-To: Your message of "Thu, 25 May 1995 13:17:14 EDT."
-             <9505251717.AA17874@gradient.cis.upenn.edu> 
+             <9505251717.AA17874@gradient.cis.upenn.edu>
 Date: Thu, 25 May 1995 13:48:07 -0400
 From: David Magerman <magerman@bbn.com>
 Content-Type: text
@@ -252,15 +252,15 @@ is just the number of fields on that line. Otherwise, the format is the same
 as David's.
 
 Ignore the row for NPs -- I use a special set of rules for this. For these
-I initially remove ADJPs, QPs, and also NPs which dominate a possesive 
-(tagged POS, e.g.  (NP (NP the man 's) telescope ) becomes 
-(NP the man 's telescope)). These are recovered as a post-processing stage 
+I initially remove ADJPs, QPs, and also NPs which dominate a possesive
+(tagged POS, e.g.  (NP (NP the man 's) telescope ) becomes
+(NP the man 's telescope)). These are recovered as a post-processing stage
 after parsing. The following rules are then used to recover the NP head:
 
 If the last word is tagged POS, return (last-word);
 
 Else search from right to left for the first child which is an NN, NNP, NNPS, NNS, NX, POS, or JJR
-                       
+
 Else search from left to right for first child which is an NP
 
 Else search from right to left for the first child which is a $, ADJP or PRN
@@ -275,12 +275,12 @@ Else return the last word
 20 ADJP	0	NNS QP NN $ ADVP JJ VBN VBG ADJP JJR NP JJS DT FW RBR RBS SBAR RB
 15 ADVP	1	RB RBR RBS FW ADVP TO CD JJR JJ IN NP JJS NN
 5 CONJP	1	CC RB IN
-2 FRAG	1	
-2 INTJ	0	
+2 FRAG	1
+2 INTJ	0
 4 LST	1	LS :
 19 NAC	0	NN NNS NNP NNPS NP NAC EX $ CD QP PRP VBG JJ JJS JJR ADJP FW
 8 PP	1	IN TO VBG VBN RP FW
-2 PRN	0	
+2 PRN	0
 3 PRT	1	RP
 14 QP	0	$ IN NNS NN JJ RB DT CD NCD QP JJR JJS
 7 RRC	1	VP NP ADVP ADJP PP
@@ -289,7 +289,7 @@ Else return the last word
 7 SBARQ	0	SQ S SINV SBARQ FRAG
 12 SINV	0	VBZ VBD VBP VB MD VP S SINV ADJP NP
 9 SQ	0	VBZ VBD VBP VB MD VP SQ
-2 UCP	1	
+2 UCP	1
 15 VP	0	TO VBD VBN MD VBZ VB VBG VBP VP ADJP NN NNS NP
 6 WHADJP	0	CC WRB JJ ADJP
 4 WHADVP	1	CC WRB

@@ -1,5 +1,5 @@
 # Time of run:
-# Tue Sep  3 11:02:59 2013
+# Wed Oct 30 11:20:11 2013
 # Command:
 # ./coreference_format_conversion.py data/homogenised/stanford.homogenised stanford_xml data/stanford_xml_out/ data/gold/
 #

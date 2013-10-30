@@ -107,7 +107,7 @@ def move_nodes(nodes, new_parent, in_place=True, remove_empty=True, remove_trivi
 		nodes = pstree.clone_and_find(nodes + [new_parent])
 		new_parent = nodes[-1]
 		nodes = nodes[:-1]
-	
+
 	# Find the insertion point in the new parent's subtrees
 	old_parent = nodes[0].parent
 	nodes.sort(key=lambda x: x.span)
@@ -147,7 +147,7 @@ def move_nodes(nodes, new_parent, in_place=True, remove_empty=True, remove_trivi
 		# If the removal applies, then we will need to check at that level for
 		# unaries, rather than down at the old_parent
 		to_check_for_unary = to_remove.parent
-	
+
 	# Remove trivial unaries
 	if remove_trivial_unary:
 		to_check = to_check_for_unary

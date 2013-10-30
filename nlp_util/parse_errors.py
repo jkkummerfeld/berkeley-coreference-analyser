@@ -16,7 +16,7 @@ class Parse_Error_Set:
 			errors = get_errors(test, gold, include_terminals)
 			for error in errors:
 				self.add_error(error[0], error[1], error[2], error[3])
-	
+
 	def add_error(self, etype, span, label, node):
 		error = (etype, span, label, node)
 		if span not in self.spans:
@@ -64,7 +64,7 @@ def get_errors(test, gold, include_terminals=False):
 		if span[2].is_terminal():
 			to_remove.append(span)
 			continue
-		key = (span[0], span[1], span[2].label) 
+		key = (span[0], span[1], span[2].label)
 		if key not in test_span_set:
 			test_span_set[key] = 0
 		test_span_set[key] += 1
@@ -79,7 +79,7 @@ def get_errors(test, gold, include_terminals=False):
 		if span[2].is_terminal():
 			to_remove.append(span)
 			continue
-		key = (span[0], span[1], span[2].label) 
+		key = (span[0], span[1], span[2].label)
 		if key not in gold_span_set:
 			gold_span_set[key] = 0
 		gold_span_set[key] += 1

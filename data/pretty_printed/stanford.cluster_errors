@@ -1,5 +1,5 @@
 # Time of run:
-# Tue Sep  3 11:16:04 2013
+# Wed Oct 30 11:20:23 2013
 # Command:
 # ./print_errors.py data/pretty_printed/stanford data/gold/ data/homogenised/stanford.homogenised.out F
 #
@@ -197,405 +197,6 @@ Extra:
 (0, 33, 35)    Extra:  [38;5;1mU.S. patents[0m
 (0, 33, 43)    Extra:  [38;5;1mU.S. patents , copyrights and other intellectual - property [4mrights[0m
 (0, 36, 37)    Extra:  [38;5;1mcopyrights[0m
-
-------------------------------------------------------------
-
-
-# nw/wsj/00/wsj_0089 000
-
-(7, 24, 25)    Extra:  [38;5;1mringers[0m
-(7, 24, 35)    Extra:  [38;5;1mringers , who would herald every Sunday morning and evening service[0m
-(20, 6, 8)     Extra:  [38;5;1mthe [4mringers[0m
-(22, 0, 1)     Extra:  [38;5;1mRingers[0m
-(27, 3, 5)     [38;5;3mthe [4mringers[0m
-(27, 13, 14)   [38;5;3mthey[0m
-(27, 30, 31)   [38;5;3mtheir[0m
-(31, 0, 1)     Extra:  [38;5;1mRingers[0m
-(34, 5, 6)     [38;5;4mringers[0m
-(35, 1, 2)     [38;5;4mtheir[0m
-(35, 8, 9)     [38;5;4mthey[0m
-(35, 15, 16)   [38;5;4mringers[0m
-(38, 21, 27)   Extra:  [38;5;1m[4mringers[0m[38;5;1m who did n't attend service[0m
-(38, 33, 35)   [38;5;5mthe [4mringers[0m
-(39, 1, 2)     [38;5;5mThey[0m
-(40, 12, 13)   Extra:  [38;5;1mwhom[0m
-(45, 16, 18)   Extra:  [38;5;1mthe [4mringers[0m
-(48, 6, 8)     Extra:  [38;5;1mthe [4mringers[0m
-(48, 8, 9)     Extra:  [38;5;1mthemselves[0m
-(52, 11, 12)   Extra:  [38;5;1mringers[0m
-(54, 2, 3)     Extra:  [38;5;1mringers[0m
-(55, 9, 10)    Extra:  [38;5;1mringers[0m
-(56, 4, 5)     [38;5;6mwe[0m
-(56, 11, 12)   [38;5;6mwe[0m
-(60, 39, 40)   Extra:  [38;5;1mringers[0m
-
-(49, 1, 7)     Extra:  [38;5;1mCentral Council of Church Bell Ringers[0m
-(50, 0, 1)     [38;5;6mIt[0m
-(55, 1, 4)     [38;5;6mthe council [4m's[0m
-
-(50, 5, 9)     Extra:  [38;5;1m[4mstudents[0m[38;5;1m at theological colleges[0m
-(51, 5, 6)     [38;5;6mWe[0m
-(51, 8, 9)     [38;5;6mwe[0m
-
-Missing:
-(49, 0, 16)    [38;5;6mThe Central Council of Church Bell Ringers , a [4msort[0m[38;5;6m of parliament of ringing groups ,[0m
-(38, 29, 32)   [38;5;5mthe entire [4mband[0m
-
-------------------------------------------------------------
-
-(3, 16, 20)    [38;5;3mAn ancient stone [4mchurch[0m
-(3, 31, 32)    [38;5;3mits[0m
-
-(4, 3, 8)      [38;5;3mSt. Michael and All [4mAngels[0m
-(7, 14, 16)    [38;5;3mSt. [4mMichael[0m
-
-(7, 5, 6)      Extra:  [38;5;1m6,000[0m
-(7, 18, 19)    [38;5;3mits[0m
-
-Missing:
-(4, 18, 19)    [38;5;3mhere[0m
-
-------------------------------------------------------------
-
-(0, 9, 11)     Extra:  [38;5;1mthe [4mEnglish[0m
-(2, 2, 3)      [38;5;3mEngland[0m
-(3, 6, 8)      Extra:  [38;5;1mrural [4mEngland[0m
-(3, 7, 8)      Extra:  [38;5;1mEngland[0m
-(15, 14, 16)   [38;5;3mEngland [4m's[0m
-(17, 21, 23)   Extra:  [38;5;1mthe [4mEnglish[0m
-(18, 9, 11)    Extra:  [38;5;1mthe [4mEnglish[0m
-(37, 6, 7)     [38;5;3mEngland[0m
-(53, 10, 11)   [38;5;3mEngland[0m
-
-(7, 8, 13)     Extra:  [38;5;1mBritain with sets of bells[0m
-(59, 44, 46)   [38;5;3mBritain [4m's[0m
-(60, 2, 3)     [38;5;3mBritain[0m
-
-Missing:
-(7, 8, 9)      [38;5;3mBritain[0m
-(32, 26, 28)   [38;5;3mEngland [4m's[0m
-(50, 25, 27)   [38;5;3mthe [4mcountry[0m
-
-------------------------------------------------------------
-
-(9, 0, 2)      Extra:  [38;5;1mThe [4mothers[0m
-(10, 0, 1)     [38;5;3mThey[0m
-(11, 11, 12)   [38;5;4mwe[0m
-(12, 1, 2)     [38;5;4mWe[0m
-(15, 31, 32)   [38;5;5mthem[0m
-
-(15, 14, 18)   [38;5;5mEngland 's church [4mbells[0m
-(30, 9, 11)    Extra:  [38;5;1mchurch [4mbells[0m
-
-Missing:
-(10, 3, 44)    [38;5;4ma [4mgroup[0m[38;5;4m of 15 ringers -- including two octogenarians and four youngsters in training -- who drive every Sunday from church to church in a sometimes - exhausting effort to keep the bells sounding in the many belfries of East Anglia[0m
-(5, 4, 8)      [38;5;3mfive men and [4mwomen[0m
-(9, 0, 3)      [38;5;3mThe [4mothers[0m[38;5;3m here[0m
-
-------------------------------------------------------------
-
-(8, 2, 6)      [38;5;3monly one local [4mringer[0m
-(46, 21, 23)   Extra:  [38;5;1mringer himself[0m
-
-(8, 12, 15)    Extra:  [38;5;1mold Derek Hammond[0m
-(11, 18, 20)   Extra:  [38;5;1mMr. [4mHammond[0m
-(11, 18, 27)   [38;5;3mMr. Hammond , a retired water - authority [4mworker[0m
-(11, 19, 20)   Extra:  [38;5;1mHammond[0m
-(13, 0, 2)     [38;5;3mMr. [4mHammond[0m
-(14, 8, 9)     [38;5;3mhis[0m
-
-Missing:
-(8, 8, 15)     [38;5;3m64 - year - old Derek [4mHammond[0m
-
-------------------------------------------------------------
-
-(44, 1, 3)     Extra:  [38;5;1mC.J.B. [4mMarshall[0m
-(44, 1, 10)    [38;5;15mC.J.B. Marshall , [4mvicar[0m[38;5;15m of a nearby church ,[0m
-(44, 4, 9)     Extra:  [38;5;1m[4mvicar[0m[38;5;1m of a nearby church[0m
-(45, 34, 35)   [38;5;15mhe[0m
-(46, 0, 2)     [38;5;15mVicar [4mMarshall[0m
-(46, 11, 12)   [38;5;15mhe[0m
-(46, 14, 16)   Extra:  [38;5;1ma [4mvicar[0m
-(46, 22, 23)   [38;5;15mhimself[0m
-(47, 16, 17)   [38;5;15mhe[0m
-(48, 1, 2)     [38;5;15mI[0m
-(50, 33, 34)   Extra:  [38;5;1mYour[0m
-
-------------------------------------------------------------
-
-(5, 7, 8)      Extra:  [38;5;1mwomen[0m
-(57, 28, 29)   [38;5;3mwomen[0m
-(58, 0, 1)     [38;5;3mThey[0m
-(59, 33, 34)   Extra:  [38;5;1mwomen[0m
-(61, 22, 23)   Extra:  [38;5;1mwomen[0m
-(61, 31, 32)   [38;5;4mthey[0m
-(61, 36, 37)   [38;5;4mtheir[0m
-
-Missing:
-(61, 22, 26)   [38;5;4m[4mwomen[0m[38;5;4m fainting in peals[0m
-
-------------------------------------------------------------
-
-(49, 24, 27)   Extra:  [38;5;1mJohn C. [4mBaldwin[0m
-(49, 24, 29)   [38;5;15mJohn C. Baldwin , [4mpresident[0m
-(51, 1, 3)     [38;5;15mMr. [4mBaldwin[0m
-(51, 2, 3)     Extra:  [38;5;1mBaldwin[0m
-(52, 0, 2)     [38;5;15mMr. [4mBaldwin[0m
-(55, 16, 18)   [38;5;15mMr. [4mBaldwin[0m
-(56, 21, 22)   [38;5;15mhe[0m
-
-------------------------------------------------------------
-
-(10, 13, 17)   Extra:  [38;5;1mfour [4myoungsters[0m[38;5;1m in training[0m
-(12, 6, 8)     [38;5;15mthe [4myoungsters[0m
-(12, 10, 11)   [38;5;15mthey[0m
-(12, 12, 13)   [38;5;15mtheir[0m
-(12, 15, 16)   [38;5;15mtheir[0m
-(12, 19, 20)   [38;5;15mthey[0m
-
-------------------------------------------------------------
-
-(38, 4, 8)     Extra:  [38;5;1mthe Rev. Jeremy [4mHummerstone[0m
-(38, 4, 16)    [38;5;15mthe Rev. Jeremy Hummerstone , [4mvicar[0m[38;5;15m of Great Torrington , Devon ,[0m
-(38, 6, 8)     Extra:  [38;5;1mJeremy Hummerstone[0m
-(38, 9, 13)    Extra:  [38;5;1mvicar of Great Torrington[0m
-(38, 27, 28)   [38;5;15mhe[0m
-(39, 20, 23)   [38;5;15mthe Vicar [4mHummerstone[0m
-
-------------------------------------------------------------
-
-(60, 4, 6)     Extra:  [38;5;1mno [4mwoman[0m
-(63, 9, 10)    [38;5;15mher[0m
-(63, 16, 17)   [38;5;15mI[0m
-(64, 0, 1)     [38;5;15mI[0m
-
-Missing:
-(63, 0, 2)     [38;5;15mAnother [4mwomen[0m
-
-------------------------------------------------------------
-
-(3, 31, 33)    [38;5;15mits [4mtower[0m
-(5, 1, 3)      [38;5;15mthe [4mtower[0m
-(11, 8, 10)    [38;5;15mthis [4mtower[0m
-(33, 8, 10)    Extra:  [38;5;1mthe [4mtower[0m
-(39, 10, 12)   Extra:  [38;5;1mthe [4mtower[0m
-
-------------------------------------------------------------
-
-(42, 1, 9)     Extra:  [38;5;1mSt. Mary 's [4mChurch[0m[38;5;1m in Ilminster , Somerset[0m
-(43, 10, 11)   [38;5;3mit[0m
-(43, 13, 14)   [38;5;4mit[0m
-
-Missing:
-(42, 13, 14)   [38;5;3mfallen[0m
-(43, 8, 9)     [38;5;4mtalk[0m
-
-------------------------------------------------------------
-
-(2, 0, 1)      Extra:  [38;5;1mASLACTON[0m
-(2, 0, 3)      [38;5;15mASLACTON , [4mEngland[0m
-(6, 10, 11)    [38;5;15mAslacton[0m
-(13, 23, 24)   [38;5;15mAslacton[0m
-
-------------------------------------------------------------
-
-(59, 4, 9)     Extra:  [38;5;1mringing group in the country[0m
-(59, 10, 16)   Extra:  [38;5;1mthe Ancient [4mSociety[0m[38;5;1m of College Youths[0m
-(59, 11, 16)   Extra:  [38;5;1mAncient Society of College Youths[0m
-(59, 35, 37)   [38;5;15mthe [4mgroup[0m
-
-Missing:
-(59, 10, 13)   [38;5;15mthe Ancient [4mSociety[0m
-
-------------------------------------------------------------
-
-(1, 1, 4)      Extra:  [38;5;1mDorothy L. [4mSayers[0m
-(1, 1, 10)     Extra:  [38;5;1mDorothy L. Sayers , `` The Nine Tailors ''[0m
-(30, 12, 17)   [38;5;15mEnglish novelist Dorothy L. [4mSayers[0m
-
-Missing:
-(1, 0, 10)     [38;5;15m-- Dorothy L. Sayers , `` The Nine [4mTailors[0m[38;5;15m ''[0m
-(31, 2, 3)     [38;5;15mshe[0m
-
-------------------------------------------------------------
-
-(64, 5, 7)     Extra:  [38;5;1mtwo men[0m
-(64, 10, 11)   [38;5;15mthem[0m
-
-Missing:
-(64, 3, 7)     [38;5;15mone or two [4mmen[0m
-
-------------------------------------------------------------
-
-(53, 5, 11)    Extra:  [38;5;1mthe 100,000 trained bellringers in England[0m
-(53, 16, 17)   [38;5;15mthem[0m
-
-Missing:
-(53, 5, 12)    [38;5;15mthe 100,000 trained bellringers in England [4mtoday[0m
-
-------------------------------------------------------------
-
-(38, 11, 13)   Extra:  [38;5;1mGreat [4mTorrington[0m
-(40, 7, 9)     [38;5;15mGreat [4mTorrington[0m
-
-Missing:
-(38, 11, 15)   [38;5;15mGreat Torrington , [4mDevon[0m
-
-------------------------------------------------------------
-
-(29, 0, 2)     [38;5;15mSkilled [4mringers[0m
-(29, 3, 4)     [38;5;15mtheir[0m
-
-------------------------------------------------------------
-
-(6, 4, 11)     Extra:  [38;5;1ma discordant , modern note in Aslacton[0m
-(6, 13, 14)    [38;5;15mit[0m
-
-Missing:
-(6, 4, 9)      [38;5;15ma discordant , modern [4mnote[0m
-
-------------------------------------------------------------
-
-Entirely missing or extra
-
-Missing:
-(0, 0, 6)      [38;5;15mThe [4mart[0m[38;5;15m of change - ringing[0m
-(16, 6, 9)     [38;5;15mthe ancient [4mart[0m
-(18, 0, 16)    [38;5;15mChange - ringing , a mind - boggling [4mexercise[0m[38;5;15m the English invented 380 years ago ,[0m
-
-(32, 1, 2)     [38;5;15mRinging[0m
-(33, 0, 1)     [38;5;15mIt[0m
-
-(59, 21, 22)   [38;5;15mremains[0m
-(59, 26, 57)   [38;5;15ma [4mfact[0m[38;5;15m that 's particularly galling to women because the group is the sole source of ringers for Britain 's most prestigious churches , St. Paul 's Cathedral and Westminster Abbey[0m
-
-Extra:
-(40, 10, 13)   Extra:  [38;5;1mseveral [4mof[0m[38;5;1m whom[0m
-(40, 14, 18)   Extra:  [38;5;1m[4mmembers[0m[38;5;1m of the congregation[0m
-
-(60, 29, 40)   Extra:  [38;5;1m`` The Ringing World , '' a weekly [4mnewspaper[0m[38;5;1m for ringers[0m
-(60, 30, 33)   Extra:  [38;5;1mThe Ringing [4mWorld[0m
-(60, 35, 40)   Extra:  [38;5;1ma weekly [4mnewspaper[0m[38;5;1m for ringers[0m
-
-(3, 25, 39)    Extra:  [38;5;1mthe sound of bells cascading from its tower , [4mcalling[0m[38;5;1m the faithful to evensong[0m
-(47, 1, 5)     Extra:  [38;5;1mThe [4msound[0m[38;5;1m of bells[0m
-(47, 6, 14)    Extra:  [38;5;1ma [4mnet[0m[38;5;1m to draw people into the church[0m
-
-(59, 26, 37)   Extra:  [38;5;1ma fact that 's particularly galling to women because the group[0m
-(59, 38, 57)   Extra:  [38;5;1mthe sole [4msource[0m[38;5;1m of ringers for Britain 's most prestigious churches , St. Paul 's Cathedral and Westminster Abbey[0m
-
-(25, 7, 9)     Extra:  [38;5;1ma [4mcircle[0m
-(25, 7, 42)    Extra:  [38;5;1ma circle , one foot ahead of the other in a prize - fighter 's stance , each pulling a rope that disappears through a small hole in the high ceiling of the ringing chamber[0m
-
-(22, 8, 15)    Extra:  [38;5;1m`` methods , '' which have odd[0m
-(22, 9, 10)    Extra:  [38;5;1mmethods[0m
-
-(18, 2, 6)     Extra:  [38;5;1mringing , a mind[0m
-(18, 4, 6)     Extra:  [38;5;1ma mind[0m
-(30, 18, 19)   Extra:  [38;5;1mringing[0m
-
-(7, 30, 31)    Extra:  [38;5;1mSunday[0m
-(10, 21, 22)   Extra:  [38;5;1mSunday[0m
-(15, 23, 24)   Extra:  [38;5;1mSundays[0m
-
-(30, 1, 11)    Extra:  [38;5;1ma well - known detective - [4mstory[0m[38;5;1m involving church bells[0m
-(30, 27, 28)   Extra:  [38;5;1mits[0m
-
-(24, 8, 12)    Extra:  [38;5;1mSt. Mary Abbot [4mchurch[0m
-(34, 8, 10)    Extra:  [38;5;1mthe [4mchurch[0m
-(47, 12, 14)   Extra:  [38;5;1mthe [4mchurch[0m
-
-(37, 12, 14)   Extra:  [38;5;1mwilled vicars[0m
-(49, 21, 22)   Extra:  [38;5;1mvicars[0m
-
-(32, 12, 14)   Extra:  [38;5;1mStephanie [4mPattenden[0m
-(32, 12, 31)   Extra:  [38;5;1mStephanie Pattenden , [4mmaster[0m[38;5;1m of the band at St. Mary Abbot and one of England 's best female ringers[0m
-(32, 15, 31)   Extra:  [38;5;1m[4mmaster[0m[38;5;1m of the band at St. Mary Abbot and one of England 's best female ringers[0m
-
-(21, 8, 10)    Extra:  [38;5;1m[4monly[0m[38;5;1m once[0m
-(21, 8, 14)    Extra:  [38;5;1monly once , the rules state[0m
-
-(8, 0, 1)      Extra:  [38;5;1mNow[0m
-(56, 1, 3)     Extra:  [38;5;1m[4mRight[0m[38;5;1m now[0m
-
-(59, 42, 49)   Extra:  [38;5;1mringers for Britain 's most prestigious churches[0m
-(59, 42, 57)   Extra:  [38;5;1mringers for Britain 's most prestigious churches , St. Paul 's Cathedral and Westminster Abbey[0m
-
-(5, 4, 5)      Extra:  [38;5;1mfive[0m
-(5, 16, 17)    Extra:  [38;5;1mfive[0m
-(56, 9, 10)    Extra:  [38;5;1mfive[0m
-
-(61, 0, 2)     Extra:  [38;5;1mOne [4mwriter[0m
-(61, 4, 5)     Extra:  [38;5;1mhis[0m
-
-(22, 4, 5)     Extra:  [38;5;1mchanges[0m
-(22, 4, 15)    Extra:  [38;5;1mchanges , known as `` methods , '' which have odd[0m
-
-(52, 5, 12)    Extra:  [38;5;1mthe greater problem : [4mlack[0m[38;5;1m of ringers[0m
-(60, 18, 20)   Extra:  [38;5;1mthe [4mproblem[0m
-
-(25, 3, 5)     Extra:  [38;5;1msleeved ringers[0m
-(26, 19, 20)   Extra:  [38;5;1mthemselves[0m
-
-(50, 25, 35)   Extra:  [38;5;1mthe country entitled , `` The Bells in Your Care[0m
-(59, 7, 9)     Extra:  [38;5;1mthe [4mcountry[0m
-
-(7, 12, 13)    Extra:  [38;5;1mbells[0m
-(17, 8, 9)     Extra:  [38;5;1mbells[0m
-(17, 8, 18)    Extra:  [38;5;1mbells , as do the carillons of continental Europe ,[0m
-(47, 4, 5)     Extra:  [38;5;1mbells[0m
-
-(28, 3, 5)     Extra:  [38;5;1mthe [4mbelfry[0m
-(34, 17, 19)   Extra:  [38;5;1mthe [4mbelfry[0m
-(63, 25, 27)   Extra:  [38;5;1mthe [4mbelfry[0m
-
-(40, 16, 18)   Extra:  [38;5;1mthe [4mcongregation[0m
-(45, 27, 29)   Extra:  [38;5;1mthe [4mcongregation[0m
-
-(5, 11, 24)    Extra:  [38;5;1m[4mropes[0m[38;5;1m attached to the same five bells that first sounded here in 1614[0m
-(16, 11, 13)   Extra:  [38;5;1mthe [4mropes[0m
-(26, 8, 10)    Extra:  [38;5;1mthe [4mropes[0m
-
-(28, 6, 10)    Extra:  [38;5;1mthe huge bronze [4mbells[0m
-(28, 6, 15)    Extra:  [38;5;1mthe huge bronze [4mbells[0m[38;5;1m , mounted on wheels ,[0m
-
-(3, 22, 24)    Extra:  [38;5;1mthe [4mfields[0m
-(3, 22, 39)    Extra:  [38;5;1mthe fields , the sound of bells cascading from its tower , calling the faithful to evensong[0m
-
-(10, 10, 11)   Extra:  [38;5;1mtwo[0m
-(64, 5, 6)     Extra:  [38;5;1mtwo[0m
-
-(6, 19, 32)    Extra:  [38;5;1mthe church - [4mgoers[0m[38;5;1m enjoying the peal of bells this cool autumn evening[0m
-(10, 25, 29)   Extra:  [38;5;1mchurch in a sometimes[0m
-
-(19, 0, 3)     Extra:  [38;5;1mProper English [4mbells[0m
-(20, 14, 16)   Extra:  [38;5;1mthe [4mbells[0m
-(42, 10, 12)   Extra:  [38;5;1mthe [4mbells[0m
-(54, 8, 10)    Extra:  [38;5;1mthe [4mbells[0m
-
-(26, 0, 2)     Extra:  [38;5;1mNo [4mone[0m
-(27, 15, 16)   Extra:  [38;5;1mit[0m
-
-(25, 35, 42)   Extra:  [38;5;1mthe high [4mceiling[0m[38;5;1m of the ringing chamber[0m
-(26, 23, 25)   Extra:  [38;5;1mthe [4mceiling[0m
-
-(6, 28, 32)    Extra:  [38;5;1mthis cool autumn [4mevening[0m
-(7, 33, 34)    Extra:  [38;5;1mevening[0m
-
-(43, 0, 2)     Extra:  [38;5;1mThe [4mvicar[0m
-(43, 0, 6)     Extra:  [38;5;1mThe vicar , W.D. [4mJones[0m[38;5;1m ,[0m
-(43, 3, 5)     Extra:  [38;5;1mW.D. [4mJones[0m
-
-(61, 25, 26)   Extra:  [38;5;1mpeals[0m
-(62, 47, 48)   Extra:  [38;5;1mpeals[0m
-
-(23, 3, 7)     Extra:  [38;5;1m5,000 or so [4mchanges[0m
-(35, 1, 3)     Extra:  [38;5;1mtheir [4mchanges[0m
-
-(7, 16, 17)    Extra:  [38;5;1monce[0m
-(21, 9, 10)    Extra:  [38;5;1monce[0m
-(21, 11, 14)   Extra:  [38;5;1mthe rules state[0m
-(57, 13, 14)   Extra:  [38;5;1monce[0m
 
 ------------------------------------------------------------
 
@@ -1696,6 +1297,405 @@ Extra:
 
 (0, 6, 8)      Extra:  [38;5;1mcriminal [4msanctions[0m
 (65, 19, 20)   Extra:  [38;5;1msanctions[0m
+
+------------------------------------------------------------
+
+
+# nw/wsj/00/wsj_0089 000
+
+(7, 24, 25)    Extra:  [38;5;1mringers[0m
+(7, 24, 35)    Extra:  [38;5;1mringers , who would herald every Sunday morning and evening service[0m
+(20, 6, 8)     Extra:  [38;5;1mthe [4mringers[0m
+(22, 0, 1)     Extra:  [38;5;1mRingers[0m
+(27, 3, 5)     [38;5;3mthe [4mringers[0m
+(27, 13, 14)   [38;5;3mthey[0m
+(27, 30, 31)   [38;5;3mtheir[0m
+(31, 0, 1)     Extra:  [38;5;1mRingers[0m
+(34, 5, 6)     [38;5;4mringers[0m
+(35, 1, 2)     [38;5;4mtheir[0m
+(35, 8, 9)     [38;5;4mthey[0m
+(35, 15, 16)   [38;5;4mringers[0m
+(38, 21, 27)   Extra:  [38;5;1m[4mringers[0m[38;5;1m who did n't attend service[0m
+(38, 33, 35)   [38;5;5mthe [4mringers[0m
+(39, 1, 2)     [38;5;5mThey[0m
+(40, 12, 13)   Extra:  [38;5;1mwhom[0m
+(45, 16, 18)   Extra:  [38;5;1mthe [4mringers[0m
+(48, 6, 8)     Extra:  [38;5;1mthe [4mringers[0m
+(48, 8, 9)     Extra:  [38;5;1mthemselves[0m
+(52, 11, 12)   Extra:  [38;5;1mringers[0m
+(54, 2, 3)     Extra:  [38;5;1mringers[0m
+(55, 9, 10)    Extra:  [38;5;1mringers[0m
+(56, 4, 5)     [38;5;6mwe[0m
+(56, 11, 12)   [38;5;6mwe[0m
+(60, 39, 40)   Extra:  [38;5;1mringers[0m
+
+(49, 1, 7)     Extra:  [38;5;1mCentral Council of Church Bell Ringers[0m
+(50, 0, 1)     [38;5;6mIt[0m
+(55, 1, 4)     [38;5;6mthe council [4m's[0m
+
+(50, 5, 9)     Extra:  [38;5;1m[4mstudents[0m[38;5;1m at theological colleges[0m
+(51, 5, 6)     [38;5;6mWe[0m
+(51, 8, 9)     [38;5;6mwe[0m
+
+Missing:
+(49, 0, 16)    [38;5;6mThe Central Council of Church Bell Ringers , a [4msort[0m[38;5;6m of parliament of ringing groups ,[0m
+(38, 29, 32)   [38;5;5mthe entire [4mband[0m
+
+------------------------------------------------------------
+
+(3, 16, 20)    [38;5;3mAn ancient stone [4mchurch[0m
+(3, 31, 32)    [38;5;3mits[0m
+
+(4, 3, 8)      [38;5;3mSt. Michael and All [4mAngels[0m
+(7, 14, 16)    [38;5;3mSt. [4mMichael[0m
+
+(7, 5, 6)      Extra:  [38;5;1m6,000[0m
+(7, 18, 19)    [38;5;3mits[0m
+
+Missing:
+(4, 18, 19)    [38;5;3mhere[0m
+
+------------------------------------------------------------
+
+(0, 9, 11)     Extra:  [38;5;1mthe [4mEnglish[0m
+(2, 2, 3)      [38;5;3mEngland[0m
+(3, 6, 8)      Extra:  [38;5;1mrural [4mEngland[0m
+(3, 7, 8)      Extra:  [38;5;1mEngland[0m
+(15, 14, 16)   [38;5;3mEngland [4m's[0m
+(17, 21, 23)   Extra:  [38;5;1mthe [4mEnglish[0m
+(18, 9, 11)    Extra:  [38;5;1mthe [4mEnglish[0m
+(37, 6, 7)     [38;5;3mEngland[0m
+(53, 10, 11)   [38;5;3mEngland[0m
+
+(7, 8, 13)     Extra:  [38;5;1mBritain with sets of bells[0m
+(59, 44, 46)   [38;5;3mBritain [4m's[0m
+(60, 2, 3)     [38;5;3mBritain[0m
+
+Missing:
+(7, 8, 9)      [38;5;3mBritain[0m
+(32, 26, 28)   [38;5;3mEngland [4m's[0m
+(50, 25, 27)   [38;5;3mthe [4mcountry[0m
+
+------------------------------------------------------------
+
+(9, 0, 2)      Extra:  [38;5;1mThe [4mothers[0m
+(10, 0, 1)     [38;5;3mThey[0m
+(11, 11, 12)   [38;5;4mwe[0m
+(12, 1, 2)     [38;5;4mWe[0m
+(15, 31, 32)   [38;5;5mthem[0m
+
+(15, 14, 18)   [38;5;5mEngland 's church [4mbells[0m
+(30, 9, 11)    Extra:  [38;5;1mchurch [4mbells[0m
+
+Missing:
+(10, 3, 44)    [38;5;4ma [4mgroup[0m[38;5;4m of 15 ringers -- including two octogenarians and four youngsters in training -- who drive every Sunday from church to church in a sometimes - exhausting effort to keep the bells sounding in the many belfries of East Anglia[0m
+(5, 4, 8)      [38;5;3mfive men and [4mwomen[0m
+(9, 0, 3)      [38;5;3mThe [4mothers[0m[38;5;3m here[0m
+
+------------------------------------------------------------
+
+(8, 2, 6)      [38;5;3monly one local [4mringer[0m
+(46, 21, 23)   Extra:  [38;5;1mringer himself[0m
+
+(8, 12, 15)    Extra:  [38;5;1mold Derek Hammond[0m
+(11, 18, 20)   Extra:  [38;5;1mMr. [4mHammond[0m
+(11, 18, 27)   [38;5;3mMr. Hammond , a retired water - authority [4mworker[0m
+(11, 19, 20)   Extra:  [38;5;1mHammond[0m
+(13, 0, 2)     [38;5;3mMr. [4mHammond[0m
+(14, 8, 9)     [38;5;3mhis[0m
+
+Missing:
+(8, 8, 15)     [38;5;3m64 - year - old Derek [4mHammond[0m
+
+------------------------------------------------------------
+
+(44, 1, 3)     Extra:  [38;5;1mC.J.B. [4mMarshall[0m
+(44, 1, 10)    [38;5;15mC.J.B. Marshall , [4mvicar[0m[38;5;15m of a nearby church ,[0m
+(44, 4, 9)     Extra:  [38;5;1m[4mvicar[0m[38;5;1m of a nearby church[0m
+(45, 34, 35)   [38;5;15mhe[0m
+(46, 0, 2)     [38;5;15mVicar [4mMarshall[0m
+(46, 11, 12)   [38;5;15mhe[0m
+(46, 14, 16)   Extra:  [38;5;1ma [4mvicar[0m
+(46, 22, 23)   [38;5;15mhimself[0m
+(47, 16, 17)   [38;5;15mhe[0m
+(48, 1, 2)     [38;5;15mI[0m
+(50, 33, 34)   Extra:  [38;5;1mYour[0m
+
+------------------------------------------------------------
+
+(5, 7, 8)      Extra:  [38;5;1mwomen[0m
+(57, 28, 29)   [38;5;3mwomen[0m
+(58, 0, 1)     [38;5;3mThey[0m
+(59, 33, 34)   Extra:  [38;5;1mwomen[0m
+(61, 22, 23)   Extra:  [38;5;1mwomen[0m
+(61, 31, 32)   [38;5;4mthey[0m
+(61, 36, 37)   [38;5;4mtheir[0m
+
+Missing:
+(61, 22, 26)   [38;5;4m[4mwomen[0m[38;5;4m fainting in peals[0m
+
+------------------------------------------------------------
+
+(49, 24, 27)   Extra:  [38;5;1mJohn C. [4mBaldwin[0m
+(49, 24, 29)   [38;5;15mJohn C. Baldwin , [4mpresident[0m
+(51, 1, 3)     [38;5;15mMr. [4mBaldwin[0m
+(51, 2, 3)     Extra:  [38;5;1mBaldwin[0m
+(52, 0, 2)     [38;5;15mMr. [4mBaldwin[0m
+(55, 16, 18)   [38;5;15mMr. [4mBaldwin[0m
+(56, 21, 22)   [38;5;15mhe[0m
+
+------------------------------------------------------------
+
+(10, 13, 17)   Extra:  [38;5;1mfour [4myoungsters[0m[38;5;1m in training[0m
+(12, 6, 8)     [38;5;15mthe [4myoungsters[0m
+(12, 10, 11)   [38;5;15mthey[0m
+(12, 12, 13)   [38;5;15mtheir[0m
+(12, 15, 16)   [38;5;15mtheir[0m
+(12, 19, 20)   [38;5;15mthey[0m
+
+------------------------------------------------------------
+
+(38, 4, 8)     Extra:  [38;5;1mthe Rev. Jeremy [4mHummerstone[0m
+(38, 4, 16)    [38;5;15mthe Rev. Jeremy Hummerstone , [4mvicar[0m[38;5;15m of Great Torrington , Devon ,[0m
+(38, 6, 8)     Extra:  [38;5;1mJeremy Hummerstone[0m
+(38, 9, 13)    Extra:  [38;5;1mvicar of Great Torrington[0m
+(38, 27, 28)   [38;5;15mhe[0m
+(39, 20, 23)   [38;5;15mthe Vicar [4mHummerstone[0m
+
+------------------------------------------------------------
+
+(60, 4, 6)     Extra:  [38;5;1mno [4mwoman[0m
+(63, 9, 10)    [38;5;15mher[0m
+(63, 16, 17)   [38;5;15mI[0m
+(64, 0, 1)     [38;5;15mI[0m
+
+Missing:
+(63, 0, 2)     [38;5;15mAnother [4mwomen[0m
+
+------------------------------------------------------------
+
+(3, 31, 33)    [38;5;15mits [4mtower[0m
+(5, 1, 3)      [38;5;15mthe [4mtower[0m
+(11, 8, 10)    [38;5;15mthis [4mtower[0m
+(33, 8, 10)    Extra:  [38;5;1mthe [4mtower[0m
+(39, 10, 12)   Extra:  [38;5;1mthe [4mtower[0m
+
+------------------------------------------------------------
+
+(42, 1, 9)     Extra:  [38;5;1mSt. Mary 's [4mChurch[0m[38;5;1m in Ilminster , Somerset[0m
+(43, 10, 11)   [38;5;3mit[0m
+(43, 13, 14)   [38;5;4mit[0m
+
+Missing:
+(42, 13, 14)   [38;5;3mfallen[0m
+(43, 8, 9)     [38;5;4mtalk[0m
+
+------------------------------------------------------------
+
+(2, 0, 1)      Extra:  [38;5;1mASLACTON[0m
+(2, 0, 3)      [38;5;15mASLACTON , [4mEngland[0m
+(6, 10, 11)    [38;5;15mAslacton[0m
+(13, 23, 24)   [38;5;15mAslacton[0m
+
+------------------------------------------------------------
+
+(59, 4, 9)     Extra:  [38;5;1mringing group in the country[0m
+(59, 10, 16)   Extra:  [38;5;1mthe Ancient [4mSociety[0m[38;5;1m of College Youths[0m
+(59, 11, 16)   Extra:  [38;5;1mAncient Society of College Youths[0m
+(59, 35, 37)   [38;5;15mthe [4mgroup[0m
+
+Missing:
+(59, 10, 13)   [38;5;15mthe Ancient [4mSociety[0m
+
+------------------------------------------------------------
+
+(1, 1, 4)      Extra:  [38;5;1mDorothy L. [4mSayers[0m
+(1, 1, 10)     Extra:  [38;5;1mDorothy L. Sayers , `` The Nine Tailors ''[0m
+(30, 12, 17)   [38;5;15mEnglish novelist Dorothy L. [4mSayers[0m
+
+Missing:
+(1, 0, 10)     [38;5;15m-- Dorothy L. Sayers , `` The Nine [4mTailors[0m[38;5;15m ''[0m
+(31, 2, 3)     [38;5;15mshe[0m
+
+------------------------------------------------------------
+
+(64, 5, 7)     Extra:  [38;5;1mtwo men[0m
+(64, 10, 11)   [38;5;15mthem[0m
+
+Missing:
+(64, 3, 7)     [38;5;15mone or two [4mmen[0m
+
+------------------------------------------------------------
+
+(53, 5, 11)    Extra:  [38;5;1mthe 100,000 trained bellringers in England[0m
+(53, 16, 17)   [38;5;15mthem[0m
+
+Missing:
+(53, 5, 12)    [38;5;15mthe 100,000 trained bellringers in England [4mtoday[0m
+
+------------------------------------------------------------
+
+(38, 11, 13)   Extra:  [38;5;1mGreat [4mTorrington[0m
+(40, 7, 9)     [38;5;15mGreat [4mTorrington[0m
+
+Missing:
+(38, 11, 15)   [38;5;15mGreat Torrington , [4mDevon[0m
+
+------------------------------------------------------------
+
+(29, 0, 2)     [38;5;15mSkilled [4mringers[0m
+(29, 3, 4)     [38;5;15mtheir[0m
+
+------------------------------------------------------------
+
+(6, 4, 11)     Extra:  [38;5;1ma discordant , modern note in Aslacton[0m
+(6, 13, 14)    [38;5;15mit[0m
+
+Missing:
+(6, 4, 9)      [38;5;15ma discordant , modern [4mnote[0m
+
+------------------------------------------------------------
+
+Entirely missing or extra
+
+Missing:
+(0, 0, 6)      [38;5;15mThe [4mart[0m[38;5;15m of change - ringing[0m
+(16, 6, 9)     [38;5;15mthe ancient [4mart[0m
+(18, 0, 16)    [38;5;15mChange - ringing , a mind - boggling [4mexercise[0m[38;5;15m the English invented 380 years ago ,[0m
+
+(32, 1, 2)     [38;5;15mRinging[0m
+(33, 0, 1)     [38;5;15mIt[0m
+
+(59, 21, 22)   [38;5;15mremains[0m
+(59, 26, 57)   [38;5;15ma [4mfact[0m[38;5;15m that 's particularly galling to women because the group is the sole source of ringers for Britain 's most prestigious churches , St. Paul 's Cathedral and Westminster Abbey[0m
+
+Extra:
+(40, 10, 13)   Extra:  [38;5;1mseveral [4mof[0m[38;5;1m whom[0m
+(40, 14, 18)   Extra:  [38;5;1m[4mmembers[0m[38;5;1m of the congregation[0m
+
+(60, 29, 40)   Extra:  [38;5;1m`` The Ringing World , '' a weekly [4mnewspaper[0m[38;5;1m for ringers[0m
+(60, 30, 33)   Extra:  [38;5;1mThe Ringing [4mWorld[0m
+(60, 35, 40)   Extra:  [38;5;1ma weekly [4mnewspaper[0m[38;5;1m for ringers[0m
+
+(3, 25, 39)    Extra:  [38;5;1mthe sound of bells cascading from its tower , [4mcalling[0m[38;5;1m the faithful to evensong[0m
+(47, 1, 5)     Extra:  [38;5;1mThe [4msound[0m[38;5;1m of bells[0m
+(47, 6, 14)    Extra:  [38;5;1ma [4mnet[0m[38;5;1m to draw people into the church[0m
+
+(59, 26, 37)   Extra:  [38;5;1ma fact that 's particularly galling to women because the group[0m
+(59, 38, 57)   Extra:  [38;5;1mthe sole [4msource[0m[38;5;1m of ringers for Britain 's most prestigious churches , St. Paul 's Cathedral and Westminster Abbey[0m
+
+(25, 7, 9)     Extra:  [38;5;1ma [4mcircle[0m
+(25, 7, 42)    Extra:  [38;5;1ma circle , one foot ahead of the other in a prize - fighter 's stance , each pulling a rope that disappears through a small hole in the high ceiling of the ringing chamber[0m
+
+(22, 8, 15)    Extra:  [38;5;1m`` methods , '' which have odd[0m
+(22, 9, 10)    Extra:  [38;5;1mmethods[0m
+
+(18, 2, 6)     Extra:  [38;5;1mringing , a mind[0m
+(18, 4, 6)     Extra:  [38;5;1ma mind[0m
+(30, 18, 19)   Extra:  [38;5;1mringing[0m
+
+(7, 30, 31)    Extra:  [38;5;1mSunday[0m
+(10, 21, 22)   Extra:  [38;5;1mSunday[0m
+(15, 23, 24)   Extra:  [38;5;1mSundays[0m
+
+(30, 1, 11)    Extra:  [38;5;1ma well - known detective - [4mstory[0m[38;5;1m involving church bells[0m
+(30, 27, 28)   Extra:  [38;5;1mits[0m
+
+(24, 8, 12)    Extra:  [38;5;1mSt. Mary Abbot [4mchurch[0m
+(34, 8, 10)    Extra:  [38;5;1mthe [4mchurch[0m
+(47, 12, 14)   Extra:  [38;5;1mthe [4mchurch[0m
+
+(37, 12, 14)   Extra:  [38;5;1mwilled vicars[0m
+(49, 21, 22)   Extra:  [38;5;1mvicars[0m
+
+(32, 12, 14)   Extra:  [38;5;1mStephanie [4mPattenden[0m
+(32, 12, 31)   Extra:  [38;5;1mStephanie Pattenden , [4mmaster[0m[38;5;1m of the band at St. Mary Abbot and one of England 's best female ringers[0m
+(32, 15, 31)   Extra:  [38;5;1m[4mmaster[0m[38;5;1m of the band at St. Mary Abbot and one of England 's best female ringers[0m
+
+(21, 8, 10)    Extra:  [38;5;1m[4monly[0m[38;5;1m once[0m
+(21, 8, 14)    Extra:  [38;5;1monly once , the rules state[0m
+
+(8, 0, 1)      Extra:  [38;5;1mNow[0m
+(56, 1, 3)     Extra:  [38;5;1m[4mRight[0m[38;5;1m now[0m
+
+(59, 42, 49)   Extra:  [38;5;1mringers for Britain 's most prestigious churches[0m
+(59, 42, 57)   Extra:  [38;5;1mringers for Britain 's most prestigious churches , St. Paul 's Cathedral and Westminster Abbey[0m
+
+(5, 4, 5)      Extra:  [38;5;1mfive[0m
+(5, 16, 17)    Extra:  [38;5;1mfive[0m
+(56, 9, 10)    Extra:  [38;5;1mfive[0m
+
+(61, 0, 2)     Extra:  [38;5;1mOne [4mwriter[0m
+(61, 4, 5)     Extra:  [38;5;1mhis[0m
+
+(22, 4, 5)     Extra:  [38;5;1mchanges[0m
+(22, 4, 15)    Extra:  [38;5;1mchanges , known as `` methods , '' which have odd[0m
+
+(52, 5, 12)    Extra:  [38;5;1mthe greater problem : [4mlack[0m[38;5;1m of ringers[0m
+(60, 18, 20)   Extra:  [38;5;1mthe [4mproblem[0m
+
+(25, 3, 5)     Extra:  [38;5;1msleeved ringers[0m
+(26, 19, 20)   Extra:  [38;5;1mthemselves[0m
+
+(50, 25, 35)   Extra:  [38;5;1mthe country entitled , `` The Bells in Your Care[0m
+(59, 7, 9)     Extra:  [38;5;1mthe [4mcountry[0m
+
+(7, 12, 13)    Extra:  [38;5;1mbells[0m
+(17, 8, 9)     Extra:  [38;5;1mbells[0m
+(17, 8, 18)    Extra:  [38;5;1mbells , as do the carillons of continental Europe ,[0m
+(47, 4, 5)     Extra:  [38;5;1mbells[0m
+
+(28, 3, 5)     Extra:  [38;5;1mthe [4mbelfry[0m
+(34, 17, 19)   Extra:  [38;5;1mthe [4mbelfry[0m
+(63, 25, 27)   Extra:  [38;5;1mthe [4mbelfry[0m
+
+(40, 16, 18)   Extra:  [38;5;1mthe [4mcongregation[0m
+(45, 27, 29)   Extra:  [38;5;1mthe [4mcongregation[0m
+
+(5, 11, 24)    Extra:  [38;5;1m[4mropes[0m[38;5;1m attached to the same five bells that first sounded here in 1614[0m
+(16, 11, 13)   Extra:  [38;5;1mthe [4mropes[0m
+(26, 8, 10)    Extra:  [38;5;1mthe [4mropes[0m
+
+(28, 6, 10)    Extra:  [38;5;1mthe huge bronze [4mbells[0m
+(28, 6, 15)    Extra:  [38;5;1mthe huge bronze [4mbells[0m[38;5;1m , mounted on wheels ,[0m
+
+(3, 22, 24)    Extra:  [38;5;1mthe [4mfields[0m
+(3, 22, 39)    Extra:  [38;5;1mthe fields , the sound of bells cascading from its tower , calling the faithful to evensong[0m
+
+(10, 10, 11)   Extra:  [38;5;1mtwo[0m
+(64, 5, 6)     Extra:  [38;5;1mtwo[0m
+
+(6, 19, 32)    Extra:  [38;5;1mthe church - [4mgoers[0m[38;5;1m enjoying the peal of bells this cool autumn evening[0m
+(10, 25, 29)   Extra:  [38;5;1mchurch in a sometimes[0m
+
+(19, 0, 3)     Extra:  [38;5;1mProper English [4mbells[0m
+(20, 14, 16)   Extra:  [38;5;1mthe [4mbells[0m
+(42, 10, 12)   Extra:  [38;5;1mthe [4mbells[0m
+(54, 8, 10)    Extra:  [38;5;1mthe [4mbells[0m
+
+(26, 0, 2)     Extra:  [38;5;1mNo [4mone[0m
+(27, 15, 16)   Extra:  [38;5;1mit[0m
+
+(25, 35, 42)   Extra:  [38;5;1mthe high [4mceiling[0m[38;5;1m of the ringing chamber[0m
+(26, 23, 25)   Extra:  [38;5;1mthe [4mceiling[0m
+
+(6, 28, 32)    Extra:  [38;5;1mthis cool autumn [4mevening[0m
+(7, 33, 34)    Extra:  [38;5;1mevening[0m
+
+(43, 0, 2)     Extra:  [38;5;1mThe [4mvicar[0m
+(43, 0, 6)     Extra:  [38;5;1mThe vicar , W.D. [4mJones[0m[38;5;1m ,[0m
+(43, 3, 5)     Extra:  [38;5;1mW.D. [4mJones[0m
+
+(61, 25, 26)   Extra:  [38;5;1mpeals[0m
+(62, 47, 48)   Extra:  [38;5;1mpeals[0m
+
+(23, 3, 7)     Extra:  [38;5;1m5,000 or so [4mchanges[0m
+(35, 1, 3)     Extra:  [38;5;1mtheir [4mchanges[0m
+
+(7, 16, 17)    Extra:  [38;5;1monce[0m
+(21, 9, 10)    Extra:  [38;5;1monce[0m
+(21, 11, 14)   Extra:  [38;5;1mthe rules state[0m
+(57, 13, 14)   Extra:  [38;5;1monce[0m
 
 ------------------------------------------------------------
 

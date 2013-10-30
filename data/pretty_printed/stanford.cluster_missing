@@ -1,5 +1,5 @@
 # Time of run:
-# Tue Sep  3 11:16:04 2013
+# Wed Oct 30 11:20:23 2013
 # Command:
 # ./print_errors.py data/pretty_printed/stanford data/gold/ data/homogenised/stanford.homogenised.out F
 #
@@ -16,19 +16,6 @@
 
 (2, 25, 30)    [38;5;15mtheir [4mprotection[0m[38;5;15m of intellectual property[0m
 (3, 23, 26)    [38;5;15mthis touchy [4missue[0m
-
-
-# nw/wsj/00/wsj_0089 000
-
-(0, 0, 6)      [38;5;15mThe [4mart[0m[38;5;15m of change - ringing[0m
-(16, 6, 9)     [38;5;15mthe ancient [4mart[0m
-(18, 0, 16)    [38;5;15mChange - ringing , a mind - boggling [4mexercise[0m[38;5;15m the English invented 380 years ago ,[0m
-
-(32, 1, 2)     [38;5;15mRinging[0m
-(33, 0, 1)     [38;5;15mIt[0m
-
-(59, 21, 22)   [38;5;15mremains[0m
-(59, 26, 57)   [38;5;15ma [4mfact[0m[38;5;15m that 's particularly galling to women because the group is the sole source of ringers for Britain 's most prestigious churches , St. Paul 's Cathedral and Westminster Abbey[0m
 
 
 # nw/wsj/00/wsj_0037 000
@@ -136,4 +123,17 @@
 
 (41, 0, 4)     [38;5;15mDOONESBURY CREATOR'S UNION [4mTROUBLES[0m
 (43, 0, 2)     [38;5;15mThe [4mdispute[0m
+
+
+# nw/wsj/00/wsj_0089 000
+
+(0, 0, 6)      [38;5;15mThe [4mart[0m[38;5;15m of change - ringing[0m
+(16, 6, 9)     [38;5;15mthe ancient [4mart[0m
+(18, 0, 16)    [38;5;15mChange - ringing , a mind - boggling [4mexercise[0m[38;5;15m the English invented 380 years ago ,[0m
+
+(32, 1, 2)     [38;5;15mRinging[0m
+(33, 0, 1)     [38;5;15mIt[0m
+
+(59, 21, 22)   [38;5;15mremains[0m
+(59, 26, 57)   [38;5;15ma [4mfact[0m[38;5;15m that 's particularly galling to women because the group is the sole source of ringers for Britain 's most prestigious churches , St. Paul 's Cathedral and Westminster Abbey[0m
 

@@ -104,7 +104,7 @@ def match_boundaries(gold_mention_set, auto_mention_set, auto_mentions, auto_clu
 		auto_clusters[cluster_id].remove(mention)
 		auto_clusters[cluster_id].append(mapping[mention])
 		changed.add((mention, mapping[mention]))
-	
+
 	# Add notes
 	nchanges = []
 	for smention, gmention in changed:
@@ -658,7 +658,7 @@ def print_pre_change_info(out, auto, gold, auto_mentions, gold_mention_set, text
 			mentions[mention][2] = True
 		else:
 			mentions[mention][2] = False
-	
+
 	for mention in mentions:
 		mtext = coreference_rendering.mention_text(text, mention).lower()
 		print >> out['out'], "Cataphoric properties", mentions[mention], mtext
@@ -695,13 +695,18 @@ def process_document(doc_name, part_name, gold_doc, auto_doc, out, remove_single
 	gold_mention_set = coreference.set_of_mentions(gold_clusters)
 	auto_mention_set = coreference.set_of_mentions(auto_clusters)
 
+	coreference_rendering.print_conll_style_part(out['system output'], text, auto_mentions, doc_name, part_name)
+	coreference_rendering.print_conll_style_part(out['gold'], text, gold_mentions, doc_name, part_name)
 	coreference_rendering.print_conll_style_part(out['error: original'], text, auto_mentions, doc_name, part_name)
 
 	# Fix boundary match errors
 	errors = []
 	span_errors = match_boundaries(gold_mention_set, auto_mention_set, auto_mentions, auto_clusters, text, gold_parses, gold_heads)
-	print >> out['out'], "Span Errors:"
-	print >> out['short out'], "Span Errors:"
+	if len(span_errors) == 0:
+		print >> out['out'], "No",
+		print >> out['short out'], "No",
+	print >> out['out'], "Span Errors: (system, gold)"
+	print >> out['short out'], "Span Errors: (system, gold)"
 	for error in span_errors:
 		errors.append(('span mismatch', error))
 		before = coreference_rendering.print_mention(None, False, gold_parses, gold_heads, text, error[0], return_str=True)
@@ -712,6 +717,7 @@ def process_document(doc_name, part_name, gold_doc, auto_doc, out, remove_single
 	print >> out['short out']
 	for error in errors:
 		print >> out['out'], 'span mismatch', error
+		print >> out['properties'], ['span error'] + list(error[1])
 	print >> out['out']
 	print >> out['out'], '-' * 79
 	print >> out['short out']
@@ -877,12 +883,13 @@ def process_document(doc_name, part_name, gold_doc, auto_doc, out, remove_single
 						coreference_rendering.print_mention(out['out'], False, gold_parses, gold_heads, text, mention, extra=True)
 				print >> out['out'], name, change
 				print >> out['out'], "Properties included:", name, change[-1]
+				print >> out['properties'], [name] + change[-1]
 				errors.append((name, change))
 		print >> out['out']
 		print >> out['out'], '-' * 79
 		print >> out['short out']
 		print >> out['short out'], '-' * 79
-	
+
 	# Print corrected output
 	coreference_rendering.print_conll_style_part(out['error: split'], text, auto_mentions_split, doc_name, part_name)
 	coreference_rendering.print_conll_style_part(out['error: extra mention'], text, auto_mentions_extra_mention, doc_name, part_name)
@@ -901,11 +908,17 @@ def process_document(doc_name, part_name, gold_doc, auto_doc, out, remove_single
 
 if __name__ == '__main__':
 	# Process params
-	init.argcheck(sys.argv, 4, 5, "Print coreference resolution errors", "<output_prefix> <gold_dir> <test_file> [remove singletons? T | F]")
+	init.argcheck(sys.argv, 4, 5, "Print coreference resolution errors", "<output_prefix> <gold_dir> <test_file> [remove singletons? T | F (default is True)]")
+	remove_singletons = True
+	if len(sys.argv) == 5 and sys.argv[-1] == 'F':
+		remove_singletons = False
 	out = {
 		'out': open(sys.argv[1] + '.classified.detailed', 'w'),
+		'properties': open(sys.argv[1] + '.classified.properties', 'w'),
 		'short out': open(sys.argv[1] + '.classified', 'w'),
 		'summary': open(sys.argv[1] + '.summary', 'w'),
+		'system output': open(sys.argv[1] + '.system', 'w'),
+		'gold': open(sys.argv[1] + '.gold', 'w'),
 		'error: original': open(sys.argv[1] + '.corrected.none', 'w'),
 		'error: span mismatch': open(sys.argv[1] + '.corrected.span_errors', 'w'),
 		'error: split': open(sys.argv[1] + '.corrected.confused_entities', 'w'),
@@ -920,24 +933,107 @@ if __name__ == '__main__':
 		'error: missing mention prog': open(sys.argv[1] + '.corrected.missing_mention_prog', 'w'),
 		'error: missing entity prog': open(sys.argv[1] + '.corrected.missing_entity_prog', 'w')
 	}
+
+	# Header info
 	init.header(sys.argv, out['out'])
 	init.header(sys.argv, out['short out'])
+	init.header(sys.argv, out['properties'])
 	init.header(sys.argv, out['summary'])
-	remove_singletons = (len(sys.argv) == 5 and sys.argv[4][0] in 'tT')
+	print >> out['properties'], '''# Each line below describes a single error.
+# The fields included for the seven error types are:
+# span mismatch
+#   System span (sentence, start, end)
+#   Gold span (sentence, start, end)
+#   Is the gold span a node in the gold parse?
+#   Extra text to left
+#   Missing text to left
+#   Extra text to right
+#   Missing text to right
+#   Nodes spanning extra text to left
+#   Nodes spanning missing text to left
+#   Nodes spanning extra text to right
+#   Nodes spanning missing text to right
+#
+# missing and extra entity
+#   Missing or extra 
+#   Size
+#   Number of proper names
+#   Number of nominals
+#   Number of pronouns
+#   If it is 1 pronoun and 1 nominal/name, the pronoun
+#   Number of cataphoric pronouns
+#   NER types assigned to mentions in this cluster
+#   Is there an exact string match for all mentions?
+#   Is there a head match for all mentions?
+#
+# extra and missing mentions
+#   Missing or extra
+#   Mention type
+#   The mention
+#   Is there an exact match with something in the cluster?
+#   Is there a head match with something in the cluster?
+#   Is this a nested mention?
+#   Was this the first mention in the cluster?
+#   Was this the last mention in the cluster?
+#   Was this a case of cataphoa?
+#   Does NER match?
+#   Does number match?
+#   Does person match?
+#   Does gender match?
+#
+# split and merge (conflated entities and divided entity)
+#   Split or merge
+#   Size of the part being split/merged ('part' for the rest of these notes)
+#   Size of the rest of the cluster ('rest' for the rest of these notes)
+#   If the part is a single mention, its text
+#   The number of cataphoric pronouns in the part
+#   Number of names in the part
+#   Number of nominals in the part
+#   Number of pronouns in the part
+#   Number of names in the rest
+#   Number of nominals in the rest
+#   Number of pronouns in the rest
+#   Whether the mentions in the part are extra
+#   Whether the rest is made up of extra mentions
+#   Is there an exact string match between a mention in the part and one in the rest?
+#   Is there a head match between a mention in the part and one in the rest?
+#   Will this part be merged or deleted later?
+#   Has this part been split or introduced earlier?
+#   NER type(s) of part and rest match
+#   NER types of the part
+#   NER types of the rest
+#   Number type(s) of part and rest match
+#   Number types of the part
+#   Number types of the rest
+#   Gender type(s) of part and rest match
+#   Gender types of the part
+#   Gender types of the rest
+#   Person type(s) of part and rest match
+#   Person types of the part
+#   Person types of the rest
+'''
 
 	# Read input
 	auto = coreference_reading.read_conll_coref_system_output(sys.argv[3])
 	gold = coreference_reading.read_conll_matching_files(auto, sys.argv[2])
 
-	# Work out the errors
-	counts = defaultdict(lambda: [])
+	# Define an order
+	order = []
 	for doc in auto:
 		for part in auto[doc]:
-			if 'text' not in auto[doc][part]:
-				auto[doc][part]['text'] = gold[doc][part]['text']
-			errors = process_document(doc, part, gold[doc][part], auto[doc][part], out, remove_singletons)
-			for error in errors:
-				counts[error[0]].append(error)
+			order.append((doc, part))
+	order.sort()
+
+	# Work out the errors
+	counts = defaultdict(lambda: [])
+	for doc, part in order:
+		if doc not in gold or part not in gold[doc]:
+			print >> sys.stderr, doc, part, "not in gold"
+		if 'text' not in auto[doc][part]:
+			auto[doc][part]['text'] = gold[doc][part]['text']
+		errors = process_document(doc, part, gold[doc][part], auto[doc][part], out, remove_singletons)
+		for error in errors:
+			counts[error[0]].append(error)
 
 	# Print a summary of the changes and errors
 	order = [
@@ -964,6 +1060,6 @@ if __name__ == '__main__':
 			print >> out['summary'], text
 		else:
 			print >> out['summary'], "%6d   %s" % (len(counts[key]), text)
-	
+
 	for name in out:
 		out[name].close()
