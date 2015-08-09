@@ -32,7 +32,7 @@ If you use my code in your own work, please cite the paper:
 
 Example of system output (groupings indicate system clusters, colours indicate gold clusters):
 
-![Image of system terminal output](http://www.jkk.name/berkeley-coreference-analyser/example_coref_analysis_output.png)
+![Image of system terminal output](http://www.jkk.name/images/example_coref_analysis_output.png.png)
 
 ##  Running the System
 
