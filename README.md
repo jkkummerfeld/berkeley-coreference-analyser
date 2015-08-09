@@ -1,4 +1,4 @@
-Berkeley Coreference Analyser
+# Berkeley Coreference Analyser
 
 
 This software classifies errors in the output of coreference resolution
@@ -11,21 +11,17 @@ applied to the systems from the 2011 CoNLL Shared Task, see:
 
 If you use my code in your own work, please cite the following paper:
 
-@InProceedings{Kummerfeld-Klein:2013:EMNLP,
-  author    = {Jonathan K. Kummerfeld and Dan Klein},
-  title     = {Error-Driven Analysis of Challenges in Coreference Resolution},
-  booktitle = {Proceedings of EMNLP},
-  address   = {Seattle, WA, USA},
-  month     = {October},
-  year      = {2013},
-  software  = {http://code.google.com/p/berkeley-coreference-analyser/},
-}
+> @InProceedings{Kummerfeld-Klein:2013:EMNLP,
+>   author    = {Jonathan K. Kummerfeld and Dan Klein},
+>   title     = {Error-Driven Analysis of Challenges in Coreference Resolution},
+>   booktitle = {Proceedings of EMNLP},
+>   address   = {Seattle, WA, USA},
+>   month     = {October},
+>   year      = {2013},
+>   software  = {http://code.google.com/p/berkeley-coreference-analyser/},
+> }
 
-
-
-------------------------------------------------------------------------------
-  Running the System
-------------------------------------------------------------------------------
+##  Running the System
 
 There are three main programs:
 
@@ -47,14 +43,14 @@ sample folders for example runs.  These were generated as follows:
 
 
 For the error analysis runs the files produced are:
- - stanford.summary
+- stanford.summary
    Counts of errors, and counts of the raw operations involved
- - stanford.classified
+- stanford.classified
    A simple view of the errors
- - stanford.classified.detailed
+- stanford.classified.detailed
    Same as the previous file, but with extra output describing properties of
    each error
- - stanford.classified.properties
+- stanford.classified.properties
 	 Every error gets a single line, with a list of properties (see the top of
 	 the file for an explanation of properties)
 
