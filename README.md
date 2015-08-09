@@ -11,15 +11,21 @@ applied to the systems from the 2011 CoNLL Shared Task, see:
 
 If you use my code in your own work, please cite the following paper:
 
-> @InProceedings{Kummerfeld-Klein:2013:EMNLP,
->   author    = {Jonathan K. Kummerfeld and Dan Klein},
->   title     = {Error-Driven Analysis of Challenges in Coreference Resolution},
->   booktitle = {Proceedings of EMNLP},
->   address   = {Seattle, WA, USA},
->   month     = {October},
->   year      = {2013},
->   software  = {http://code.google.com/p/berkeley-coreference-analyser/},
-> }
+```
+@InProceedings{Kummerfeld-Klein:2013:EMNLP,
+  author    = {Jonathan K. Kummerfeld and Dan Klein},
+  title     = {Error-Driven Analysis of Challenges in Coreference Resolution},
+  booktitle = {Proceedings of EMNLP},
+  address   = {Seattle, WA, USA},
+  month     = {October},
+  year      = {2013},
+  software  = {http://code.google.com/p/berkeley-coreference-analyser/},
+}
+```
+
+Example of system output (groupings indicate system clusters, colours indicate gold clusters):
+
+![Image of system terminal output](http://www.jkk.name/berkeley-coreference-analyser/example_coref_analysis_output.png)
 
 ##  Running the System
 
@@ -79,17 +85,13 @@ For the error analysis runs the files produced are:
 Running the commands with an invalid number of arguments will give you the
 following execution information:
 
-  ./classify_coreference_errors.py <output_prefix> <gold_dir> <test_file> [remove singletons? T | F (default is True)]
+`  ./classify_coreference_errors.py <output_prefix> <gold_dir> <test_file> [remove singletons? T | F (default is True)] `
 
-  ./print_errors.py <prefix> <gold_dir> <test> [resolve span errors first? T | F]
+` ./print_errors.py <prefix> <gold_dir> <test> [resolve span errors first? T | F] `
 
-  ./coreference_format_conversion.py <prefix> <[cherrypicker,ims,bart,conll,stanford_xml,stanford,uiuc,reconcile]> <dir | file> <gold dir>
+` ./coreference_format_conversion.py <prefix> <[cherrypicker,ims,bart,conll,stanford_xml,stanford,uiuc,reconcile]> <dir | file> <gold dir> `
 
-
-
-------------------------------------------------------------------------------
-  Questions and Answers
-------------------------------------------------------------------------------
+##  Questions and Answers
 
 Q: I'm getting errors such as "SyntaxError: invalid syntax", "ValueError: zero
 length field name in format", what's broken?
