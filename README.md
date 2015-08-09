@@ -8,6 +8,12 @@ applied to the systems from the 2011 CoNLL Shared Task, see:
    Jonathan K. Kummerfeld and Dan Klein, 
    EMNLP 2013
 
+To use the system, download it one of these ways, and run classify_coreference_errors.py as shown below:
+
+- [Download .zip](https://github.com/jkkummerfeld/berkeley-coreference-analyser/zipball/master)
+- [Download .tar.gz](https://github.com/jkkummerfeld/berkeley-coreference-analyser/tarball/master)
+- `git clone https://github.com/jkkummerfeld/berkeley-coreference-analyser.git`
+
 If you use my code in your own work, please cite the paper:
 
 ```
@@ -34,7 +40,7 @@ There are three main programs:
 
 - classify_coreference_errors.py, Classify errors in system output, using the CoNLL output format
 - print_errors.py, Print system output in several ways, to illustrate the errors
-- coreference_format_conversion.py, Convert the output of severak systems ubti the CoNLL format
+- coreference_format_conversion.py, Convert the output of several systems to the CoNLL format
 
 Running each with no arguments will provide help information.  Also see the
 sample folders for example runs.  These were generated as follows:
