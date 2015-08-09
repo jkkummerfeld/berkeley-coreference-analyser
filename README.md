@@ -1,24 +1,25 @@
 # Berkeley Coreference Analyser
 
-
 This software classifies errors in the output of coreference resolution
 systems.  For a full description of the method, and discussion of results when
 applied to the systems from the 2011 CoNLL Shared Task, see:
 
-   Error-Driven Analysis of Challenges in Coreference Resolution
-   Jonathan K. Kummerfeld and Dan Klein
+   [Error-Driven Analysis of Challenges in Coreference Resolution](http://www.aclweb.org/anthology/D13-1027)
+   Jonathan K. Kummerfeld and Dan Klein, 
    EMNLP 2013
 
-If you use my code in your own work, please cite the following paper:
+If you use my code in your own work, please cite the paper:
 
 ```
 @InProceedings{Kummerfeld-Klein:2013:EMNLP,
-  author    = {Jonathan K. Kummerfeld and Dan Klein},
+  author    = {Jonathan K. Kummerfeld  and  Dan Klein},
   title     = {Error-Driven Analysis of Challenges in Coreference Resolution},
-  booktitle = {Proceedings of EMNLP},
-  address   = {Seattle, WA, USA},
+  booktitle = {Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing},
+  address   = {Seattle, Washington, USA},
   month     = {October},
   year      = {2013},
+  pages     = {265--277},
+  url       = {http://www.aclweb.org/anthology/D13-1027},
   software  = {http://code.google.com/p/berkeley-coreference-analyser/},
 }
 ```
