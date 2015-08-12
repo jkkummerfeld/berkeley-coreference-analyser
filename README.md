@@ -26,7 +26,7 @@ If you use my code in your own work, please cite the paper:
   year      = {2013},
   pages     = {265--277},
   url       = {http://www.aclweb.org/anthology/D13-1027},
-  software  = {http://code.google.com/p/berkeley-coreference-analyser/},
+  software  = {https://github.com/jkkummerfeld/berkeley-coreference-analyser},
 }
 ```
 
