@@ -1,5 +1,3 @@
-# Berkeley Coreference Analyser
-
 This software classifies errors in the output of coreference resolution
 systems.  For a full description of the method, and discussion of results when
 applied to the systems from the 2011 CoNLL Shared Task, see:
