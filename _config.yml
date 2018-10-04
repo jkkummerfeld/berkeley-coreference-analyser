@@ -1,1 +1,5 @@
 theme: jekyll-theme-cayman
+title: Berkeley Coreference Analyser
+description: Identify errors in the output of coreference resolution systems.
+show_downloads: true
+google_analytics: UA-19179423-2
