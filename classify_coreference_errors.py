@@ -704,8 +704,8 @@ def process_document(doc_name, part_name, gold_doc, auto_doc, out, remove_single
     errors = []
     span_errors = match_boundaries(gold_mention_set, auto_mention_set, auto_mentions, auto_clusters, text, gold_parses, gold_heads)
     if len(span_errors) == 0:
-        print("No", file=out['out'])
-        print("No", file=out['short out'])
+        print("No", end=" ", file=out['out'])
+        print("No", end=" ", file=out['short out'])
     print("Span Errors: (system, gold)", file=out['out'])
     print("Span Errors: (system, gold)", file=out['short out'])
     for error in span_errors:
