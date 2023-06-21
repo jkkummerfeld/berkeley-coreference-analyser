@@ -97,16 +97,9 @@ Running the commands with an invalid number of arguments will give you the follo
 
 ##  Questions and Answers
 
-Q: I'm getting errors such as "SyntaxError: invalid syntax", "ValueError: zero
-length field name in format", what's broken?
-
-A: Check your version of Python.  This code was designed for Python 2.7.x, it
-will not work with Python 3 or with Python 2.6.x and earlier.
-
 Q: What about languages other than English?
 
 A: In principle the code is fairly language agnostic, the main thing that would
 need to be altered is the head finder.  I do not plan to add support for other
-languages in the near future, but am happy to incorporate proposals of code
-amendments!
+languages in the near future, but am happy to accept pull requests!
 
