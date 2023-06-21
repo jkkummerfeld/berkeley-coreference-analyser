@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # vim: set ts=2 sw=2 noet:
 
@@ -37,98 +37,98 @@ collins_mapping_table = {
 }
 
 def add_head(head_map, tree, head):
-	tree_repr = (tree.span, tree.label)
-	head_map[tree_repr] = head
+    tree_repr = (tree.span, tree.label)
+    head_map[tree_repr] = head
 
 def get_head(head_map, tree):
-	tree_repr = (tree.span, tree.label)
-	return head_map[tree_repr]
+    tree_repr = (tree.span, tree.label)
+    return head_map[tree_repr]
 
 def first_search(tree, options, head_map):
-	for subtree in tree.subtrees:
-		if get_head(head_map, subtree)[2] in options or subtree.label in options:
-			add_head(head_map, tree, get_head(head_map, subtree))
-			return True
-	return False
+    for subtree in tree.subtrees:
+        if get_head(head_map, subtree)[2] in options or subtree.label in options:
+            add_head(head_map, tree, get_head(head_map, subtree))
+            return True
+    return False
 
 def last_search(tree, options, head_map):
-	for i in xrange(len(tree.subtrees) - 1, -1, -1):
-		subtree = tree.subtrees[i]
-		if get_head(head_map, subtree)[2] in options or subtree.label in options:
-			add_head(head_map, tree, get_head(head_map, subtree))
-			return True
-	return False
+    for i in range(len(tree.subtrees) - 1, -1, -1):
+        subtree = tree.subtrees[i]
+        if get_head(head_map, subtree)[2] in options or subtree.label in options:
+            add_head(head_map, tree, get_head(head_map, subtree))
+            return True
+    return False
 
 def collins_NP(tree, head_map):
-	for subtree in tree.subtrees:
-		collins_find_heads(subtree, head_map)
-	#TODO:todo Extra special cases for NPs
-###	Ignore the row for NPs -- I use a special set of rules for this. For these
-###	I initially remove ADJPs, QPs, and also NPs which dominate a possesive
-###	(tagged POS, e.g.  (NP (NP the man 's) telescope ) becomes
-###	(NP the man 's telescope)). These are recovered as a post-processing stage
-###	after parsing. The following rules are then used to recover the NP head:
+    for subtree in tree.subtrees:
+        collins_find_heads(subtree, head_map)
+    #TODO:todo Extra special cases for NPs
+### Ignore the row for NPs -- I use a special set of rules for this. For these
+### I initially remove ADJPs, QPs, and also NPs which dominate a possesive
+### (tagged POS, e.g.  (NP (NP the man 's) telescope ) becomes
+### (NP the man 's telescope)). These are recovered as a post-processing stage
+### after parsing. The following rules are then used to recover the NP head:
 
-	#TODO:todo handle NML properly
+    #TODO:todo handle NML properly
 
-	if get_head(head_map, tree.subtrees[-1])[2] == 'POS':
-		add_head(head_map, tree, get_head(head_map, tree.subtrees[-1]))
-		return
-	if last_search(tree, set(['NN', 'NNP', 'NNPS', 'NNS', 'NX', 'POS', 'JJR']), head_map):
-		return
-	if first_search(tree, set(['NP', 'NML']), head_map):
-		return
-	if last_search(tree, set(['$', 'ADJP', 'PRN']), head_map):
-		return
-	if last_search(tree, set(['CD']), head_map):
-		return
-	if last_search(tree, set(['JJ', 'JJS', 'RB', 'QP']), head_map):
-		return
-	add_head(head_map, tree, get_head(head_map, tree.subtrees[-1]))
+    if get_head(head_map, tree.subtrees[-1])[2] == 'POS':
+        add_head(head_map, tree, get_head(head_map, tree.subtrees[-1]))
+        return
+    if last_search(tree, set(['NN', 'NNP', 'NNPS', 'NNS', 'NX', 'POS', 'JJR']), head_map):
+        return
+    if first_search(tree, set(['NP', 'NML']), head_map):
+        return
+    if last_search(tree, set(['$', 'ADJP', 'PRN']), head_map):
+        return
+    if last_search(tree, set(['CD']), head_map):
+        return
+    if last_search(tree, set(['JJ', 'JJS', 'RB', 'QP']), head_map):
+        return
+    add_head(head_map, tree, get_head(head_map, tree.subtrees[-1]))
 
 def collins_find_heads(tree, head_map=None):
-	if head_map is None:
-		head_map = {}
-	for subtree in tree.subtrees:
-		collins_find_heads(subtree, head_map)
+    if head_map is None:
+        head_map = {}
+    for subtree in tree.subtrees:
+        collins_find_heads(subtree, head_map)
 
-	# A word is it's own head
-	if tree.word is not None:
-		head = (tree.span, tree.word, tree.label)
-		add_head(head_map, tree, head)
-		return head_map
+    # A word is it's own head
+    if tree.word is not None:
+        head = (tree.span, tree.word, tree.label)
+        add_head(head_map, tree, head)
+        return head_map
 
-	# If the label for this node is not in the table we are either at the bottom,
-	# at an NP, or have an error
-	if tree.label not in collins_mapping_table:
-		if tree.label in ['NP', 'NML']:
-			collins_NP(tree, head_map)
-		else:
-			# TODO: Consider alternative error announcement means
-###			if tree.label not in ['ROOT', 'TOP', 'S1', '']:
-###				print >> sys.stderr, "Unknown Label: %s" % tree.label
-###				print >> sys.stderr, "In tree:", tree.root()
-			add_head(head_map, tree, get_head(head_map, tree.subtrees[-1]))
-		return head_map
+    # If the label for this node is not in the table we are either at the bottom,
+    # at an NP, or have an error
+    if tree.label not in collins_mapping_table:
+        if tree.label in ['NP', 'NML']:
+            collins_NP(tree, head_map)
+        else:
+            # TODO: Consider alternative error announcement means
+###         if tree.label not in ['ROOT', 'TOP', 'S1', '']:
+###             print("Unknown Label: %s" % tree.label, file=sys.stderr)
+###             print("In tree:", tree.root(), file=sys.stderr)
+            add_head(head_map, tree, get_head(head_map, tree.subtrees[-1]))
+        return head_map
 
-	# Look through and take the first/last occurrence that matches
-	info = collins_mapping_table[tree.label]
-	for label in info[1]:
-		for i in xrange(len(tree.subtrees)):
-			if info[0] == 'right':
-				i = len(tree.subtrees) - i - 1
-			subtree = tree.subtrees[i]
-			if subtree.label == label or get_head(head_map, subtree)[2] == label:
-				add_head(head_map, tree, get_head(head_map, subtree))
-				return head_map
+    # Look through and take the first/last occurrence that matches
+    info = collins_mapping_table[tree.label]
+    for label in info[1]:
+        for i in range(len(tree.subtrees)):
+            if info[0] == 'right':
+                i = len(tree.subtrees) - i - 1
+            subtree = tree.subtrees[i]
+            if subtree.label == label or get_head(head_map, subtree)[2] == label:
+                add_head(head_map, tree, get_head(head_map, subtree))
+                return head_map
 
-	# Final fallback
-	if info[0] == 'left':
-		add_head(head_map, tree, get_head(head_map, tree.subtrees[0]))
-	else:
-		add_head(head_map, tree, get_head(head_map, tree.subtrees[-1]))
+    # Final fallback
+    if info[0] == 'left':
+        add_head(head_map, tree, get_head(head_map, tree.subtrees[0]))
+    else:
+        add_head(head_map, tree, get_head(head_map, tree.subtrees[-1]))
 
-	return head_map
+    return head_map
 
 '''Text from Collins' website:
 
@@ -203,8 +203,8 @@ might be worthwhile to do so yourself.
 
 3. The Tree Head Table is used as follows:
 
-	a. Use tree head rule based on NT category of constituent
-	b. For each category X in tree head rule, scan the children of
+    a. Use tree head rule based on NT category of constituent
+    b. For each category X in tree head rule, scan the children of
            the constituent for the first (or last, for head-final)
            occurrence of category X.  If
            X occurs, that child is the head.
@@ -216,33 +216,33 @@ head rule for NP, I look for the rightmost child with a label
 beginning with the letter N.  If one exists, I use that child as the
 head.  If no child's tag begins with N, I use the tree head rule.
 
-ADJP	right	% QP JJ VBN VBG ADJP $ JJR JJS DT FW **** RBR RBS RB
-ADVP	left	RBR RB RBS FW ADVP CD **** JJR JJS JJ
-CONJP	left	CC RB IN
-FRAG	left	**
-INTJ	right	**
-LST	left	LS :
-NAC	right	NN NNS NNP NNPS NP NAC EX $ CD QP PRP VBG JJ JJS JJR ADJP FW
-NP	right	EX $ CD QP PRP VBG JJ JJS JJR ADJP DT FW RB SYM PRP$
-NP$	right	NN NNS NNP NNPS NP NAC EX $ CD QP PRP VBG JJ JJS JJR ADJP FW SYM
-PNP	right	**
-PP	left	IN TO FW
-PRN	left	**
-PRT	left	RP
-QP	right	CD NCD % QP JJ JJR JJS DT
-RRC	left	VP NP ADVP ADJP PP
-S	right	VP SBAR ADJP UCP NP
-SBAR	right	S SQ SINV SBAR FRAG X
-SBARQ	right	SQ S SINV SBARQ FRAG X
-SINV	right	S VP VBZ VBD VBP VB SINV ADJP NP
-SQ	right	VP VBZ VBD VBP VB MD SQ
-UCP	left	**
-VP	left	VBD VBN MD VBZ TO VB VP VBG VBP ADJP NP
-WHADJP	right	JJ ADJP
-WHADVP	left	WRB
-WHNP	right	WDT WP WP$ WHADJP WHPP WHNP
-WHPP	left	IN TO FW
-X	left	**
+ADJP    right   % QP JJ VBN VBG ADJP $ JJR JJS DT FW **** RBR RBS RB
+ADVP    left    RBR RB RBS FW ADVP CD **** JJR JJS JJ
+CONJP   left    CC RB IN
+FRAG    left    **
+INTJ    right   **
+LST left    LS :
+NAC right   NN NNS NNP NNPS NP NAC EX $ CD QP PRP VBG JJ JJS JJR ADJP FW
+NP  right   EX $ CD QP PRP VBG JJ JJS JJR ADJP DT FW RB SYM PRP$
+NP$ right   NN NNS NNP NNPS NP NAC EX $ CD QP PRP VBG JJ JJS JJR ADJP FW SYM
+PNP right   **
+PP  left    IN TO FW
+PRN left    **
+PRT left    RP
+QP  right   CD NCD % QP JJ JJR JJS DT
+RRC left    VP NP ADVP ADJP PP
+S   right   VP SBAR ADJP UCP NP
+SBAR    right   S SQ SINV SBAR FRAG X
+SBARQ   right   SQ S SINV SBARQ FRAG X
+SINV    right   S VP VBZ VBD VBP VB SINV ADJP NP
+SQ  right   VP VBZ VBD VBP VB MD SQ
+UCP left    **
+VP  left    VBD VBN MD VBZ TO VB VP VBG VBP ADJP NP
+WHADJP  right   JJ ADJP
+WHADVP  left    WRB
+WHNP    right   WDT WP WP$ WHADJP WHPP WHNP
+WHPP    left    IN TO FW
+X   left    **
 
 
 [2]
@@ -272,33 +272,33 @@ Else search from right to left for the first child which is a JJ, JJS, RB or QP
 Else return the last word
 
 
-20 ADJP	0	NNS QP NN $ ADVP JJ VBN VBG ADJP JJR NP JJS DT FW RBR RBS SBAR RB
-15 ADVP	1	RB RBR RBS FW ADVP TO CD JJR JJ IN NP JJS NN
-5 CONJP	1	CC RB IN
-2 FRAG	1
-2 INTJ	0
-4 LST	1	LS :
-19 NAC	0	NN NNS NNP NNPS NP NAC EX $ CD QP PRP VBG JJ JJS JJR ADJP FW
-8 PP	1	IN TO VBG VBN RP FW
-2 PRN	0
-3 PRT	1	RP
-14 QP	0	$ IN NNS NN JJ RB DT CD NCD QP JJR JJS
-7 RRC	1	VP NP ADVP ADJP PP
-10 S	0	TO IN VP S SBAR ADJP UCP NP
-13 SBAR	0	WHNP WHPP WHADVP WHADJP IN DT S SQ SINV SBAR FRAG
-7 SBARQ	0	SQ S SINV SBARQ FRAG
-12 SINV	0	VBZ VBD VBP VB MD VP S SINV ADJP NP
-9 SQ	0	VBZ VBD VBP VB MD VP SQ
-2 UCP	1
-15 VP	0	TO VBD VBN MD VBZ VB VBG VBP VP ADJP NN NNS NP
-6 WHADJP	0	CC WRB JJ ADJP
-4 WHADVP	1	CC WRB
-8 WHNP	0	WDT WP WP$ WHADJP WHPP WHNP
-5 WHPP	1	IN TO FW'''
+20 ADJP 0   NNS QP NN $ ADVP JJ VBN VBG ADJP JJR NP JJS DT FW RBR RBS SBAR RB
+15 ADVP 1   RB RBR RBS FW ADVP TO CD JJR JJ IN NP JJS NN
+5 CONJP 1   CC RB IN
+2 FRAG  1
+2 INTJ  0
+4 LST   1   LS :
+19 NAC  0   NN NNS NNP NNPS NP NAC EX $ CD QP PRP VBG JJ JJS JJR ADJP FW
+8 PP    1   IN TO VBG VBN RP FW
+2 PRN   0
+3 PRT   1   RP
+14 QP   0   $ IN NNS NN JJ RB DT CD NCD QP JJR JJS
+7 RRC   1   VP NP ADVP ADJP PP
+10 S    0   TO IN VP S SBAR ADJP UCP NP
+13 SBAR 0   WHNP WHPP WHADVP WHADJP IN DT S SQ SINV SBAR FRAG
+7 SBARQ 0   SQ S SINV SBARQ FRAG
+12 SINV 0   VBZ VBD VBP VB MD VP S SINV ADJP NP
+9 SQ    0   VBZ VBD VBP VB MD VP SQ
+2 UCP   1
+15 VP   0   TO VBD VBN MD VBZ VB VBG VBP VP ADJP NN NNS NP
+6 WHADJP    0   CC WRB JJ ADJP
+4 WHADVP    1   CC WRB
+8 WHNP  0   WDT WP WP$ WHADJP WHPP WHNP
+5 WHPP  1   IN TO FW'''
 
 
 if __name__ == "__main__":
-	print "Running doctest"
-	import doctest
-	doctest.testmod()
+    print("Running doctest")
+    import doctest
+    doctest.testmod()
 
