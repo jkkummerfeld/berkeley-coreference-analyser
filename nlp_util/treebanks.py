@@ -240,7 +240,7 @@ def ptb_read_tree(source, return_empty=False, allow_empty_labels=False, allow_em
     The function reads a character at a time, stopping as soon as a tree can be
     constructed, so multiple trees on a sinlge line are manageable.
 
-    >>> from StringIO import StringIO
+    >>> from io import StringIO
     >>> file_text = """(ROOT (S
     ...   (NP-SBJ (NNP Scotty) )
     ...   (VP (VBD did) (RB not)
@@ -284,7 +284,7 @@ def ptb_read_tree(source, return_empty=False, allow_empty_labels=False, allow_em
 def conll_read_tree(source, return_empty=False, allow_empty_labels=False, allow_empty_words=False, blank_line_coverage=False):
     '''Read a single tree from the given CoNLL Shared Task OntoNotes data file.
 
-    >>> from StringIO import StringIO
+    >>> from io import StringIO
     >>> file_text = """#begin document (nw/wsj/00/wsj_0020)
     ... nw/wsj/00/wsj_0020          0          0       They        PRP (TOP_(S_(NP_*)          -          -          -          -          * (ARG1*)          *        (0)
     ... nw/wsj/00/wsj_0020          0          1       will         MD      (VP_*          -          -          -          -          * (ARGM-M OD*)          *          -
@@ -334,7 +334,7 @@ def conll_read_tree(source, return_empty=False, allow_empty_labels=False, allow_
 def generate_trees(source, tree_reader=ptb_read_tree, max_sents=-1, return_empty=False, allow_empty_labels=False, allow_empty_words=False):
     '''Read trees from the given file (opening the file if only a string is given).
 
-    >>> from StringIO import StringIO
+    >>> from io import StringIO
     >>> file_text = """(ROOT (S
     ...   (NP-SBJ (NNP Scotty) )
     ...   (VP (VBD did) (RB not)

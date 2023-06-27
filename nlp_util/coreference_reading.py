@@ -6,19 +6,14 @@ import sys, os
 import re
 import glob, fnmatch
 from collections import defaultdict
-# from StringIO import StringIO
+from io import StringIO
 
 from .head_finder import collins_find_heads
 from .treebanks import read_trees, conll_read_tree
 
 def read_conll_parses(lines):
-    print("TODO: figure out stringIO replacement in python 3", file=sys.stderr)
-    #in_file = StringIO(''.join(lines))
-    with open('tmp-out.txt', 'w') as out:
-        print(''.join(lines), file=out)
-
-    with open('tmp-out.txt', 'r') as in_file:
-        return read_trees(in_file, conll_read_tree)
+    in_file = StringIO(''.join(lines))
+    return read_trees(in_file, conll_read_tree)
 
 def read_conll_text(lines):
     text = [[]]
